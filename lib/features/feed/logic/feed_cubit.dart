@@ -20,8 +20,10 @@ class FeedCubit extends Cubit<FeedState> {
       final repos = results[0] as List<RepoModel>;
       final rawData = results[1] as Map<String, dynamic>;
 
-      final mcps = rawData['mcp_list'] as List<dynamic>? ?? [];
-      final agents = rawData['ai_agents'] as List<dynamic>? ?? [];
+      // Gelen JSON verisinden aktif olan kategorinin MCP ve AI Agent alt listelerini alıyoruz.
+      final categoryData = rawData[category] as Map<String, dynamic>? ?? {};
+      final mcps = categoryData['mcp_list'] as List<dynamic>? ?? [];
+      final agents = categoryData['ai_agents'] as List<dynamic>? ?? [];
 
       emit(FeedLoaded(
         repos: repos,
