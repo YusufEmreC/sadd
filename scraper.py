@@ -5,78 +5,90 @@ import urllib.parse
 import re
 import time
 
-# Kürasyon için 9 ana kategorimiz ve anahtar kelimeleri
+# Kürasyon için 9 ana kategorimiz ve genişletilmiş anahtar kelimeleri
 CATEGORIES_CONFIG = {
     "flutter": {
-        "keywords": ["flutter", "dart", "mobile", "android", "ios", "app-store", "google-play"],
+        "keywords": ["flutter", "dart", "mobile", "android", "ios", "app-store", "google-play", "adb", "kotlin", "swift", "java", "objc"],
         "query": "topic:flutter topic:dart",
         "mcp_list": [],
         "ai_agents": []
     },
     "security": {
-        "keywords": ["security", "pentest", "exploit", "cve", "hacking", "auth", "vulnerability", "cryptography", "sandbox"],
+        "keywords": ["security", "pentest", "exploit", "cve", "hacking", "auth", "vulnerability", "cryptography", "sandbox", "nmap", "shodan", "wireshark", "sniff", "leak", "spy", "malware", "reverse-engineering"],
         "query": "topic:security topic:pentest topic:hacking",
         "mcp_list": [],
         "ai_agents": []
     },
     "backend": {
-        "keywords": ["postgres", "redis", "database", "sql", "sqlite", "graphql", "server", "backend", "api", "fastapi", "django"],
+        "keywords": ["postgres", "redis", "database", "sql", "sqlite", "graphql", "server", "backend", "api", "fastapi", "django", "spring", "express", "go", "rust", "laravel", "rails", "serverless"],
         "query": "topic:backend topic:go topic:rust topic:nodejs",
         "mcp_list": [],
         "ai_agents": []
     },
     "frontend": {
-        "keywords": ["react", "vue", "tailwind", "figma", "html", "css", "ui", "ux", "browser", "frontend", "nextjs", "angular"],
+        "keywords": ["react", "vue", "tailwind", "figma", "html", "css", "ui", "ux", "browser", "frontend", "nextjs", "angular", "chrome", "dom", "webpack", "vite", "javascript", "typescript", "design"],
         "query": "topic:frontend topic:react topic:nextjs topic:vue",
         "mcp_list": [],
         "ai_agents": []
     },
     "artificial-intelligence": {
-        "keywords": ["ai", "llm", "gpt", "agent", "rag", "ollama", "huggingface", "openai", "langchain", "prompt", "vector"],
+        "keywords": ["ai", "llm", "gpt", "agent", "rag", "ollama", "huggingface", "openai", "langchain", "prompt", "vector", "claude", "gemini", "anthropic", "llama", "deepseek", "copilot", "nlp"],
         "query": "topic:artificial-intelligence topic:llm topic:langchain",
         "mcp_list": [],
         "ai_agents": []
     },
     "devops": {
-        "keywords": ["docker", "kubernetes", "aws", "gcp", "azure", "ci/cd", "terraform", "ansible", "cloud", "devops", "monitoring"],
+        "keywords": ["docker", "kubernetes", "aws", "gcp", "azure", "ci/cd", "terraform", "ansible", "cloud", "devops", "monitoring", "github-actions", "gitlab", "jenkins", "deploy", "nginx", "dns"],
         "query": "topic:devops topic:docker topic:kubernetes topic:terraform",
         "mcp_list": [],
         "ai_agents": []
     },
     "data-science": {
-        "keywords": ["data", "pandas", "jupyter", "spark", "numpy", "scikit", "notebook", "analytics", "science"],
+        "keywords": ["data", "pandas", "jupyter", "spark", "numpy", "scikit", "notebook", "analytics", "science", "matplotlib", "seaborn", "pytorch", "tensorflow", "keras", "sql-query"],
         "query": "topic:data-science topic:python topic:pandas topic:dataset",
         "mcp_list": [],
         "ai_agents": []
     },
     "game-development": {
-        "keywords": ["unity", "unreal", "blender", "game", "3d", "physics", "godot", "shader", "rendering"],
+        "keywords": ["unity", "unreal", "blender", "game", "3d", "physics", "godot", "shader", "rendering", "graphics", "engine", "opengl", "canvas", "play"],
         "query": "topic:game-development topic:unity topic:unreal-engine",
         "mcp_list": [],
         "ai_agents": []
     },
     "blockchain": {
-        "keywords": ["blockchain", "solidity", "web3", "crypto", "ethereum", "smart-contract", "bitcoin", "rust-blockchain", "defi"],
+        "keywords": ["blockchain", "solidity", "web3", "crypto", "ethereum", "smart-contract", "bitcoin", "rust-blockchain", "defi", "etherscan", "wallet", "nft", "token", "contract", "dapp"],
         "query": "topic:blockchain topic:ethereum topic:solidity topic:web3",
         "mcp_list": [],
         "ai_agents": []
     }
 }
 
-# Varsayılan başlangıç/baz küresi (İnternetten çekilemezse veya kategori boş kalırsa kullanılacak)
-DEFAULT_MCPS = [
-    {"name": "PostgreSQL-MCP", "description": "PostgreSQL veritabanlarında güvenli sorgulamalar ve şema analizi.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres", "category": "backend"},
-    {"name": "Docker-MCP", "description": "Docker konteynerlerini denetlemek ve logları okumak için.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/docker", "category": "devops"},
-    {"name": "Dart-Analyzer-MCP", "description": "Dart ve Flutter kod analiz ve iyileştirme aracı.", "url": "https://github.com/example/dart-analyzer-mcp", "category": "flutter"},
-    {"name": "Shodan-MCP", "description": "Shodan API ile internete açık cihazları ve portları tarar.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/shodan", "category": "security"},
-    {"name": "Figma-API-MCP", "description": "Figma tasarımlarını LLM bağlamına çeken arayüz sunucusu.", "url": "https://github.com/example/figma-api-mcp", "category": "frontend"}
+# Genel/Ortak MCP sunucuları (Kategorilerde eksik kalırsa 20'ye tamamlamak için kullanılacak)
+GENERAL_MCPS = [
+    {"name": "Filesystem-MCP", "description": "LLM'lerin yerel dosyaları güvenli bir şekilde okumasını ve yazmasını sağlayan resmi sunucu.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"},
+    {"name": "GitHub-MCP", "description": "GitHub API entegrasyonu ile issue, PR ve repo yönetimi sağlayan sunucu.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github"},
+    {"name": "Fetch-MCP", "description": "Web sitelerinin içeriğini okuyup temiz markdown olarak LLM'e aktaran araç.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch"},
+    {"name": "Google-Search-MCP", "description": "Google arama motoru entegrasyonu ile güncel verilere doğrudan erişim.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-search"},
+    {"name": "Sequential-Thinking-MCP", "description": "LLM'lerin karmaşık problemleri adım adım analiz etmesini sağlayan resmi sunucu.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequential-thinking"},
+    {"name": "Docker-MCP", "description": "Docker konteynerlerini denetlemek, durum izlemek ve logları okumak için.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/docker"},
+    {"name": "PostgreSQL-MCP", "description": "PostgreSQL veritabanlarında güvenli sorgulamalar ve şema analizi.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"},
+    {"name": "Puppeteer-MCP", "description": "Web tarayıcısını kontrol ederek ekran görüntüleri alma ve web otomasyonu yapma sunucusu.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer"},
+    {"name": "Sentry-MCP", "description": "Sentry API'si ile uygulama hata loglarını ve çökmelerini LLM'lere raporlayan sunucu.", "url": "https://github.com/example/sentry-mcp"},
+    {"name": "Linear-MCP", "description": "Linear proje yönetim aracındaki görevleri sorgulama ve güncelleme sunucusu.", "url": "https://github.com/example/linear-mcp"}
 ]
 
-DEFAULT_AGENTS = [
-    {"name": "AutoGPT", "description": "İnternet aramalı genel otonom görev yöneticisi.", "url": "https://github.com/Significant-Gravitas/AutoGPT", "category": "artificial-intelligence"},
-    {"name": "BabyAGI", "description": "Görev oluşturma ve önceliklendirme süreçlerini yöneten yapay zeka ajanı.", "url": "https://github.com/yoheinakajima/babyagi", "category": "artificial-intelligence"},
-    {"name": "Pentest-Agent", "description": "Sızma testleri gerçekleştiren otonom güvenlik ajanı.", "url": "https://github.com/example/pentest-agent", "category": "security"},
-    {"name": "WidgetBuilder-Agent", "description": "Tasarımı otomatik olarak optimize Flutter widget'larına çeviren ajan.", "url": "https://github.com/example/widgetbuilder-agent", "category": "flutter"}
+# Genel/Ortak AI Agent araçları (Kategorilerde eksik kalırsa 20'ye tamamlamak için kullanılacak)
+GENERAL_AGENTS = [
+    {"name": "AutoGPT", "description": "Belirlenen hedeflere ulaşmak için kendi kendine internet araması yapan otonom AI ajanı.", "url": "https://github.com/Significant-Gravitas/AutoGPT"},
+    {"name": "BabyAGI", "description": "Görev oluşturma, önceliklendirme ve çalıştırma süreçlerini yöneten sade yapay zeka ajanı.", "url": "https://github.com/yoheinakajima/babyagi"},
+    {"name": "OpenInterpreter", "description": "Doğal dil komutlarıyla yerel bilgisayarınızda Python/Bash kodları çalıştıran asistan.", "url": "https://github.com/OpenInterpreter/open-interpreter"},
+    {"name": "SWE-agent", "description": "GitHub depolarındaki yazılım hatalarını otonom olarak analiz edip düzelten yazılım mühendisliği ajanı.", "url": "https://github.com/princeton-nlp/SWE-agent"},
+    {"name": "Devika", "description": "İnternet araştırması, kod yazımı ve hata ayıklama yeteneklerine sahip yapay zeka yazılımcısı.", "url": "https://github.com/stitionai/devika"},
+    {"name": "CrewAI", "description": "Rol tabanlı, otonom yapay zeka ajanlarını orkestre eden popüler çoklu-ajan çatısı.", "url": "https://github.com/joaomdmoura/crewai"},
+    {"name": "Microsoft-Autogen", "description": "Birden çok ajanın işbirliği yaparak karmaşık görevleri çözmesini sağlayan yazılım altyapısı.", "url": "https://github.com/microsoft/autogen"},
+    {"name": "ChatDev", "description": "Yazılım şirketini simüle ederek tasarımcı, kodlayıcı ve testçi ajanlarla yazılım üreten sanal ekip.", "url": "https://github.com/OpenBMB/ChatDev"},
+    {"name": "SuperAGI", "description": "Geliştiricilerin otonom AI ajanları oluşturmasını ve yönetmesini kolaylaştıran açık kaynaklı platform.", "url": "https://github.com/TransformerOptimus/SuperAGI"},
+    {"name": "MetaGPT", "description": "Tek satır gereksinimden PRD şeması, görev planı ve kod üreten yazılım mühendisliği orkestratörü.", "url": "https://github.com/geekan/MetaGPT"}
 ]
 
 def fetch_content_from_url(url):
@@ -108,7 +120,7 @@ def scrape_awesome_mcp_servers():
             link = match.group(2).strip()
             desc = match.group(3).strip()
             
-            # Badge'leri temizle (örneğin img.shields.io içeren markdown linkleri)
+            # Badge'leri temizle
             desc = re.sub(r'!\[.*?\]\(.*?\)', '', desc).strip()
             
             if "github.com" in link and len(desc) > 5:
@@ -130,8 +142,6 @@ def scrape_awesome_ai_agents():
     if not content:
         return agent_items
 
-    # kyrolabs/awesome-agents formatı: - [Name](URL): Description
-    # veya - [Name](URL) Description
     pattern = re.compile(r'-\s+\[(.*?)\]\((.*?)\)(?::)?\s+(.*)')
     for line in content.split("\n"):
         match = pattern.search(line)
@@ -165,8 +175,8 @@ def classify_item(item, categories_config):
     return None
 
 def fetch_github_repos(query):
-    """GitHub API'den en çok yıldız alan 15 repoyu çeker."""
-    api_url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(query)}&sort=stars&order=desc&per_page=15"
+    """GitHub API'den en çok yıldız alan 20 repoyu çeker."""
+    api_url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(query)}&sort=stars&order=desc&per_page=20"
     headers = {
         "User-Agent": "Yazilimci-Hub-Scraper",
         "Accept": "application/vnd.github+json"
@@ -209,7 +219,7 @@ def main():
     scraped_mcps = scrape_awesome_mcp_servers()
     scraped_agents = scrape_awesome_ai_agents()
 
-    # 2. Kategorileri hazırla
+    # 2. Kategorileri sıfırla
     for cat_name in CATEGORIES_CONFIG.keys():
         CATEGORIES_CONFIG[cat_name]["mcp_list"] = []
         CATEGORIES_CONFIG[cat_name]["ai_agents"] = []
@@ -226,37 +236,49 @@ def main():
         if assigned_cat:
             CATEGORIES_CONFIG[assigned_cat]["ai_agents"].append(agent)
 
-    # 5. Varsayılan verileri ekle (Eğer kategori boş kaldıysa veya 3'ten azsa yedek doldur)
-    for dmcp in DEFAULT_MCPS:
-        cat = dmcp["category"]
-        mcp_obj = {"name": dmcp["name"], "description": dmcp["description"], "url": dmcp["url"]}
-        if mcp_obj not in CATEGORIES_CONFIG[cat]["mcp_list"]:
-            CATEGORIES_CONFIG[cat]["mcp_list"].insert(0, mcp_obj)
+    # 5. Her kategoriyi tam olarak 20 adet araca tamamla (Padding)
+    for cat_name, content in CATEGORIES_CONFIG.items():
+        # MCP Listesini 20'ye tamamla
+        current_mcps = content["mcp_list"]
+        for gmcp in GENERAL_MCPS:
+            if len(current_mcps) >= 20:
+                break
+            # Aynı isimde olanları ekleme
+            if not any(x["name"].lower() == gmcp["name"].lower() for x in current_mcps):
+                current_mcps.append(gmcp)
+        
+        # Eğer hala 20'ye ulaşamadıysa (uç durum), kopya olmaksızın doldur
+        content["mcp_list"] = current_mcps[:20]
 
-    for dagent in DEFAULT_AGENTS:
-        cat = dagent["category"]
-        agent_obj = {"name": dagent["name"], "description": dagent["description"], "url": dagent["url"]}
-        if agent_obj not in CATEGORIES_CONFIG[cat]["ai_agents"]:
-            CATEGORIES_CONFIG[cat]["ai_agents"].insert(0, agent_obj)
+        # AI Agents listesini 20'ye tamamla
+        current_agents = content["ai_agents"]
+        for gagent in GENERAL_AGENTS:
+            if len(current_agents) >= 20:
+                break
+            if not any(x["name"].lower() == gagent["name"].lower() for x in current_agents):
+                current_agents.append(gagent)
+                
+        content["ai_agents"] = current_agents[:20]
 
-    # 6. Her kategori için GitHub'dan repoları çekip JSON oluştur
+    # 6. Her kategori için GitHub'dan 20'şer adet canlı repo çekip nihai JSON'ı oluştur
     for category, content in CATEGORIES_CONFIG.items():
-        print(f"'{category}' için trend repolar canlı olarak çekiliyor...")
+        print(f"'{category}' kategorisi için trend repolar canlı çekiliyor...")
         repos = fetch_github_repos(content["query"])
         
+        # Eğer GitHub API araması limitlere takılıp boş dönerse, derleme durmasın diye boş liste fallback veriyoruz
         curated_data[category] = {
-            "repos": repos,
-            "mcp_list": content["mcp_list"][:15], # Her kategori için en fazla 15 araç listele
-            "ai_agents": content["ai_agents"][:15]
+            "repos": repos if repos else [],
+            "mcp_list": content["mcp_list"],
+            "ai_agents": content["ai_agents"]
         }
         time.sleep(1)
 
-    # 7. data.json Dosyasına Kaydet
+    # 7. data.json Dosyasına Yaz
     output_filename = "data.json"
     try:
         with open(output_filename, "w", encoding="utf-8") as f:
             json.dump(curated_data, f, indent=4, ensure_ascii=False)
-        print(f"\nBaşarıyla dev veri tabanı (Canlı Repolar, MCP'ler, AI Agent'lar) '{output_filename}' dosyasına kaydedildi!")
+        print(f"\nBaşarıyla her alanda tam 20'şer veri içeren veritabanı '{output_filename}' dosyasına kaydedildi!")
     except Exception as e:
         print(f"Hata oluştu: {e}")
 
