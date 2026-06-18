@@ -11,17 +11,19 @@ class FeedCubit extends Cubit<FeedState> {
   Future<void> fetchReposForCategory(String category) async {
     emit(const FeedLoading());
     try {
-      // Canlı GitHub araması ve Raw JSON verisi çekme işlemleri paralel tetikleniyor.
-      final results = await Future.wait([
-        _githubApiService.fetchTrendingRepos(category),
-        _githubApiService.fetchMcpAndAgents(),
-      ]);
+      // Sadece tek bir ağ isteği: GitHub CDN üzerinden derlenmiş tüm verileri (data.json) çeker.
+      // Bu sayede mobil cihazlardan GitHub API limitine takılma sorunu tamamen çözülür.
+      final rawData = await _githubApiService.fetchMcpAndAgents();
 
-      final repos = results[0] as List<RepoModel>;
-      final rawData = results[1] as Map<String, dynamic>;
-
-      // Gelen JSON verisinden aktif olan kategorinin MCP ve AI Agent alt listelerini alıyoruz.
+      // Aktif kategorinin verilerini alıyoruz
       final categoryData = rawData[category] as Map<String, dynamic>? ?? {};
+
+      // data.json içinde hazır bulunan repo verilerini nesnelerimize dönüştürüyoruz
+      final List<dynamic> rawRepos = categoryData['repos'] as List<dynamic>? ?? [];
+      final repos = rawRepos
+          .map((item) => RepoModel.fromJson(item as Map<String, dynamic>))
+          .toList();
+
       final mcps = categoryData['mcp_list'] as List<dynamic>? ?? [];
       final agents = categoryData['ai_agents'] as List<dynamic>? ?? [];
 
