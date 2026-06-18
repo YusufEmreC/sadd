@@ -1,0 +1,78 @@
+import json
+import os
+
+def generate_curation_data():
+    # 1. Kaliteli Mock Verileri Tanımlama
+    mcp_list = [
+        {
+            "name": "PostgreSQL-MCP",
+            "description": "PostgreSQL veritabanları üzerinde güvenli şema sorgulamaları ve veri analizi yapmayı sağlayan resmi MCP sunucusu.",
+            "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
+        },
+        {
+            "name": "Docker-MCP",
+            "description": "Docker konteynerlerini denetlemek, logları okumak ve durdurup başlatmak için geliştirilen entegrasyon sunucusu.",
+            "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/docker"
+        },
+        {
+            "name": "Filesystem-MCP",
+            "description": "LLM'lerin belirlenen dizinler üzerinde güvenli okuma, yazma ve dosya listeleme işlemleri yapmasını sağlayan temel MCP sunucusu.",
+            "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem"
+        },
+        {
+            "name": "GitHub-MCP",
+            "description": "GitHub API entegrasyonu ile repoları sorgulama, issue yönetimi ve PR inceleme yetenekleri sunan MCP sunucusu.",
+            "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github"
+        },
+        {
+            "name": "Google-Maps-MCP",
+            "description": "LLM'lerin coğrafi konum sorgulamaları yapabilmesini ve Google Maps verilerini okuyabilmesini sağlayan servis entegrasyonu.",
+            "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps"
+        }
+    ]
+
+    ai_agents = [
+        {
+            "name": "AutoGPT",
+            "description": "Belirlenen hedeflere ulaşmak için kendi kendine internet araması yapan ve alt görevler oluşturan popüler otonom AI ajanı.",
+            "url": "https://github.com/Significant-Gravitas/AutoGPT"
+        },
+        {
+            "name": "BabyAGI",
+            "description": "Görev oluşturma, önceliklendirme ve çalıştırma süreçlerini döngüsel olarak yöneten sade ve etkili bir yapay zeka ajanı.",
+            "url": "https://github.com/yoheinakajima/babyagi"
+        },
+        {
+            "name": "OpenInterpreter",
+            "description": "Doğal dil komutlarıyla bilgisayarınızda Python, Bash veya JS kodları çalıştırabilen yerel bir kod yürütme ajanı.",
+            "url": "https://github.com/OpenInterpreter/open-interpreter"
+        },
+        {
+            "name": "SWE-agent",
+            "description": "GitHub depolarındaki yazılım hatalarını (issues) otonom olarak analiz edip düzelten yazılım mühendisliği ajanı.",
+            "url": "https://github.com/princeton-nlp/SWE-agent"
+        },
+        {
+            "name": "Devika",
+            "description": "İnternet araştırması, kod yazımı ve hata ayıklama yeteneklerine sahip, Devin'e açık kaynaklı bir alternatif olan yapay zeka yazılımcısı.",
+            "url": "https://github.com/stitionai/devika"
+        }
+    ]
+
+    # 2. JSON Yapısını Kurgulama
+    data = {
+        "mcp_list": mcp_list,
+        "ai_agents": ai_agents
+    }
+
+    # 3. Dosyaya Yazma (data.json)
+    output_filename = "data.json"
+    try:
+        with open(output_filename, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+        print(f"Başarıyla veri üretildi ve '{output_filename}' dosyasına kaydedildi.")
+    except Exception as e:
+        print(f"Hata oluştu: {e}")
+
+if __name__ == "__main__":
+    generate_curation_data()
