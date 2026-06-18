@@ -2,357 +2,176 @@ import json
 import os
 import urllib.request
 import urllib.parse
+import re
 import time
 
-# 9 Uzmanlık alanı için GitHub API arama sorguları ve gerçek araç eşleşmeleri
-CATEGORIES = {
+# Kürasyon için 9 ana kategorimiz ve anahtar kelimeleri
+CATEGORIES_CONFIG = {
     "flutter": {
+        "keywords": ["flutter", "dart", "mobile", "android", "ios", "app-store", "google-play"],
         "query": "topic:flutter topic:dart",
-        "mcp_list": [
-            {
-                "name": "Dart-Analyzer-MCP",
-                "description": "Dart ve Flutter projelerini analiz eden, statik kod analiz hatalarını ve iyileştirme önerilerini raporlayan özelleştirilmiş MCP.",
-                "url": "https://github.com/example/dart-analyzer-mcp"
-            },
-            {
-                "name": "Flutter-Localization-MCP",
-                "description": "Uygulama içi dil dosyalarını (ARB) otomatik analiz eden ve eksik çevirileri tamamlayan yerelleştirme asistanı.",
-                "url": "https://github.com/example/flutter-localization-mcp"
-            },
-            {
-                "name": "Android-ADB-MCP",
-                "description": "ADB (Android Debug Bridge) komutlarını LLM üzerinden çalıştırarak emülatör ve gerçek cihaz yönetimini sağlayan araç.",
-                "url": "https://github.com/example/android-adb-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "AutoGPT-Mobile",
-                "description": "Mobil cihazlarda otonom görevler yürütebilen, uygulama içi aksiyonları simüle eden mobil AI ajanı.",
-                "url": "https://github.com/example/autogpt-mobile"
-            },
-            {
-                "name": "WidgetBuilder-Agent",
-                "description": "Ekran tasarımlarını analiz edip otomatik olarak optimize edilmiş Flutter Widget ağacı üreten kod asistanı.",
-                "url": "https://github.com/example/widgetbuilder-agent"
-            },
-            {
-                "name": "Flutter-Refactor-Agent",
-                "description": "Eski Flutter kodlarını modern state management (Bloc/Cubit) ve Clean Architecture kurallarına göre refaktör eden yapay zeka ajanı.",
-                "url": "https://github.com/example/flutter-refactor-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "security": {
+        "keywords": ["security", "pentest", "exploit", "cve", "hacking", "auth", "vulnerability", "cryptography", "sandbox"],
         "query": "topic:security topic:pentest topic:hacking",
-        "mcp_list": [
-            {
-                "name": "Shodan-MCP",
-                "description": "Shodan API entegrasyonu ile internete açık cihazları, zafiyetleri ve portları sorgulamayı sağlayan güvenlik sunucusu.",
-                "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/shodan"
-            },
-            {
-                "name": "Hash-Cracker-MCP",
-                "description": "Çeşitli hash algoritmalarını (MD5, SHA256 vb.) kırmak için optimize edilmiş hesaplama motorlarını LLM'e bağlayan sunucu.",
-                "url": "https://github.com/example/hash-cracker-mcp"
-            },
-            {
-                "name": "Nmap-Parser-MCP",
-                "description": "Nmap tarama çıktılarını analiz eden, açık portları ve çalışan servisleri güvenlik kurallarına göre yorumlayan MCP sunucusu.",
-                "url": "https://github.com/example/nmap-parser-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "Pentest-Agent",
-                "description": "Sızma testleri ve web zafiyet taramalarını otomatik gerçekleştiren otonom güvenlik ajanı.",
-                "url": "https://github.com/example/pentest-agent"
-            },
-            {
-                "name": "ThreatIntel-Agent",
-                "description": "Siber tehdit istihbarat kaynaklarını tarayıp sıfırıncı gün (0-day) açıklarını anlık raporlayan analiz ajanı.",
-                "url": "https://github.com/example/threatintel-agent"
-            },
-            {
-                "name": "Phishing-Detector-Agent",
-                "description": "E-postaları ve gelen bağlantıların içeriğini analiz ederek otonom olarak oltalama (phishing) girişimlerini engelleyen ajan.",
-                "url": "https://github.com/example/phishing-detector-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "backend": {
+        "keywords": ["postgres", "redis", "database", "sql", "sqlite", "graphql", "server", "backend", "api", "fastapi", "django"],
         "query": "topic:backend topic:go topic:rust topic:nodejs",
-        "mcp_list": [
-            {
-                "name": "PostgreSQL-MCP",
-                "description": "SQL veritabanlarında güvenli sorgulamalar ve şema incelemeleri yapmayı sağlayan resmi sunucu.",
-                "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
-            },
-            {
-                "name": "Redis-Cli-MCP",
-                "description": "Redis bellek içi veritabanı komutlarını çalıştırma ve anahtar/değer durumlarını izleme sunucusu.",
-                "url": "https://github.com/example/redis-cli-mcp"
-            },
-            {
-                "name": "Sqlite-MCP",
-                "description": "Yerel SQLite veritabanı dosyaları üzerinde sorgulamalar yapabilen ve veri manipülasyonu sağlayan hafif sunucu.",
-                "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "DB-Optimizer-Agent",
-                "description": "Yavaş çalışan veritabanı sorgularını analiz ederek indeksleme ve sorgu optimizasyon önerileri sunan veri tabanı ajanı.",
-                "url": "https://github.com/example/db-optimizer-agent"
-            },
-            {
-                "name": "SQL-Gen-Agent",
-                "description": "Doğal dilden karmaşık PostgreSQL, MySQL ve MongoDB sorguları üreten ve doğrulayan arka uç geliştirici asistanı.",
-                "url": "https://github.com/example/sql-gen-agent"
-            },
-            {
-                "name": "API-Generator-Agent",
-                "description": "Verilen şemaya göre Go veya Node.js tabanlı Express/NestJS RESTful API uç noktalarını otonom olarak kodlayan ajan.",
-                "url": "https://github.com/example/api-generator-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "frontend": {
+        "keywords": ["react", "vue", "tailwind", "figma", "html", "css", "ui", "ux", "browser", "frontend", "nextjs", "angular"],
         "query": "topic:frontend topic:react topic:nextjs topic:vue",
-        "mcp_list": [
-            {
-                "name": "TailwindCSS-Inspector-MCP",
-                "description": "HTML/React kodlarındaki Tailwind sınıflarını analiz eden ve çakışan CSS kodlarını raporlayan denetleyici.",
-                "url": "https://github.com/example/tailwindcss-inspector-mcp"
-            },
-            {
-                "name": "Figma-API-MCP",
-                "description": "Figma tasarımlarını doğrudan LLM bağlamına çekerek bileşen ve renk paleti analizleri yapmayı sağlayan arayüz sunucusu.",
-                "url": "https://github.com/example/figma-api-mcp"
-            },
-            {
-                "name": "Browser-Testing-MCP",
-                "description": "Puppeteer yardımıyla frontend arayüzlerini farklı ekran boyutlarında test eden ve görsel hataları LLM'e bildiren sunucu.",
-                "url": "https://github.com/example/browser-testing-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "UX-Audit-Agent",
-                "description": "Web sitelerinin ekran görüntülerini inceleyip erişilebilirlik (Accessibility) ve tasarım hatalarını raporlayan UX ajanı.",
-                "url": "https://github.com/example/ux-audit-agent"
-            },
-            {
-                "name": "Figma-to-React-Agent",
-                "description": "Figma tasarım token'larını okuyup doğrudan temiz Next.js ve Tailwind component'lerine dönüştüren frontend ajanı.",
-                "url": "https://github.com/example/figma-to-react-agent"
-            },
-            {
-                "name": "CSS-Grid-Wizard-Agent",
-                "description": "Karmaşık web arayüz taslaklarını modern CSS Grid ve Flexbox kullanarak hatasız koda döken stil asistanı.",
-                "url": "https://github.com/example/css-grid-wizard-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "artificial-intelligence": {
+        "keywords": ["ai", "llm", "gpt", "agent", "rag", "ollama", "huggingface", "openai", "langchain", "prompt", "vector"],
         "query": "topic:artificial-intelligence topic:llm topic:langchain",
-        "mcp_list": [
-            {
-                "name": "HuggingFace-Spaces-MCP",
-                "description": "HuggingFace üzerindeki açık kaynaklı ML modellerini ve Spaces demolarını sorgulayan entegrasyon sunucusu.",
-                "url": "https://github.com/example/huggingface-spaces-mcp"
-            },
-            {
-                "name": "Ollama-Local-MCP",
-                "description": "Yerel bilgisayarda çalışan Ollama modellerinin yük durumlarını ve çalışan model listelerini LLM'lere raporlayan araç.",
-                "url": "https://github.com/example/ollama-local-mcp"
-            },
-            {
-                "name": "OpenAI-Assistants-MCP",
-                "description": "OpenAI Assistants API'sini ve özel asistan fonksiyonlarını MCP protokolüyle diğer LLM'lere bağlayan sunucu.",
-                "url": "https://github.com/example/openai-assistants-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "AutoGPT",
-                "description": "Belirlenen hedeflere ulaşmak için kendi kendine internet araması yapan ve görevler oluşturan otonom AI ajanı.",
-                "url": "https://github.com/Significant-Gravitas/AutoGPT"
-            },
-            {
-                "name": "BabyAGI",
-                "description": "Görev oluşturma, önceliklendirme ve çalıştırma süreçlerini döngüsel olarak yöneten yapay zeka ajanı.",
-                "url": "https://github.com/yoheinakajima/babyagi"
-            },
-            {
-                "name": "LangGraph-Agent",
-                "description": "Karmaşık durum geçişli (stateful) çoklu ajan sistemlerini döngüsel grafikler halinde yöneten gelişmiş orkestrasyon ajanı.",
-                "url": "https://github.com/example/langgraph-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "devops": {
+        "keywords": ["docker", "kubernetes", "aws", "gcp", "azure", "ci/cd", "terraform", "ansible", "cloud", "devops", "monitoring"],
         "query": "topic:devops topic:docker topic:kubernetes topic:terraform",
-        "mcp_list": [
-            {
-                "name": "Docker-MCP",
-                "description": "Docker konteynerlerini denetlemek, logları okumak ve yönetim komutları çalıştırmak için entegrasyon sunucusu.",
-                "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/docker"
-            },
-            {
-                "name": "Kubernetes-Pod-Inspector-MCP",
-                "description": "K8s pod durumlarını, Kubernetes loglarını ve dağıtım şemalarını izlemeyi sağlayan altyapı sunucusu.",
-                "url": "https://github.com/example/k8s-pod-inspector-mcp"
-            },
-            {
-                "name": "AWS-Resource-MCP",
-                "description": "AWS hesabı üzerindeki EC2, S3 ve Lambda servislerinin durumlarını sorgulamayı sağlayan AWS yönetim aracı.",
-                "url": "https://github.com/example/aws-resource-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "KubeGuard-Agent",
-                "description": "Kubernetes cluster'larındaki anormal kaynak tüketimlerini ve çökme döngülerini izleyip otomatik düzelten ajan.",
-                "url": "https://github.com/example/kubeguard-agent"
-            },
-            {
-                "name": "CI-CD-Debugger-Agent",
-                "description": "Başarısız GitHub Actions ve GitLab CI hata loglarını analiz ederek düzeltme önerileri üreten DevOps asistanı.",
-                "url": "https://github.com/example/cicd-debugger-agent"
-            },
-            {
-                "name": "Terraform-Validator-Agent",
-                "description": "Bulut altyapı kodlarındaki (IaC) güvenlik açıklarını ve maliyet tasarruf fırsatlarını analiz eden Terraform ajanı.",
-                "url": "https://github.com/example/terraform-validator-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "data-science": {
+        "keywords": ["data", "pandas", "jupyter", "spark", "numpy", "scikit", "notebook", "analytics", "science"],
         "query": "topic:data-science topic:python topic:pandas topic:dataset",
-        "mcp_list": [
-            {
-                "name": "Pandas-Dataframe-MCP",
-                "description": "Büyük veri setlerini (CSV/Parquet) bellek üzerinde sorgulama ve filtreleme araçları sunan veri bilimi sunucusu.",
-                "url": "https://github.com/example/pandas-dataframe-mcp"
-            },
-            {
-                "name": "Jupyter-Notebook-MCP",
-                "description": "Jupyter Notebook dosyalarını (.ipynb) okuyan ve hücre çıktılarını analiz eden entegrasyon.",
-                "url": "https://github.com/example/jupyter-notebook-mcp"
-            },
-            {
-                "name": "SQL-Query-Executor-MCP",
-                "description": "Farklı veri tabanlarından veri çekmek için optimize edilmiş SQL sorguları yürüten ve çıktıları veri analizine aktaran sunucu.",
-                "url": "https://github.com/example/sql-query-executor-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "AutoEDA-Agent",
-                "description": "Ham veriyi yükleyip otomatik olarak Keşifsel Veri Analizi (EDA) grafikleri ve istatistiksel raporlar üreten ajan.",
-                "url": "https://github.com/example/autoeda-agent"
-            },
-            {
-                "name": "FeatureEngineering-Agent",
-                "description": "Makine öğrenmesi modelleri için veri setinden otomatik olarak yeni öznitelikler (features) türeten veri mühendisi.",
-                "url": "https://github.com/example/featureengineering-agent"
-            },
-            {
-                "name": "Model-Selector-Agent",
-                "description": "Verilen veri setine göre en uygun makine öğrenmesi algoritmasını seçen ve hiperparametre optimizasyonu yapan ML ajanı.",
-                "url": "https://github.com/example/model-selector-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "game-development": {
+        "keywords": ["unity", "unreal", "blender", "game", "3d", "physics", "godot", "shader", "rendering"],
         "query": "topic:game-development topic:unity topic:unreal-engine",
-        "mcp_list": [
-            {
-                "name": "Unity-Profiler-MCP",
-                "description": "Unity oyun motorundaki bellek kaçaklarını, kare hızlarını (FPS) ve CPU tüketimini LLM'e raporlayan araç.",
-                "url": "https://github.com/example/unity-profiler-mcp"
-            },
-            {
-                "name": "Blender-Automation-MCP",
-                "description": "Blender Python API'sini kullanarak otonom olarak basit 3D modeller üreten tasarım sunucusu.",
-                "url": "https://github.com/example/blender-automation-mcp"
-            },
-            {
-                "name": "Unreal-Blueprint-Inspector-MCP",
-                "description": "Unreal Engine üzerindeki Blueprint görsel kodlama şemalarını okuyup olası mantıksal hataları denetleyen araç.",
-                "url": "https://github.com/example/unreal-blueprint-inspector-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "Playtest-Agent",
-                "description": "Oyun mekaniklerini test etmek için oyunu otonom oynayan ve çarpışma hatalarını raporlayan yapay zeka ajanı.",
-                "url": "https://github.com/example/playtest-agent"
-            },
-            {
-                "name": "BehaviorTree-Agent",
-                "description": "Düşman NPC'leri için optimize edilmiş yapay zeka davranış ağaçları (Behavior Trees) tasarlayan oyun geliştirme asistanı.",
-                "url": "https://github.com/example/behaviortree-agent"
-            },
-            {
-                "name": "Procedural-World-Agent",
-                "description": "Oyun dünyası için kurallara göre otonom olarak zindan (dungeon) ve harita tasarımları oluşturan usulsel tasarım ajanı.",
-                "url": "https://github.com/example/procedural-world-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "blockchain": {
+        "keywords": ["blockchain", "solidity", "web3", "crypto", "ethereum", "smart-contract", "bitcoin", "rust-blockchain", "defi"],
         "query": "topic:blockchain topic:ethereum topic:solidity topic:web3",
-        "mcp_list": [
-            {
-                "name": "Etherscan-API-MCP",
-                "description": "Ethereum akıllı sözleşme kodlarını, gas ücretlerini ve cüzdan işlemlerini sorgulayan zincir dışı arayüz sunucusu.",
-                "url": "https://github.com/example/etherscan-api-mcp"
-            },
-            {
-                "name": "Solidity-Compiler-MCP",
-                "description": "Solidity akıllı sözleşme kodlarındaki derleme hatalarını ve zafiyetleri analiz eden derleyici sunucusu.",
-                "url": "https://github.com/example/solidity-compiler-mcp"
-            },
-            {
-                "name": "Web3-Wallet-MCP",
-                "description": "Zincir üstündeki cüzdan bakiyelerini ve akıllı sözleşme durumlarını (read-only) okuyup raporlayan Web3 sunucusu.",
-                "url": "https://github.com/example/web3-wallet-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "ContractAuditor-Agent",
-                "description": "Akıllı sözleşmelerdeki güvenlik açıklarını (reentrancy vb.) tarayan otonom denetim ajanı.",
-                "url": "https://github.com/example/contractauditor-agent"
-            },
-            {
-                "name": "ArbitrageBot-Agent",
-                "description": "DeFi protokolleri arasında fiyat farklarını izleyerek otonom arbitraj fırsatları arayan Web3 ajanı.",
-                "url": "https://github.com/example/arbitragebot-agent"
-            },
-            {
-                "name": "Gas-Optimizer-Agent",
-                "description": "Solidity kodlarını inceleyerek Ethereum ağındaki işlem ücretlerini (gas) en aza indirecek kod değişiklikleri öneren ajan.",
-                "url": "https://github.com/example/gas-optimizer-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     }
 }
 
+# Varsayılan başlangıç/baz küresi (İnternetten çekilemezse veya kategori boş kalırsa kullanılacak)
+DEFAULT_MCPS = [
+    {"name": "PostgreSQL-MCP", "description": "PostgreSQL veritabanlarında güvenli sorgulamalar ve şema analizi.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres", "category": "backend"},
+    {"name": "Docker-MCP", "description": "Docker konteynerlerini denetlemek ve logları okumak için.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/docker", "category": "devops"},
+    {"name": "Dart-Analyzer-MCP", "description": "Dart ve Flutter kod analiz ve iyileştirme aracı.", "url": "https://github.com/example/dart-analyzer-mcp", "category": "flutter"},
+    {"name": "Shodan-MCP", "description": "Shodan API ile internete açık cihazları ve portları tarar.", "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/shodan", "category": "security"},
+    {"name": "Figma-API-MCP", "description": "Figma tasarımlarını LLM bağlamına çeken arayüz sunucusu.", "url": "https://github.com/example/figma-api-mcp", "category": "frontend"}
+]
+
+DEFAULT_AGENTS = [
+    {"name": "AutoGPT", "description": "İnternet aramalı genel otonom görev yöneticisi.", "url": "https://github.com/Significant-Gravitas/AutoGPT", "category": "artificial-intelligence"},
+    {"name": "BabyAGI", "description": "Görev oluşturma ve önceliklendirme süreçlerini yöneten yapay zeka ajanı.", "url": "https://github.com/yoheinakajima/babyagi", "category": "artificial-intelligence"},
+    {"name": "Pentest-Agent", "description": "Sızma testleri gerçekleştiren otonom güvenlik ajanı.", "url": "https://github.com/example/pentest-agent", "category": "security"},
+    {"name": "WidgetBuilder-Agent", "description": "Tasarımı otomatik olarak optimize Flutter widget'larına çeviren ajan.", "url": "https://github.com/example/widgetbuilder-agent", "category": "flutter"}
+]
+
+def fetch_content_from_url(url):
+    """Verilen URL'in içeriğini çeker."""
+    req = urllib.request.Request(url, headers={"User-Agent": "Yazilimci-Hub-Scraper"})
+    try:
+        with urllib.request.urlopen(req, timeout=10) as response:
+            if response.status == 200:
+                return response.read().decode("utf-8")
+    except Exception as e:
+        print(f"URL okunurken hata oluştu ({url}): {e}")
+    return ""
+
+def scrape_awesome_mcp_servers():
+    """Awesome MCP listesini kazıyarak sunucuları çeker."""
+    print("GitHub üzerinden Awesome MCP sunucuları taranıyor...")
+    url = "https://raw.githubusercontent.com/punkpeye/awesome-mcp-servers/main/README.md"
+    content = fetch_content_from_url(url)
+    
+    mcp_items = []
+    if not content:
+        return mcp_items
+        
+    pattern = re.compile(r'-\s+\[(.*?)\]\((.*?)\)\s+-\s+(.*)')
+    for line in content.split("\n"):
+        match = pattern.search(line)
+        if match:
+            name = match.group(1).strip()
+            link = match.group(2).strip()
+            desc = match.group(3).strip()
+            
+            # Badge'leri temizle (örneğin img.shields.io içeren markdown linkleri)
+            desc = re.sub(r'!\[.*?\]\(.*?\)', '', desc).strip()
+            
+            if "github.com" in link and len(desc) > 5:
+                mcp_items.append({
+                    "name": name,
+                    "description": desc,
+                    "url": link
+                })
+    print(f"Awesome listesinden {len(mcp_items)} adet MCP sunucusu başarıyla çekildi.")
+    return mcp_items
+
+def scrape_awesome_ai_agents():
+    """Awesome AI Agents listesini kazıyarak araçları çeker."""
+    print("GitHub üzerinden Awesome AI Agents listesi taranıyor...")
+    url = "https://raw.githubusercontent.com/kyrolabs/awesome-agents/master/README.md"
+    content = fetch_content_from_url(url)
+    
+    agent_items = []
+    if not content:
+        return agent_items
+
+    # kyrolabs/awesome-agents formatı: - [Name](URL): Description
+    # veya - [Name](URL) Description
+    pattern = re.compile(r'-\s+\[(.*?)\]\((.*?)\)(?::)?\s+(.*)')
+    for line in content.split("\n"):
+        match = pattern.search(line)
+        if match:
+            name = match.group(1).strip()
+            link = match.group(2).strip()
+            desc = match.group(3).strip()
+            
+            # Badge'leri temizle
+            desc = re.sub(r'!\[.*?\]\(.*?\)', '', desc).strip()
+            
+            if "github.com" in link and len(desc) > 5:
+                agent_items.append({
+                    "name": name,
+                    "description": desc,
+                    "url": link
+                })
+    print(f"Awesome listesinden {len(agent_items)} adet AI Agent aracı başarıyla çekildi.")
+    return agent_items
+
+def classify_item(item, categories_config):
+    """
+    Öğeyi isim ve açıklamasındaki anahtar kelimelere göre 
+    uygun kategorilere sınıflandırır.
+    """
+    text = (item["name"] + " " + item["description"]).lower()
+    for cat_name, config in categories_config.items():
+        for keyword in config["keywords"]:
+            if keyword in text:
+                return cat_name
+    return None
+
 def fetch_github_repos(query):
-    """
-    Belirli bir sorguya göre en popüler 15 GitHub reposunu canlı olarak çeker.
-    GITHUB_TOKEN mevcutsa daha yüksek hız sınırı için yetkilendirme başlığı ekler.
-    """
+    """GitHub API'den en çok yıldız alan 15 repoyu çeker."""
     api_url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(query)}&sort=stars&order=desc&per_page=15"
     headers = {
         "User-Agent": "Yazilimci-Hub-Scraper",
         "Accept": "application/vnd.github+json"
     }
     
-    # GitHub Actions ortamında otomatik tanımlanan token'ı oku
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"token {token}"
@@ -360,12 +179,11 @@ def fetch_github_repos(query):
     req = urllib.request.Request(api_url, headers=headers)
     
     try:
-        with urllib.request.urlopen(req) as response:
+        with urllib.request.urlopen(req, timeout=10) as response:
             if response.status == 200:
                 res_data = json.loads(response.read().decode("utf-8"))
                 raw_items = res_data.get("items", [])
                 
-                # Çekilen veriyi bizim RepoModel formatına dönüştürüyoruz
                 repos = []
                 for item in raw_items:
                     repos.append({
@@ -380,34 +198,67 @@ def fetch_github_repos(query):
                     })
                 return repos
     except Exception as e:
-        print(f"Sorgu '{query}' için GitHub API hatası: {e}")
-        # Hata durumunda bekle ve boş liste dönerek devam et (Rate limit vb.)
+        print(f"GitHub API Arama hatası ({query}): {e}")
         time.sleep(2)
     return []
 
 def main():
     curated_data = {}
     
-    for category, content in CATEGORIES.items():
-        print(f"'{category}' kategorisi için canlı trend repolar çekiliyor...")
-        # Canlı repoları GitHub API'sinden çekiyoruz
+    # 1. GitHub Awesome Listelerinden canlı veri çek
+    scraped_mcps = scrape_awesome_mcp_servers()
+    scraped_agents = scrape_awesome_ai_agents()
+
+    # 2. Kategorileri hazırla
+    for cat_name in CATEGORIES_CONFIG.keys():
+        CATEGORIES_CONFIG[cat_name]["mcp_list"] = []
+        CATEGORIES_CONFIG[cat_name]["ai_agents"] = []
+
+    # 3. Canlı MCP'leri sınıflandırıp kategorilere dağıt
+    for mcp in scraped_mcps:
+        assigned_cat = classify_item(mcp, CATEGORIES_CONFIG)
+        if assigned_cat:
+            CATEGORIES_CONFIG[assigned_cat]["mcp_list"].append(mcp)
+
+    # 4. Canlı Agent'ları sınıflandırıp kategorilere dağıt
+    for agent in scraped_agents:
+        assigned_cat = classify_item(agent, CATEGORIES_CONFIG)
+        if assigned_cat:
+            CATEGORIES_CONFIG[assigned_cat]["ai_agents"].append(agent)
+
+    # 5. Varsayılan verileri ekle (Eğer kategori boş kaldıysa veya 3'ten azsa yedek doldur)
+    for dmcp in DEFAULT_MCPS:
+        cat = dmcp["category"]
+        mcp_obj = {"name": dmcp["name"], "description": dmcp["description"], "url": dmcp["url"]}
+        if mcp_obj not in CATEGORIES_CONFIG[cat]["mcp_list"]:
+            CATEGORIES_CONFIG[cat]["mcp_list"].insert(0, mcp_obj)
+
+    for dagent in DEFAULT_AGENTS:
+        cat = dagent["category"]
+        agent_obj = {"name": dagent["name"], "description": dagent["description"], "url": dagent["url"]}
+        if agent_obj not in CATEGORIES_CONFIG[cat]["ai_agents"]:
+            CATEGORIES_CONFIG[cat]["ai_agents"].insert(0, agent_obj)
+
+    # 6. Her kategori için GitHub'dan repoları çekip JSON oluştur
+    for category, content in CATEGORIES_CONFIG.items():
+        print(f"'{category}' için trend repolar canlı olarak çekiliyor...")
         repos = fetch_github_repos(content["query"])
         
         curated_data[category] = {
             "repos": repos,
-            "mcp_list": content["mcp_list"],
-            "ai_agents": content["ai_agents"]
+            "mcp_list": content["mcp_list"][:15], # Her kategori için en fazla 15 araç listele
+            "ai_agents": content["ai_agents"][:15]
         }
-        # GitHub API limitlerine takılmamak için hafif bir bekleme ekliyoruz
         time.sleep(1)
 
+    # 7. data.json Dosyasına Kaydet
     output_filename = "data.json"
     try:
         with open(output_filename, "w", encoding="utf-8") as f:
             json.dump(curated_data, f, indent=4, ensure_ascii=False)
-        print(f"\nBaşarıyla tüm veriler (Canlı Repolar dahil) '{output_filename}' dosyasına kaydedildi!")
+        print(f"\nBaşarıyla dev veri tabanı (Canlı Repolar, MCP'ler, AI Agent'lar) '{output_filename}' dosyasına kaydedildi!")
     except Exception as e:
-        print(f"Dosyaya yazarken hata oluştu: {e}")
+        print(f"Hata oluştu: {e}")
 
 if __name__ == "__main__":
     main()
