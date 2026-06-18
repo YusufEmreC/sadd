@@ -1,5 +1,157 @@
 {
     "flutter": {
+        "repos": [
+            {
+                "id": 31792824,
+                "name": "flutter",
+                "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+                "stargazers_count": 176982,
+                "html_url": "https://github.com/flutter/flutter",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4"
+                }
+            },
+            {
+                "id": 299354207,
+                "name": "rustdesk",
+                "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+                "stargazers_count": 116399,
+                "html_url": "https://github.com/rustdesk/rustdesk",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/71636191?v=4"
+                }
+            },
+            {
+                "id": 578822531,
+                "name": "localsend",
+                "description": "An open-source cross-platform alternative to AirDrop",
+                "stargazers_count": 83550,
+                "html_url": "https://github.com/localsend/localsend",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/120677616?v=4"
+                }
+            },
+            {
+                "id": 164608222,
+                "name": "flutter-go",
+                "description": "flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档",
+                "stargazers_count": 23668,
+                "html_url": "https://github.com/alibaba/flutter-go",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4"
+                }
+            },
+            {
+                "id": 129388994,
+                "name": "FlutterExampleApps",
+                "description": "[Example APPS] Basic Flutter apps, for flutter devs.",
+                "stargazers_count": 21505,
+                "html_url": "https://github.com/iampawan/FlutterExampleApps",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12619420?v=4"
+                }
+            },
+            {
+                "id": 88650014,
+                "name": "plugins",
+                "description": "Plugins for Flutter maintained by the Flutter team",
+                "stargazers_count": 17709,
+                "html_url": "https://github.com/flutter-team-archive/plugins",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/243856884?v=4"
+                }
+            },
+            {
+                "id": 142308181,
+                "name": "gsy_github_app_flutter",
+                "description": "Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp 系列的优势：我们目前已经拥有 Flutter、Weex、ReactNative、Kotlin View、Kotlin Jetpack Compose ，Compose MultiPlatform，Harmony ArkUI 七个版本，功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。",
+                "stargazers_count": 15456,
+                "html_url": "https://github.com/CarGuo/gsy_github_app_flutter",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10770362?v=4"
+                }
+            },
+            {
+                "id": 629282922,
+                "name": "pilipala",
+                "description": "PiliPala 是使用Flutter开发的BiliBili第三方客户端，感谢使用。",
+                "stargazers_count": 13811,
+                "html_url": "https://github.com/guozhigq/pilipala",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25545225?v=4"
+                }
+            },
+            {
+                "id": 130309267,
+                "name": "dio",
+                "description": "A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.",
+                "stargazers_count": 12827,
+                "html_url": "https://github.com/cfug/dio",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/44133785?v=4"
+                }
+            },
+            {
+                "id": 151977818,
+                "name": "bloc",
+                "description": "A predictable state management library that helps implement the BLoC design pattern",
+                "stargazers_count": 12459,
+                "html_url": "https://github.com/felangel/bloc",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8855632?v=4"
+                }
+            },
+            {
+                "id": 221583387,
+                "name": "getx",
+                "description": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.",
+                "stargazers_count": 11183,
+                "html_url": "https://github.com/jonataslaw/getx",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/35742643?v=4"
+                }
+            },
+            {
+                "id": 107833072,
+                "name": "flame",
+                "description": "A Flutter based game engine.",
+                "stargazers_count": 10649,
+                "html_url": "https://github.com/flame-engine/flame",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/47222401?v=4"
+                }
+            },
+            {
+                "id": 202429703,
+                "name": "flutterfire",
+                "description": "🔥 A collection of Firebase plugins for Flutter apps.",
+                "stargazers_count": 9221,
+                "html_url": "https://github.com/firebase/flutterfire",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1335026?v=4"
+                }
+            },
+            {
+                "id": 166813643,
+                "name": "FlutterDouBan",
+                "description": "🔥🔥🔥Flutter豆瓣客户端,Awesome Flutter Project,全网最100%还原豆瓣客户端。首页、书影音、小组、市集及个人中心，一个不拉。（ https://img.xuvip.top/douyademo.mp4）",
+                "stargazers_count": 9101,
+                "html_url": "https://github.com/kaina404/FlutterDouBan",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13998159?v=4"
+                }
+            },
+            {
+                "id": 112027892,
+                "name": "flutter_architecture_samples",
+                "description": "TodoMVC for Flutter",
+                "stargazers_count": 8918,
+                "html_url": "https://github.com/brianegan/flutter_architecture_samples",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/126604?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "Dart-Analyzer-MCP",
@@ -10,6 +162,11 @@
                 "name": "Flutter-Localization-MCP",
                 "description": "Uygulama içi dil dosyalarını (ARB) otomatik analiz eden ve eksik çevirileri tamamlayan yerelleştirme asistanı.",
                 "url": "https://github.com/example/flutter-localization-mcp"
+            },
+            {
+                "name": "Android-ADB-MCP",
+                "description": "ADB (Android Debug Bridge) komutlarını LLM üzerinden çalıştırarak emülatör ve gerçek cihaz yönetimini sağlayan araç.",
+                "url": "https://github.com/example/android-adb-mcp"
             }
         ],
         "ai_agents": [
@@ -22,10 +179,167 @@
                 "name": "WidgetBuilder-Agent",
                 "description": "Ekran tasarımlarını analiz edip otomatik olarak optimize edilmiş Flutter Widget ağacı üreten kod asistanı.",
                 "url": "https://github.com/example/widgetbuilder-agent"
+            },
+            {
+                "name": "Flutter-Refactor-Agent",
+                "description": "Eski Flutter kodlarını modern state management (Bloc/Cubit) ve Clean Architecture kurallarına göre refaktör eden yapay zeka ajanı.",
+                "url": "https://github.com/example/flutter-refactor-agent"
             }
         ]
     },
     "security": {
+        "repos": [
+            {
+                "id": 71220757,
+                "name": "PayloadsAllTheThings",
+                "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+                "stargazers_count": 78506,
+                "html_url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12152583?v=4"
+                }
+            },
+            {
+                "id": 127752367,
+                "name": "hacker-roadmap",
+                "description": "A collection of hacking tools, resources and references to practice ethical hacking.",
+                "stargazers_count": 15409,
+                "html_url": "https://github.com/sundowndev/hacker-roadmap",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16480203?v=4"
+                }
+            },
+            {
+                "id": 325671936,
+                "name": "reconftw",
+                "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
+                "stargazers_count": 7717,
+                "html_url": "https://github.com/six2dez/reconftw",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24670991?v=4"
+                }
+            },
+            {
+                "id": 416151847,
+                "name": "yakit",
+                "description": "Cyber Security ALL-IN-ONE Platform",
+                "stargazers_count": 7374,
+                "html_url": "https://github.com/yaklang/yakit",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/84704082?v=4"
+                }
+            },
+            {
+                "id": 292318639,
+                "name": "AllAboutBugBounty",
+                "description": "All about bug bounty (bypasses, payloads, and etc)",
+                "stargazers_count": 6768,
+                "html_url": "https://github.com/daffainfo/AllAboutBugBounty",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/36522826?v=4"
+                }
+            },
+            {
+                "id": 950915,
+                "name": "WhatWeb",
+                "description": "Next generation web scanner",
+                "stargazers_count": 6665,
+                "html_url": "https://github.com/urbanadventurer/WhatWeb",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/101783?v=4"
+                }
+            },
+            {
+                "id": 178545630,
+                "name": "1earn",
+                "description": "ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup",
+                "stargazers_count": 5690,
+                "html_url": "https://github.com/ffffffff0x/1earn",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/55578766?v=4"
+                }
+            },
+            {
+                "id": 689013903,
+                "name": "NetExec",
+                "description": "The Network Execution Tool",
+                "stargazers_count": 5607,
+                "html_url": "https://github.com/Pennyw0rth/NetExec",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/144470396?v=4"
+                }
+            },
+            {
+                "id": 219113096,
+                "name": "Ladon",
+                "description": "Ladon大型内网渗透扫描器，PowerShell、Cobalt Strike插件、内存加载、无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。网络资产探测32种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)或方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等，大量高危漏洞检测模块MS17010、Zimbra、Exchange",
+                "stargazers_count": 5297,
+                "html_url": "https://github.com/k8gege/Ladon",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42312878?v=4"
+                }
+            },
+            {
+                "id": 335689272,
+                "name": "black-hat-rust",
+                "description": "Applied offensive security with Rust  - https://kerkour.com/black-hat-rust",
+                "stargazers_count": 4350,
+                "html_url": "https://github.com/skerkour/black-hat-rust",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/120430156?v=4"
+                }
+            },
+            {
+                "id": 27034707,
+                "name": "pentest-wiki",
+                "description": "PENTEST-WIKI is a free online security knowledge library for pentesters / researchers. If you have a good idea, please share it with others.",
+                "stargazers_count": 3743,
+                "html_url": "https://github.com/nixawk/pentest-wiki",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7352479?v=4"
+                }
+            },
+            {
+                "id": 5441179,
+                "name": "blackarch",
+                "description": "An ArchLinux based distribution for penetration testers and security researchers.",
+                "stargazers_count": 3404,
+                "html_url": "https://github.com/BlackArch/blackarch",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6171113?v=4"
+                }
+            },
+            {
+                "id": 161927328,
+                "name": "reconspider",
+                "description": "🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations.",
+                "stargazers_count": 2710,
+                "html_url": "https://github.com/bhavsec/reconspider",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12765984?v=4"
+                }
+            },
+            {
+                "id": 14187797,
+                "name": "Diamorphine",
+                "description": "LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x/6.x (x86/x86_64 and ARM64)",
+                "stargazers_count": 2368,
+                "html_url": "https://github.com/m0nad/Diamorphine",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/772792?v=4"
+                }
+            },
+            {
+                "id": 102005234,
+                "name": "collection-document",
+                "description": "Collection of quality safety articles. Awesome articles.  ",
+                "stargazers_count": 2108,
+                "html_url": "https://github.com/tom0li/collection-document",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/23234555?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "Shodan-MCP",
@@ -36,6 +350,11 @@
                 "name": "Hash-Cracker-MCP",
                 "description": "Çeşitli hash algoritmalarını (MD5, SHA256 vb.) kırmak için optimize edilmiş hesaplama motorlarını LLM'e bağlayan sunucu.",
                 "url": "https://github.com/example/hash-cracker-mcp"
+            },
+            {
+                "name": "Nmap-Parser-MCP",
+                "description": "Nmap tarama çıktılarını analiz eden, açık portları ve çalışan servisleri güvenlik kurallarına göre yorumlayan MCP sunucusu.",
+                "url": "https://github.com/example/nmap-parser-mcp"
             }
         ],
         "ai_agents": [
@@ -48,10 +367,57 @@
                 "name": "ThreatIntel-Agent",
                 "description": "Siber tehdit istihbarat kaynaklarını tarayıp sıfırıncı gün (0-day) açıklarını anlık raporlayan analiz ajanı.",
                 "url": "https://github.com/example/threatintel-agent"
+            },
+            {
+                "name": "Phishing-Detector-Agent",
+                "description": "E-postaları ve gelen bağlantıların içeriğini analiz ederek otonom olarak oltalama (phishing) girişimlerini engelleyen ajan.",
+                "url": "https://github.com/example/phishing-detector-agent"
             }
         ]
     },
     "backend": {
+        "repos": [
+            {
+                "id": 862566996,
+                "name": "Web_forms_classes",
+                "description": "WebForms Core back-end. WebForms Core technology is available in all programming languages.",
+                "stargazers_count": 9,
+                "html_url": "https://github.com/webforms-core/Web_forms_classes",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/217896082?v=4"
+                }
+            },
+            {
+                "id": 1109662923,
+                "name": "logstream-ai",
+                "description": "High-Throughput Log Aggregation and Agentic Monitoring Engine for distributed environments.",
+                "stargazers_count": 0,
+                "html_url": "https://github.com/Kimosabey/logstream-ai",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/100086678?v=4"
+                }
+            },
+            {
+                "id": 951884437,
+                "name": "backend",
+                "description": "🚀 Backend Learning Journey: A repository documenting my progress in learning backend development. This includes projects, exercises, and resources related to Java, Spring Boot, Node.js, Go, Rust, databases, REST APIs, authentication, and server-side architectures.",
+                "stargazers_count": 0,
+                "html_url": "https://github.com/Hareesh108/backend",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/72018706?v=4"
+                }
+            },
+            {
+                "id": 1157406575,
+                "name": "Stack-App-CLI",
+                "description": "**Stack App CLI** is a production-ready CLI tool that generates complete, working boilerplate projects across multiple programming languages and frameworks in seconds. Instead of spending 2-3 hours manually setting up a new project with best practices, configuration, and tooling, you get a fully functional starter in minutes.",
+                "stargazers_count": 0,
+                "html_url": "https://github.com/maneesh-kumar-thakur/Stack-App-CLI",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/185777744?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "PostgreSQL-MCP",
@@ -62,6 +428,11 @@
                 "name": "Redis-Cli-MCP",
                 "description": "Redis bellek içi veritabanı komutlarını çalıştırma ve anahtar/değer durumlarını izleme sunucusu.",
                 "url": "https://github.com/example/redis-cli-mcp"
+            },
+            {
+                "name": "Sqlite-MCP",
+                "description": "Yerel SQLite veritabanı dosyaları üzerinde sorgulamalar yapabilen ve veri manipülasyonu sağlayan hafif sunucu.",
+                "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite"
             }
         ],
         "ai_agents": [
@@ -74,10 +445,167 @@
                 "name": "SQL-Gen-Agent",
                 "description": "Doğal dilden karmaşık PostgreSQL, MySQL ve MongoDB sorguları üreten ve doğrulayan arka uç geliştirici asistanı.",
                 "url": "https://github.com/example/sql-gen-agent"
+            },
+            {
+                "name": "API-Generator-Agent",
+                "description": "Verilen şemaya göre Go veya Node.js tabanlı Express/NestJS RESTful API uç noktalarını otonom olarak kodlayan ajan.",
+                "url": "https://github.com/example/api-generator-agent"
             }
         ]
     },
     "frontend": {
+        "repos": [
+            {
+                "id": 472417882,
+                "name": "jest-preview",
+                "description": "Debug your Jest tests. Effortlessly.🛠🖼 ",
+                "stargazers_count": 2393,
+                "html_url": "https://github.com/nvh95/jest-preview",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8603085?v=4"
+                }
+            },
+            {
+                "id": 1066256303,
+                "name": "frontman",
+                "description": "The AI agent that lives in your framework/browser",
+                "stargazers_count": 590,
+                "html_url": "https://github.com/frontman-ai/frontman",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/247346821?v=4"
+                }
+            },
+            {
+                "id": 324384182,
+                "name": "packages",
+                "description": "💎 Monorepository for Stylify packages. Stylify uses CSS-like selectors to generate Extremely optimized utility-first CSS dynamically based on what you write 💎.",
+                "stargazers_count": 434,
+                "html_url": "https://github.com/stylify/packages",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/64030201?v=4"
+                }
+            },
+            {
+                "id": 484229567,
+                "name": "links",
+                "description": "Lista colaborativa de sites e ferramentas úteis para desenvolvedores (que sejam preferencialmente gratuitas/livres). ",
+                "stargazers_count": 408,
+                "html_url": "https://github.com/gmartins-dev/links",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/102025849?v=4"
+                }
+            },
+            {
+                "id": 200474738,
+                "name": "personal-blog",
+                "description": "✍️ 个人技术博客",
+                "stargazers_count": 338,
+                "html_url": "https://github.com/Jacky-Summer/personal-blog",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/20832372?v=4"
+                }
+            },
+            {
+                "id": 897815384,
+                "name": "compoder",
+                "description": "Compoder is an open-source AI-powered component code generation engine that integrates modern frontend tech stacks with various AI model capabilities. You can customize Compoder to create AI-powered component code generators based on specific technology stacks and specific scenarios.",
+                "stargazers_count": 286,
+                "html_url": "https://github.com/IamLiuLv/compoder",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/62255355?v=4"
+                }
+            },
+            {
+                "id": 691710753,
+                "name": "turbun.js",
+                "description": "Turbun - the foundation for Turbo Repo.",
+                "stargazers_count": 9,
+                "html_url": "https://github.com/turbun/turbun.js",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/145333678?v=4"
+                }
+            },
+            {
+                "id": 654406603,
+                "name": "html-dox",
+                "description": "html dox is a sequential pwa optimized dom lib",
+                "stargazers_count": 7,
+                "html_url": "https://github.com/MalikWhitten67/html-dox",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/65188863?v=4"
+                }
+            },
+            {
+                "id": 1188184295,
+                "name": "stitch-pro-mcp",
+                "description": "The intelligent MCP server for Google Stitch. 17 tools, auto-orchestration, React/Vue/Svelte, WCAG a11y, design systems. npm install -g stitch-pro-mcp",
+                "stargazers_count": 6,
+                "html_url": "https://github.com/LuciferDono/stitch-pro-mcp",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/90372960?v=4"
+                }
+            },
+            {
+                "id": 536619267,
+                "name": "frontend-roadmap",
+                "description": "🗒 This is a repository for a study trail based on my experience as a Front-end developer, with only free content.",
+                "stargazers_count": 5,
+                "html_url": "https://github.com/WesleyMaik/frontend-roadmap",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/85949116?v=4"
+                }
+            },
+            {
+                "id": 671558839,
+                "name": "web-design-resources",
+                "description": "A platform for sharing the best design resources around the web is being developed using Next.js, Prisma, Tailwind CSS, and MySQL.",
+                "stargazers_count": 4,
+                "html_url": "https://github.com/Jay-Ohhh/web-design-resources",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/57120629?v=4"
+                }
+            },
+            {
+                "id": 775498229,
+                "name": "Journey_FullStack",
+                "description": "Projects, Templates on many branches, I will try to make multiple purpose projects.",
+                "stargazers_count": 3,
+                "html_url": "https://github.com/ibra-kdbra/Journey_FullStack",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/135609275?v=4"
+                }
+            },
+            {
+                "id": 1238489826,
+                "name": "harness-fe",
+                "description": "The agent that built it never leaves. A source-aware harness for every AI-built app — source-mapped build plugins, an MCP daemon, and a runtime client that let the agent keep watching, listening, and fixing the app long after it ships.",
+                "stargazers_count": 2,
+                "html_url": "https://github.com/Morphicai/harness-fe",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/210121288?v=4"
+                }
+            },
+            {
+                "id": 1136403830,
+                "name": "bromiumjs",
+                "description": "BromiumJS framework for Bachelor Thesis. You can try it out!",
+                "stargazers_count": 1,
+                "html_url": "https://github.com/bromscandium/bromiumjs",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/77798518?v=4"
+                }
+            },
+            {
+                "id": 1203103477,
+                "name": "MedicalWeb",
+                "description": "Полнофункциональная веб-приложение для управления медицинской клиникой, разработанное на Next.js 16 с интеграцией Prisma ORM и SQLite.",
+                "stargazers_count": 1,
+                "html_url": "https://github.com/podmefom/MedicalWeb",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/95301330?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "TailwindCSS-Inspector-MCP",
@@ -88,6 +616,11 @@
                 "name": "Figma-API-MCP",
                 "description": "Figma tasarımlarını doğrudan LLM bağlamına çekerek bileşen ve renk paleti analizleri yapmayı sağlayan arayüz sunucusu.",
                 "url": "https://github.com/example/figma-api-mcp"
+            },
+            {
+                "name": "Browser-Testing-MCP",
+                "description": "Puppeteer yardımıyla frontend arayüzlerini farklı ekran boyutlarında test eden ve görsel hataları LLM'e bildiren sunucu.",
+                "url": "https://github.com/example/browser-testing-mcp"
             }
         ],
         "ai_agents": [
@@ -100,10 +633,167 @@
                 "name": "Figma-to-React-Agent",
                 "description": "Figma tasarım token'larını okuyup doğrudan temiz Next.js ve Tailwind component'lerine dönüştüren frontend ajanı.",
                 "url": "https://github.com/example/figma-to-react-agent"
+            },
+            {
+                "name": "CSS-Grid-Wizard-Agent",
+                "description": "Karmaşık web arayüz taslaklarını modern CSS Grid ve Flexbox kullanarak hatasız koda döken stil asistanı.",
+                "url": "https://github.com/example/css-grid-wizard-agent"
             }
         ]
     },
     "artificial-intelligence": {
+        "repos": [
+            {
+                "id": 789480255,
+                "name": "llm-scraper",
+                "description": "Turn any webpage into structured data using LLMs",
+                "stargazers_count": 6819,
+                "html_url": "https://github.com/mishushakov/llm-scraper",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10400064?v=4"
+                }
+            },
+            {
+                "id": 832482665,
+                "name": "DATAGEN",
+                "description": "DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing. ",
+                "stargazers_count": 1755,
+                "html_url": "https://github.com/starpig1129/DATAGEN",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/102524453?v=4"
+                }
+            },
+            {
+                "id": 998134875,
+                "name": "sre",
+                "description": "The SmythOS Runtime Environment (SRE) is an open-source, cloud-native runtime for agentic AI. Secure, modular, and production-ready, it lets developers build, run, and manage intelligent agents across local, cloud, and edge environments.",
+                "stargazers_count": 1279,
+                "html_url": "https://github.com/SmythOS/sre",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/131191966?v=4"
+                }
+            },
+            {
+                "id": 1175263852,
+                "name": "awesome-ai-agents-2026",
+                "description": "🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated monthly.",
+                "stargazers_count": 1105,
+                "html_url": "https://github.com/caramaschiHG/awesome-ai-agents-2026",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/156044967?v=4"
+                }
+            },
+            {
+                "id": 613456719,
+                "name": "agentchain",
+                "description": "Chain together LLMs for reasoning & orchestrate multiple large models for accomplishing complex tasks",
+                "stargazers_count": 610,
+                "html_url": "https://github.com/jina-ai/agentchain",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/60539444?v=4"
+                }
+            },
+            {
+                "id": 842982339,
+                "name": "resume_render_from_job_description",
+                "description": "Resume_Builder_AIHawk is a powerful Python tool that allows you to automatically customize your resume based on a job URL, ensuring it perfectly aligns with the job requirements and skills. With an interactive command-line interface, this tool makes it easy to navigate through options and select from various pre-defined styles",
+                "stargazers_count": 409,
+                "html_url": "https://github.com/feder-cr/resume_render_from_job_description",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/85809106?v=4"
+                }
+            },
+            {
+                "id": 644193193,
+                "name": "akcio",
+                "description": "Akcio is a demonstration project for Retrieval Augmented Generation (RAG). It leverages the power of LLM to generate responses and uses vector databases to fetch relevant documents to enhance the quality and relevance of the output.",
+                "stargazers_count": 258,
+                "html_url": "https://github.com/zilliztech/akcio",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/18416694?v=4"
+                }
+            },
+            {
+                "id": 626063658,
+                "name": "voxelgpt",
+                "description": "AI assistant that can query visual datasets, search the FiftyOne docs, and answer general computer vision questions",
+                "stargazers_count": 255,
+                "html_url": "https://github.com/voxel51/voxelgpt",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25984855?v=4"
+                }
+            },
+            {
+                "id": 681669747,
+                "name": "team-of-ai-agents",
+                "description": "Open-source framework to make AI agents' team collaboration as effective as human collaboration.",
+                "stargazers_count": 236,
+                "html_url": "https://github.com/l3vels/team-of-ai-agents",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/122974431?v=4"
+                }
+            },
+            {
+                "id": 696028337,
+                "name": "AI-Resume-Analyzer-and-LinkedIn-Scraper-using-Generative-AI",
+                "description": "Developed an AI application using LLM to analyze user resumes and provided the summarization, strengths, weaknesses, suggestions, suitable job titles, and also scraping job details from LinkedIn using Selenium. This application reduces time by 30% and helps candidates tailor their resumes effectively.",
+                "stargazers_count": 206,
+                "html_url": "https://github.com/gopiashokan/AI-Resume-Analyzer-and-LinkedIn-Scraper-using-Generative-AI",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/123052643?v=4"
+                }
+            },
+            {
+                "id": 996988898,
+                "name": "c4-genai-suite",
+                "description": "c4 GenAI Suite",
+                "stargazers_count": 171,
+                "html_url": "https://github.com/codecentric/c4-genai-suite",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/1009716?v=4"
+                }
+            },
+            {
+                "id": 1119405225,
+                "name": "awesome-rag-production",
+                "description": "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.",
+                "stargazers_count": 109,
+                "html_url": "https://github.com/Yigtwxx/awesome-rag-production",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/156921875?v=4"
+                }
+            },
+            {
+                "id": 1226271186,
+                "name": "kyros-ai",
+                "description": "Kyros — The Memory OS for AI Agents  Give your AI agents secure, self-correcting, persistent memory in 3 lines of code.  Three memory types (episodic, semantic, procedural) with built-in forgetting curves, cryptographic integrity, and automatic contradiction resolution. Model-agnostic REST API with Python and TypeScript SDKs.",
+                "stargazers_count": 92,
+                "html_url": "https://github.com/Kyros-494/kyros-ai",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/279452483?v=4"
+                }
+            },
+            {
+                "id": 684716474,
+                "name": "chat-your-doc",
+                "description": "Awesome LLM application repo",
+                "stargazers_count": 90,
+                "html_url": "https://github.com/XinyueZ/chat-your-doc",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/7869833?v=4"
+                }
+            },
+            {
+                "id": 762963847,
+                "name": "Generative-AI-LLM-Projects",
+                "description": "Gen AI Large Language Model Projects",
+                "stargazers_count": 86,
+                "html_url": "https://github.com/GURPREETKAURJETHRA/Generative-AI-LLM-Projects",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/100081334?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "HuggingFace-Spaces-MCP",
@@ -114,6 +804,11 @@
                 "name": "Ollama-Local-MCP",
                 "description": "Yerel bilgisayarda çalışan Ollama modellerinin yük durumlarını ve çalışan model listelerini LLM'lere raporlayan araç.",
                 "url": "https://github.com/example/ollama-local-mcp"
+            },
+            {
+                "name": "OpenAI-Assistants-MCP",
+                "description": "OpenAI Assistants API'sini ve özel asistan fonksiyonlarını MCP protokolüyle diğer LLM'lere bağlayan sunucu.",
+                "url": "https://github.com/example/openai-assistants-mcp"
             }
         ],
         "ai_agents": [
@@ -126,10 +821,167 @@
                 "name": "BabyAGI",
                 "description": "Görev oluşturma, önceliklendirme ve çalıştırma süreçlerini döngüsel olarak yöneten yapay zeka ajanı.",
                 "url": "https://github.com/yoheinakajima/babyagi"
+            },
+            {
+                "name": "LangGraph-Agent",
+                "description": "Karmaşık durum geçişli (stateful) çoklu ajan sistemlerini döngüsel grafikler halinde yöneten gelişmiş orkestrasyon ajanı.",
+                "url": "https://github.com/example/langgraph-agent"
             }
         ]
     },
     "devops": {
+        "repos": [
+            {
+                "id": 212639071,
+                "name": "devops-exercises",
+                "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
+                "stargazers_count": 82812,
+                "html_url": "https://github.com/bregman-arie/devops-exercises",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/10349437?v=4"
+                }
+            },
+            {
+                "id": 273913340,
+                "name": "homelab",
+                "description": "Fully automated homelab from empty disk to running services with a single command.",
+                "stargazers_count": 9344,
+                "html_url": "https://github.com/khuedoan/homelab",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/27996771?v=4"
+                }
+            },
+            {
+                "id": 49816796,
+                "name": "DevOps-Bash-tools",
+                "description": "1000+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LDAP, Code/Build Linting, pkg mgmt for Linux, Mac, Python, Perl, Ruby, NodeJS, Golang, Advanced dotfiles: .bashrc, .vimrc, .gitconfig, .screenrc, tmux..",
+                "stargazers_count": 8306,
+                "html_url": "https://github.com/HariSekhon/DevOps-Bash-tools",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/2211051?v=4"
+                }
+            },
+            {
+                "id": 676377723,
+                "name": "DevOps-Projects",
+                "description": "🚀 Real-world DevOps projects for aspiring engineers — Beginner to Advanced. Covers AWS, Kubernetes, Docker, CI/CD, Terraform, Jenkins, and more. Hands-on learning with step-by-step guides.",
+                "stargazers_count": 4396,
+                "html_url": "https://github.com/NotHarshhaa/DevOps-Projects",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/112948305?v=4"
+                }
+            },
+            {
+                "id": 499400876,
+                "name": "Cloud-DevOps-Learning-Resources",
+                "description": "This repo includes Books and imp notes related to GCP, Azure, AWS, Docker, K8s, and DevOps. More, exam and interview prep notes.",
+                "stargazers_count": 1948,
+                "html_url": "https://github.com/ahmedtariq01/Cloud-DevOps-Learning-Resources",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/78534449?v=4"
+                }
+            },
+            {
+                "id": 106306056,
+                "name": "kapitan",
+                "description": "Generic templated configuration management for Kubernetes, Terraform and other things",
+                "stargazers_count": 1916,
+                "html_url": "https://github.com/kapicorp/kapitan",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/57769023?v=4"
+                }
+            },
+            {
+                "id": 543469006,
+                "name": "awesome-french-devops",
+                "description": "Une liste de liens permettant de se former aux outils utilisés dans le domaine du Devops",
+                "stargazers_count": 1640,
+                "html_url": "https://github.com/stephrobert/awesome-french-devops",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/681788?v=4"
+                }
+            },
+            {
+                "id": 584105200,
+                "name": "90DaysOfDevOps",
+                "description": "This repository is a Challenge for the DevOps Community to get stronger in DevOps.The reason for making this Public is so that others can learn from the community and help each other grow.",
+                "stargazers_count": 1304,
+                "html_url": "https://github.com/TrainWithShubham/90DaysOfDevOps",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/121760796?v=4"
+                }
+            },
+            {
+                "id": 355304919,
+                "name": "devops-daily",
+                "description": "The latest news, tutorials, and guides for DevOps professionals.",
+                "stargazers_count": 1092,
+                "html_url": "https://github.com/The-DevOps-Daily/devops-daily",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/212527617?v=4"
+                }
+            },
+            {
+                "id": 75686762,
+                "name": "geodesic",
+                "description": "🚀 Geodesic is a DevOps Linux Toolbox in Docker",
+                "stargazers_count": 1051,
+                "html_url": "https://github.com/cloudposse/geodesic",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/16398900?v=4"
+                }
+            },
+            {
+                "id": 686537865,
+                "name": "into-the-devops",
+                "description": "𝖫𝗂𝗇𝗎𝗑, 𝖩𝖾𝗇𝗄𝗂𝗇𝗌, 𝖠𝖶𝖲, 𝖲𝖱𝖤, 𝖯𝗋𝗈𝗆𝖾𝗍𝗁𝖾𝗎𝗌, 𝖣𝗈𝖼𝗄𝖾𝗋, 𝖯𝗒𝗍𝗁𝗈𝗇, 𝖠𝗇𝗌𝗂𝖻𝗅𝖾, 𝖦𝗂𝗍, 𝖪𝗎𝖻𝖾𝗋𝗇𝖾𝗍𝖾𝗌, 𝖳𝖾𝗋𝗋𝖺𝖿𝗈𝗋𝗆, 𝖮𝗉𝖾𝗇𝖲𝗍𝖺𝖼𝗄, 𝖲𝖰𝖫, 𝖭𝗈𝖲𝖰𝖫, 𝖠𝗓𝗎𝗋𝖾, 𝖦𝖢𝖯, 𝖣𝖭𝖲, 𝖤𝗅𝖺𝗌𝗍𝗂𝖼, 𝖭𝖾𝗍𝗐𝗈𝗋𝗄, 𝖵𝗂𝗋𝗍𝗎𝖺𝗅𝗂𝗓𝖺𝗍𝗂𝗈𝗇. 𝖣𝖾𝗏𝖮𝗉𝗌 𝖨𝗇𝗍𝖾𝗋𝗏𝗂𝖾𝗐 𝖰𝗎𝖾𝗌𝗍𝗂𝗈𝗇𝗌",
+                "stargazers_count": 872,
+                "html_url": "https://github.com/NotHarshhaa/into-the-devops",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/112948305?v=4"
+                }
+            },
+            {
+                "id": 837008731,
+                "name": "iac",
+                "description": "GitOps-driven Infrastructure as Code for my homelab",
+                "stargazers_count": 505,
+                "html_url": "https://github.com/Mafyuh/iac",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/97676786?v=4"
+                }
+            },
+            {
+                "id": 421392166,
+                "name": "Everything-Tech",
+                "description": "A collection of online resources to help you on your Tech journey.",
+                "stargazers_count": 433,
+                "html_url": "https://github.com/moabukar/Everything-Tech",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/76791648?v=4"
+                }
+            },
+            {
+                "id": 380761643,
+                "name": "Devops-Tools-Documentation",
+                "description": "This Repository contains DevOps Projects and Tools Documentation step by step practice ",
+                "stargazers_count": 327,
+                "html_url": "https://github.com/johnbedeir/Devops-Tools-Documentation",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/13409860?v=4"
+                }
+            },
+            {
+                "id": 699370064,
+                "name": "Ultimate-DevOps-Resources",
+                "description": "A collection of devops resources ",
+                "stargazers_count": 214,
+                "html_url": "https://github.com/DhanushNehru/Ultimate-DevOps-Resources",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22955675?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "Docker-MCP",
@@ -140,22 +992,184 @@
                 "name": "Kubernetes-Pod-Inspector-MCP",
                 "description": "K8s pod durumlarını, Kubernetes loglarını ve dağıtım şemalarını izlemeyi sağlayan altyapı sunucusu.",
                 "url": "https://github.com/example/k8s-pod-inspector-mcp"
+            },
+            {
+                "name": "AWS-Resource-MCP",
+                "description": "AWS hesabı üzerindeki EC2, S3 ve Lambda servislerinin durumlarını sorgulamayı sağlayan AWS yönetim aracı.",
+                "url": "https://github.com/example/aws-resource-mcp"
             }
         ],
         "ai_agents": [
             {
                 "name": "KubeGuard-Agent",
-                "description": "Kubernetes cluster'larındaki anormal kaynak tüketimlerini ve çökme döngülerini (crashloopbackoff) izleyip otomatik düzelten ajan.",
+                "description": "Kubernetes cluster'larındaki anormal kaynak tüketimlerini ve çökme döngülerini izleyip otomatik düzelten ajan.",
                 "url": "https://github.com/example/kubeguard-agent"
             },
             {
                 "name": "CI-CD-Debugger-Agent",
-                "description": "Başarısız GitHub Actions ve GitLab CI hatlarını analiz ederek hata düzeltme önerileri üreten DevOps asistanı.",
+                "description": "Başarısız GitHub Actions ve GitLab CI hata loglarını analiz ederek düzeltme önerileri üreten DevOps asistanı.",
                 "url": "https://github.com/example/cicd-debugger-agent"
+            },
+            {
+                "name": "Terraform-Validator-Agent",
+                "description": "Bulut altyapı kodlarındaki (IaC) güvenlik açıklarını ve maliyet tasarruf fırsatlarını analiz eden Terraform ajanı.",
+                "url": "https://github.com/example/terraform-validator-agent"
             }
         ]
     },
     "data-science": {
+        "repos": [
+            {
+                "id": 311379516,
+                "name": "DataProfiler",
+                "description": "What's in your data? Extract schema, statistics and entities from datasets",
+                "stargazers_count": 1565,
+                "html_url": "https://github.com/capitalone/DataProfiler",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8644615?v=4"
+                }
+            },
+            {
+                "id": 239520370,
+                "name": "Data-Science-Hacks",
+                "description": "Data Science Hacks consists of tips, tricks to help you become a better data scientist. Data science hacks are for all - beginner to advanced. Data science hacks consist of python, jupyter notebook, pandas hacks and so on. ",
+                "stargazers_count": 430,
+                "html_url": "https://github.com/kunalj101/Data-Science-Hacks",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6491240?v=4"
+                }
+            },
+            {
+                "id": 98572533,
+                "name": "trump-lies",
+                "description": "Tutorial: Web scraping in Python with Beautiful Soup",
+                "stargazers_count": 246,
+                "html_url": "https://github.com/justmarkham/trump-lies",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/6509492?v=4"
+                }
+            },
+            {
+                "id": 518715657,
+                "name": "fpl-ai",
+                "description": "A machine learning system that predicts fpl points of players",
+                "stargazers_count": 42,
+                "html_url": "https://github.com/saheedniyi02/fpl-ai",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/64325621?v=4"
+                }
+            },
+            {
+                "id": 80482233,
+                "name": "chronist",
+                "description": "Long-term analysis of emotion, age, and sentiment using Lifeslice and text records.",
+                "stargazers_count": 26,
+                "html_url": "https://github.com/cjroth/chronist",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/582130?v=4"
+                }
+            },
+            {
+                "id": 1179189308,
+                "name": "raw_real_world_data",
+                "description": "A collection of real-world raw datasets used to practice data analysis, explore patterns, and generate actionable insights.",
+                "stargazers_count": 22,
+                "html_url": "https://github.com/subodhss23/raw_real_world_data",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/23665950?v=4"
+                }
+            },
+            {
+                "id": 1203109442,
+                "name": "NIFTY50-ML-Prediction-EDA",
+                "description": "EDA and comparative analysis of machine learning models for predicting NIFTY50 stock trends using Python.",
+                "stargazers_count": 22,
+                "html_url": "https://github.com/Mandeep2807/NIFTY50-ML-Prediction-EDA",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/185445366?v=4"
+                }
+            },
+            {
+                "id": 265199370,
+                "name": "Online_preprocessing_for_ML",
+                "description": "A complete No-Code Machine Learning platform built with Streamlit. Upload datasets, visualize data, and train models (Regression, SVM, K-Means, PCA) directly in the browser.",
+                "stargazers_count": 16,
+                "html_url": "https://github.com/antonin-lfv/Online_preprocessing_for_ML",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/63207451?v=4"
+                }
+            },
+            {
+                "id": 82682539,
+                "name": "Mini-Project",
+                "description": "Mini-Projects in Master's (Big Data & Data Analytics) at Manipal University",
+                "stargazers_count": 10,
+                "html_url": "https://github.com/varunkashyapks/Mini-Project",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/22388045?v=4"
+                }
+            },
+            {
+                "id": 370230196,
+                "name": "Stroke-Prediction-Model",
+                "description": null,
+                "stargazers_count": 6,
+                "html_url": "https://github.com/Muhammad-Zain01/Stroke-Prediction-Model",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/83939353?v=4"
+                }
+            },
+            {
+                "id": 832215666,
+                "name": "All_ML_Models",
+                "description": "I am adding almost all ml models in this repo for practice purposes.",
+                "stargazers_count": 5,
+                "html_url": "https://github.com/tosifAN/All_ML_Models",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/98203231?v=4"
+                }
+            },
+            {
+                "id": 511630397,
+                "name": "oakstore",
+                "description": "highspeed timeseries pandas dataframe database",
+                "stargazers_count": 4,
+                "html_url": "https://github.com/dominiquegarmier/oakstore",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42445422?v=4"
+                }
+            },
+            {
+                "id": 202876673,
+                "name": "PYTHON-TUTORIAL",
+                "description": "In this Course we are explaining some basic python uses in Data Science and also we will practice top python libraries such as NumPy, pandas, matplotlib, sklearn and so more and last we learn some algorithms.",
+                "stargazers_count": 4,
+                "html_url": "https://github.com/Shaikh-Raza/PYTHON-TUTORIAL",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/53976455?v=4"
+                }
+            },
+            {
+                "id": 942858521,
+                "name": "Data-analysis-of-Tehran-houses",
+                "description": "Data analysis of Tehran houses with NumPy, Pandas and Matplot Lib Python",
+                "stargazers_count": 4,
+                "html_url": "https://github.com/RezaGooner/Data-analysis-of-Tehran-houses",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/149728623?v=4"
+                }
+            },
+            {
+                "id": 383203452,
+                "name": "Directing_Customers_To_Subscription",
+                "description": "Machine Learning model to Direct Customers to Subscription.",
+                "stargazers_count": 3,
+                "html_url": "https://github.com/rishawsingh/Directing_Customers_To_Subscription",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/68506932?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "Pandas-Dataframe-MCP",
@@ -166,6 +1180,11 @@
                 "name": "Jupyter-Notebook-MCP",
                 "description": "Jupyter Notebook dosyalarını (.ipynb) okuyan ve hücre çıktılarını analiz eden entegrasyon.",
                 "url": "https://github.com/example/jupyter-notebook-mcp"
+            },
+            {
+                "name": "SQL-Query-Executor-MCP",
+                "description": "Farklı veri tabanlarından veri çekmek için optimize edilmiş SQL sorguları yürüten ve çıktıları veri analizine aktaran sunucu.",
+                "url": "https://github.com/example/sql-query-executor-mcp"
             }
         ],
         "ai_agents": [
@@ -178,10 +1197,167 @@
                 "name": "FeatureEngineering-Agent",
                 "description": "Makine öğrenmesi modelleri için veri setinden otomatik olarak yeni öznitelikler (features) türeten veri mühendisi.",
                 "url": "https://github.com/example/featureengineering-agent"
+            },
+            {
+                "name": "Model-Selector-Agent",
+                "description": "Verilen veri setine göre en uygun makine öğrenmesi algoritmasını seçen ve hiperparametre optimizasyonu yapan ML ajanı.",
+                "url": "https://github.com/example/model-selector-agent"
             }
         ]
     },
     "game-development": {
+        "repos": [
+            {
+                "id": 1155965274,
+                "name": "Claude-Code-Game-Studios",
+                "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+                "stargazers_count": 21879,
+                "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/150119193?v=4"
+                }
+            },
+            {
+                "id": 118740023,
+                "name": "MultiplayerNetworkingResources",
+                "description": "A curated list of Multiplayer Game Network Programming Resources",
+                "stargazers_count": 8554,
+                "html_url": "https://github.com/0xFA11/MultiplayerNetworkingResources",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12574651?v=4"
+                }
+            },
+            {
+                "id": 506056362,
+                "name": "GameDevMind",
+                "description": "最全面的游戏开发技术图谱(Game Development Map)。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。",
+                "stargazers_count": 6357,
+                "html_url": "https://github.com/gonglei007/GameDevMind",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5304584?v=4"
+                }
+            },
+            {
+                "id": 665169534,
+                "name": "Awesome-Game-Analysis",
+                "description": "a comprehensive collection of video game tech analysis resources",
+                "stargazers_count": 1143,
+                "html_url": "https://github.com/OTFCG/Awesome-Game-Analysis",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/138842469?v=4"
+                }
+            },
+            {
+                "id": 586687868,
+                "name": "Awesome-Gamedev",
+                "description": "A curated collection of resources to game development.",
+                "stargazers_count": 608,
+                "html_url": "https://github.com/FronkonGames/Awesome-Gamedev",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/100220849?v=4"
+                }
+            },
+            {
+                "id": 929429598,
+                "name": "UnityStarter",
+                "description": "A production-ready, modular Unity framework with UE-inspired Gameplay Ability System, zero-GC infrastructure, and hot-update support. Battle-tested, DI-friendly, and cross-platform optimized.    一个高性能、高拓展性、高度优化、支持热更新、功能强大的 Unity 启动模板。具有类虚幻引擎的 GameplayFramework 与 GAS 设计，高度兼容各类控制反转（IoC/DI）框架。",
+                "stargazers_count": 570,
+                "html_url": "https://github.com/MaiKuraki/UnityStarter",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/12414727?v=4"
+                }
+            },
+            {
+                "id": 612542289,
+                "name": "ultimate-XR-dev-guide",
+                "description": "A curated list of XR/VR/AR and Spatial Computing development resources.",
+                "stargazers_count": 311,
+                "html_url": "https://github.com/authorTom/ultimate-XR-dev-guide",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/63931206?v=4"
+                }
+            },
+            {
+                "id": 722367297,
+                "name": "omath",
+                "description": "Cross-platform modern general purpose game/mods/cheats development framework written in C++23.",
+                "stargazers_count": 216,
+                "html_url": "https://github.com/orange-cpp/omath",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/59374393?v=4"
+                }
+            },
+            {
+                "id": 1254172144,
+                "name": "FreeUltraCode",
+                "description": "FreeUltraCode - AI coding agent for game development: engine workflows, gameplay code, and asset generation.",
+                "stargazers_count": 214,
+                "html_url": "https://github.com/wellingfeng/FreeUltraCode",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/29722694?v=4"
+                }
+            },
+            {
+                "id": 511143592,
+                "name": "TextureMerge",
+                "description": "pack/merge textures into image channels.",
+                "stargazers_count": 146,
+                "html_url": "https://github.com/fidifis/TextureMerge",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/69242290?v=4"
+                }
+            },
+            {
+                "id": 829013832,
+                "name": "awesome-mixed-reality",
+                "description": "🌟 A curated list of awesome resources for Mixed Reality development.",
+                "stargazers_count": 81,
+                "html_url": "https://github.com/saurabhchalke/awesome-mixed-reality",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/17354920?v=4"
+                }
+            },
+            {
+                "id": 682469730,
+                "name": "GameDevMind-EN",
+                "description": "The most comprehensive technical map of game development. Help game developers save time on known problems and save more energy for more creative work.",
+                "stargazers_count": 64,
+                "html_url": "https://github.com/gonglei007/GameDevMind-EN",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/5304584?v=4"
+                }
+            },
+            {
+                "id": 1188602158,
+                "name": "ai_game_base_analysis_cli_mcp_tool",
+                "description": "Game Codebase Analysis AI Agentic Tool",
+                "stargazers_count": 54,
+                "html_url": "https://github.com/pirua-game/ai_game_base_analysis_cli_mcp_tool",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42488693?v=4"
+                }
+            },
+            {
+                "id": 1194055946,
+                "name": "everything-game-dev-code",
+                "description": "A universal scaffold for AI-assisted game development. 42 agents, 51 commands, 86 skills. Multi-engine (Unity, Unreal, Godot, HTML). Multi-harness (Claude Code, Codex, Cursor, OpenCode, Kiro).",
+                "stargazers_count": 49,
+                "html_url": "https://github.com/MRCalderon3D/everything-game-dev-code",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/779337?v=4"
+                }
+            },
+            {
+                "id": 93903775,
+                "name": "PowerOf2ImageResizer",
+                "description": "Power of 2 Image Resizer for Game Engine Textures",
+                "stargazers_count": 40,
+                "html_url": "https://github.com/RyanAWalters/PowerOf2ImageResizer",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/24511588?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "Unity-Profiler-MCP",
@@ -192,22 +1368,184 @@
                 "name": "Blender-Automation-MCP",
                 "description": "Blender Python API'sini kullanarak otonom olarak basit 3D modeller üreten tasarım sunucusu.",
                 "url": "https://github.com/example/blender-automation-mcp"
+            },
+            {
+                "name": "Unreal-Blueprint-Inspector-MCP",
+                "description": "Unreal Engine üzerindeki Blueprint görsel kodlama şemalarını okuyup olası mantıksal hataları denetleyen araç.",
+                "url": "https://github.com/example/unreal-blueprint-inspector-mcp"
             }
         ],
         "ai_agents": [
             {
                 "name": "Playtest-Agent",
-                "description": "Oyun mekaniklerini test etmek için oyunu otonom oynayan ve çarpışma (collision) hatalarını raporlayan yapay zeka ajanı.",
+                "description": "Oyun mekaniklerini test etmek için oyunu otonom oynayan ve çarpışma hatalarını raporlayan yapay zeka ajanı.",
                 "url": "https://github.com/example/playtest-agent"
             },
             {
                 "name": "BehaviorTree-Agent",
                 "description": "Düşman NPC'leri için optimize edilmiş yapay zeka davranış ağaçları (Behavior Trees) tasarlayan oyun geliştirme asistanı.",
                 "url": "https://github.com/example/behaviortree-agent"
+            },
+            {
+                "name": "Procedural-World-Agent",
+                "description": "Oyun dünyası için kurallara göre otonom olarak zindan (dungeon) ve harita tasarımları oluşturan usulsel tasarım ajanı.",
+                "url": "https://github.com/example/procedural-world-agent"
             }
         ]
     },
     "blockchain": {
+        "repos": [
+            {
+                "id": 476957520,
+                "name": "WTF-Solidity",
+                "description": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
+                "stargazers_count": 14000,
+                "html_url": "https://github.com/AmazingAng/WTF-Solidity",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/14728591?v=4"
+                }
+            },
+            {
+                "id": 389803219,
+                "name": "full-blockchain-solidity-course-py",
+                "description": "Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition",
+                "stargazers_count": 11205,
+                "html_url": "https://github.com/smartcontractkit/full-blockchain-solidity-course-py",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25111032?v=4"
+                }
+            },
+            {
+                "id": 109102073,
+                "name": "eattheblocks",
+                "description": "Source code for Eat The Blocks, a screencast for Ethereum Dapp Developers",
+                "stargazers_count": 3988,
+                "html_url": "https://github.com/jklepatch/eattheblocks",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/9279488?v=4"
+                }
+            },
+            {
+                "id": 440078417,
+                "name": "free-Web3-resources",
+                "description": "A list of FREE resources to make Web3 accessible to everyone.",
+                "stargazers_count": 3666,
+                "html_url": "https://github.com/FrancescoXX/free-Web3-resources",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/18360871?v=4"
+                }
+            },
+            {
+                "id": 102210005,
+                "name": "TypeChain",
+                "description": "🔌 TypeScript bindings for Ethereum smart contracts",
+                "stargazers_count": 2801,
+                "html_url": "https://github.com/dethcrypto/TypeChain",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/42468078?v=4"
+                }
+            },
+            {
+                "id": 414031826,
+                "name": "secureum-mind_map",
+                "description": "Central Repository for the Epoch 0 coursework and quizzes. Contains all the content, cross-referenced and linked. ",
+                "stargazers_count": 1901,
+                "html_url": "https://github.com/x676f64/secureum-mind_map",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/53136615?v=4"
+                }
+            },
+            {
+                "id": 578490373,
+                "name": "web3-examples",
+                "description": "欢迎来到 Web3 世界，这里汇集了大量 Web3 示例项目和高质量学习资源。加入我们，和一百万开发者同行，一起探索并塑造未来世界的繁荣景象。立刻行动，开启您的 Web3 之旅！",
+                "stargazers_count": 1705,
+                "html_url": "https://github.com/luzhenqian/web3-examples",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/33050549?v=4"
+                }
+            },
+            {
+                "id": 400041672,
+                "name": "Blockchain-Development-Resources",
+                "description": "The contents of this repository will help you launch a career in Blockchain development. How to deploy Smart contracts on Ethereum, build DApps, DeFi, DAO, NFT and Token protocol.",
+                "stargazers_count": 1523,
+                "html_url": "https://github.com/frankiefab100/Blockchain-Development-Resources",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/46662771?v=4"
+                }
+            },
+            {
+                "id": 118369156,
+                "name": "eth-crypto",
+                "description": "Cryptographic javascript-functions for ethereum and tutorials to use them with web3js and solidity",
+                "stargazers_count": 916,
+                "html_url": "https://github.com/pubkey/eth-crypto",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/8926560?v=4"
+                }
+            },
+            {
+                "id": 953039794,
+                "name": "awesome-crypto",
+                "description": "币圈导航虚拟加密货币资源大全，手动整理的全网最全虚拟货币学习资料，涵盖了中心化交易所（如欧易OKX、币安Binance、Gate.io）、NFT市场、DeFi工具、加密钱包、巨鲸追踪和数据分析等，帮助用户轻松导航加密货币世界。涉及币圈导航、虚拟货币、交易所返佣、Web3.0等内容本指南将持续更新，力求保持最新、最全面的币圈信息，币圈导航祝各位早点财务自由。👉 www.0xnav.com",
+                "stargazers_count": 872,
+                "html_url": "https://github.com/itgoyo/awesome-crypto",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/23348551?v=4"
+                }
+            },
+            {
+                "id": 448622257,
+                "name": "awesome-web3",
+                "description": "A curated list of awesome Web3 resources, libraries, tools and more.",
+                "stargazers_count": 870,
+                "html_url": "https://github.com/ahmet/awesome-web3",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/309672?v=4"
+                }
+            },
+            {
+                "id": 213649213,
+                "name": "sdk",
+                "description": "Velora allows dApps and traders to get the best DEX liquidity by aggregating multiple markets and offering the best rates",
+                "stargazers_count": 773,
+                "html_url": "https://github.com/VeloraDEX/sdk",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/52015910?v=4"
+                }
+            },
+            {
+                "id": 119250305,
+                "name": "blockchainbooks.github.io",
+                "description": "Blockchain Books",
+                "stargazers_count": 561,
+                "html_url": "https://github.com/BlockchainBooks/blockchainbooks.github.io",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37911673?v=4"
+                }
+            },
+            {
+                "id": 460547508,
+                "name": "damn-vulnerable-defi-foundry",
+                "description": "Damn Vulnerable DeFi - Foundry Version",
+                "stargazers_count": 511,
+                "html_url": "https://github.com/nicolasgarcia214/damn-vulnerable-defi-foundry",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/37629288?v=4"
+                }
+            },
+            {
+                "id": 456379721,
+                "name": "Decentralized-YouTube",
+                "description": "An YouTube clone built with React, Solidty and Livepeer",
+                "stargazers_count": 428,
+                "html_url": "https://github.com/suhailkakar/Decentralized-YouTube",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/56798748?v=4"
+                }
+            }
+        ],
         "mcp_list": [
             {
                 "name": "Etherscan-API-MCP",
@@ -218,18 +1556,28 @@
                 "name": "Solidity-Compiler-MCP",
                 "description": "Solidity akıllı sözleşme kodlarındaki derleme hatalarını ve zafiyetleri analiz eden derleyici sunucusu.",
                 "url": "https://github.com/example/solidity-compiler-mcp"
+            },
+            {
+                "name": "Web3-Wallet-MCP",
+                "description": "Zincir üstündeki cüzdan bakiyelerini ve akıllı sözleşme durumlarını (read-only) okuyup raporlayan Web3 sunucusu.",
+                "url": "https://github.com/example/web3-wallet-mcp"
             }
         ],
         "ai_agents": [
             {
                 "name": "ContractAuditor-Agent",
-                "description": "Akıllı sözleşmelerdeki güvenlik açıklarını (reentrancy, integer overflow vb.) tarayan otonom denetim ajanı.",
+                "description": "Akıllı sözleşmelerdeki güvenlik açıklarını (reentrancy vb.) tarayan otonom denetim ajanı.",
                 "url": "https://github.com/example/contractauditor-agent"
             },
             {
                 "name": "ArbitrageBot-Agent",
                 "description": "DeFi protokolleri arasında fiyat farklarını izleyerek otonom arbitraj fırsatları arayan Web3 ajanı.",
                 "url": "https://github.com/example/arbitragebot-agent"
+            },
+            {
+                "name": "Gas-Optimizer-Agent",
+                "description": "Solidity kodlarını inceleyerek Ethereum ağındaki işlem ücretlerini (gas) en aza indirecek kod değişiklikleri öneren ajan.",
+                "url": "https://github.com/example/gas-optimizer-agent"
             }
         ]
     }
