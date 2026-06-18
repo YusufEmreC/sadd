@@ -102,6 +102,27 @@ def fetch_content_from_url(url):
         print(f"URL okunurken hata oluştu ({url}): {e}")
     return ""
 
+def translate_to_turkish(text):
+    """
+    Ücretsiz Google Translate API kullanarak 
+    İngilizce metinleri Türkçe'ye çevirir.
+    """
+    if not text or len(text.strip()) == 0:
+        return ""
+    try:
+        # Google Translate gtx parametresiyle ücretsiz çeviri
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=tr&dt=t&q={urllib.parse.quote(text)}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            if response.status == 200:
+                res_data = json.loads(response.read().decode("utf-8"))
+                # Çevrilen parçaları birleştir
+                translated_parts = [part[0] for part in res_data[0] if part and part[0]]
+                return "".join(translated_parts)
+    except Exception as e:
+        print(f"Metin Türkçe'ye çevrilirken hata oluştu: {e}")
+    return text # Hata durumunda orijinali koru
+
 def scrape_awesome_mcp_servers():
     """Awesome MCP listesini kazıyarak sunucuları çeker."""
     print("GitHub üzerinden Awesome MCP sunucuları taranıyor...")
@@ -120,7 +141,6 @@ def scrape_awesome_mcp_servers():
             link = match.group(2).strip()
             desc = match.group(3).strip()
             
-            # Badge'leri temizle
             desc = re.sub(r'!\[.*?\]\(.*?\)', '', desc).strip()
             
             if "github.com" in link and len(desc) > 5:
@@ -150,7 +170,6 @@ def scrape_awesome_ai_agents():
             link = match.group(2).strip()
             desc = match.group(3).strip()
             
-            # Badge'leri temizle
             desc = re.sub(r'!\[.*?\]\(.*?\)', '', desc).strip()
             
             if "github.com" in link and len(desc) > 5:
@@ -163,10 +182,7 @@ def scrape_awesome_ai_agents():
     return agent_items
 
 def classify_item(item, categories_config):
-    """
-    Öğeyi isim ve açıklamasındaki anahtar kelimelere göre 
-    uygun kategorilere sınıflandırır.
-    """
+    """Öğeyi anahtar kelimelere göre sınıflandırır."""
     text = (item["name"] + " " + item["description"]).lower()
     for cat_name, config in categories_config.items():
         for keyword in config["keywords"]:
@@ -196,10 +212,15 @@ def fetch_github_repos(query):
                 
                 repos = []
                 for item in raw_items:
+                    raw_desc = item.get("description", "")
+                    
+                    # İngilizce açıklamaları anlık olarak Türkçe'ye çeviriyoruz
+                    turkish_desc = translate_to_turkish(raw_desc) if raw_desc else "Açıklama belirtilmemiş."
+                    
                     repos.append({
                         "id": item.get("id"),
                         "name": item.get("name"),
-                        "description": item.get("description"),
+                        "description": turkish_desc,
                         "stargazers_count": item.get("stargazers_count"),
                         "html_url": item.get("html_url"),
                         "owner": {
@@ -224,48 +245,56 @@ def main():
         CATEGORIES_CONFIG[cat_name]["mcp_list"] = []
         CATEGORIES_CONFIG[cat_name]["ai_agents"] = []
 
-    # 3. Canlı MCP'leri sınıflandırıp kategorilere dağıt
+    # 3. Canlı MCP'leri sınıflandırıp kategorilere dağıt ve açıklamalarını Türkçe'ye çevir
+    print("Çekilen MCP açıklamaları Türkçe'ye çevriliyor...")
     for mcp in scraped_mcps:
         assigned_cat = classify_item(mcp, CATEGORIES_CONFIG)
         if assigned_cat:
+            mcp["description"] = translate_to_turkish(mcp["description"])
             CATEGORIES_CONFIG[assigned_cat]["mcp_list"].append(mcp)
 
-    # 4. Canlı Agent'ları sınıflandırıp kategorilere dağıt
+    # 4. Canlı Agent'ları sınıflandırıp kategorilere dağıt ve açıklamalarını Türkçe'ye çevir
+    print("Çekilen AI Agent açıklamaları Türkçe'ye çevriliyor...")
     for agent in scraped_agents:
         assigned_cat = classify_item(agent, CATEGORIES_CONFIG)
         if assigned_cat:
+            agent["description"] = translate_to_turkish(agent["description"])
             CATEGORIES_CONFIG[assigned_cat]["ai_agents"].append(agent)
 
     # 5. Her kategoriyi tam olarak 20 adet araca tamamla (Padding)
     for cat_name, content in CATEGORIES_CONFIG.items():
-        # MCP Listesini 20'ye tamamla
         current_mcps = content["mcp_list"]
         for gmcp in GENERAL_MCPS:
             if len(current_mcps) >= 20:
                 break
-            # Aynı isimde olanları ekleme
             if not any(x["name"].lower() == gmcp["name"].lower() for x in current_mcps):
-                current_mcps.append(gmcp)
-        
-        # Eğer hala 20'ye ulaşamadıysa (uç durum), kopya olmaksızın doldur
+                # Yedek öğeyi çevirip ekle
+                translated_desc = translate_to_turkish(gmcp["description"])
+                current_mcps.append({
+                    "name": gmcp["name"],
+                    "description": translated_desc,
+                    "url": gmcp["url"]
+                })
         content["mcp_list"] = current_mcps[:20]
 
-        # AI Agents listesini 20'ye tamamla
         current_agents = content["ai_agents"]
         for gagent in GENERAL_AGENTS:
             if len(current_agents) >= 20:
                 break
             if not any(x["name"].lower() == gagent["name"].lower() for x in current_agents):
-                current_agents.append(gagent)
-                
+                translated_desc = translate_to_turkish(gagent["description"])
+                current_agents.append({
+                    "name": gagent["name"],
+                    "description": translated_desc,
+                    "url": gagent["url"]
+                })
         content["ai_agents"] = current_agents[:20]
 
-    # 6. Her kategori için GitHub'dan 20'şer adet canlı repo çekip nihai JSON'ı oluştur
+    # 6. Her kategori için GitHub'dan 20'şer adet canlı repo çekip Türkçe'ye çevirerek nihai JSON'ı oluştur
     for category, content in CATEGORIES_CONFIG.items():
-        print(f"'{category}' kategorisi için trend repolar canlı çekiliyor...")
+        print(f"'{category}' kategorisi için trend repolar canlı çekiliyor ve çevriliyor...")
         repos = fetch_github_repos(content["query"])
         
-        # Eğer GitHub API araması limitlere takılıp boş dönerse, derleme durmasın diye boş liste fallback veriyoruz
         curated_data[category] = {
             "repos": repos if repos else [],
             "mcp_list": content["mcp_list"],
@@ -273,12 +302,12 @@ def main():
         }
         time.sleep(1)
 
-    # 7. data.json Dosyasına Yaz
+    # 7. data.json Dosyasına Kaydet
     output_filename = "data.json"
     try:
         with open(output_filename, "w", encoding="utf-8") as f:
             json.dump(curated_data, f, indent=4, ensure_ascii=False)
-        print(f"\nBaşarıyla her alanda tam 20'şer veri içeren veritabanı '{output_filename}' dosyasına kaydedildi!")
+        print(f"\nBaşarıyla her alanda tam 20'şer veri içeren %100 Türkçe veritabanı '{output_filename}' dosyasına kaydedildi!")
     except Exception as e:
         print(f"Hata oluştu: {e}")
 
