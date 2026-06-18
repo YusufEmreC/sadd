@@ -155,35 +155,25 @@
         "mcp_list": [
             {
                 "name": "Dart-Analyzer-MCP",
-                "description": "Dart ve Flutter projelerini analiz eden, statik kod analiz hatalarını ve iyileştirme önerilerini raporlayan özelleştirilmiş MCP.",
+                "description": "Dart ve Flutter kod analiz ve iyileştirme aracı.",
                 "url": "https://github.com/example/dart-analyzer-mcp"
-            },
-            {
-                "name": "Flutter-Localization-MCP",
-                "description": "Uygulama içi dil dosyalarını (ARB) otomatik analiz eden ve eksik çevirileri tamamlayan yerelleştirme asistanı.",
-                "url": "https://github.com/example/flutter-localization-mcp"
-            },
-            {
-                "name": "Android-ADB-MCP",
-                "description": "ADB (Android Debug Bridge) komutlarını LLM üzerinden çalıştırarak emülatör ve gerçek cihaz yönetimini sağlayan araç.",
-                "url": "https://github.com/example/android-adb-mcp"
             }
         ],
         "ai_agents": [
             {
-                "name": "AutoGPT-Mobile",
-                "description": "Mobil cihazlarda otonom görevler yürütebilen, uygulama içi aksiyonları simüle eden mobil AI ajanı.",
-                "url": "https://github.com/example/autogpt-mobile"
-            },
-            {
                 "name": "WidgetBuilder-Agent",
-                "description": "Ekran tasarımlarını analiz edip otomatik olarak optimize edilmiş Flutter Widget ağacı üreten kod asistanı.",
+                "description": "Tasarımı otomatik olarak optimize Flutter widget'larına çeviren ajan.",
                 "url": "https://github.com/example/widgetbuilder-agent"
             },
             {
-                "name": "Flutter-Refactor-Agent",
-                "description": "Eski Flutter kodlarını modern state management (Bloc/Cubit) ve Clean Architecture kurallarına göre refaktör eden yapay zeka ajanı.",
-                "url": "https://github.com/example/flutter-refactor-agent"
+                "name": "agent-qa",
+                "description": "Self-improving agentic QA harness for web and mobile tests. Write tests in natural language, use memory to adapt to UI changes, and catch regressions before releases ship.",
+                "url": "https://github.com/vostride/agent-qa"
+            },
+            {
+                "name": "amux",
+                "description": "Open-source agent multiplexer for running dozens of parallel Claude Code sessions with a web dashboard, self-healing watchdog, kanban board, agent-to-agent REST API, and mobile PWA. Python 3 + tmux.",
+                "url": "https://github.com/mixpeek/amux"
             }
         ]
     },
@@ -343,35 +333,55 @@
         "mcp_list": [
             {
                 "name": "Shodan-MCP",
-                "description": "Shodan API entegrasyonu ile internete açık cihazları, zafiyetleri ve portları sorgulamayı sağlayan güvenlik sunucusu.",
+                "description": "Shodan API ile internete açık cihazları ve portları tarar.",
                 "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/shodan"
             },
             {
-                "name": "Hash-Cracker-MCP",
-                "description": "Çeşitli hash algoritmalarını (MD5, SHA256 vb.) kırmak için optimize edilmiş hesaplama motorlarını LLM'e bağlayan sunucu.",
-                "url": "https://github.com/example/hash-cracker-mcp"
+                "name": "thinkchainai/mcpbundles",
+                "description": "MCP Bundles: Create custom bundles of tools and connect providers with OAuth or API keys. Use one MCP server across thousands of integrations, with programmatic tool calling and MCP UI for managing bundles and credentials.",
+                "url": "https://github.com/thinkchainai/mcpbundles"
             },
             {
-                "name": "Nmap-Parser-MCP",
-                "description": "Nmap tarama çıktılarını analiz eden, açık portları ve çalışan servisleri güvenlik kurallarına göre yorumlayan MCP sunucusu.",
-                "url": "https://github.com/example/nmap-parser-mcp"
+                "name": "metorial/metorial",
+                "description": "🎖️ 📇 ☁️ Connect AI agents to 600+ integrations with a single interface - OAuth, scaling, and monitoring included",
+                "url": "https://github.com/metorial/metorial"
             }
         ],
         "ai_agents": [
             {
                 "name": "Pentest-Agent",
-                "description": "Sızma testleri ve web zafiyet taramalarını otomatik gerçekleştiren otonom güvenlik ajanı.",
+                "description": "Sızma testleri gerçekleştiren otonom güvenlik ajanı.",
                 "url": "https://github.com/example/pentest-agent"
             },
             {
-                "name": "ThreatIntel-Agent",
-                "description": "Siber tehdit istihbarat kaynaklarını tarayıp sıfırıncı gün (0-day) açıklarını anlık raporlayan analiz ajanı.",
-                "url": "https://github.com/example/threatintel-agent"
+                "name": "DB GPT",
+                "description": "Interact your data and environment using the local GPT, no data leaks, 100% privately, 100% security",
+                "url": "https://github.com/csunny/DB-GPT"
             },
             {
-                "name": "Phishing-Detector-Agent",
-                "description": "E-postaları ve gelen bağlantıların içeriğini analiz ederek otonom olarak oltalama (phishing) girişimlerini engelleyen ajan.",
-                "url": "https://github.com/example/phishing-detector-agent"
+                "name": "ReviewCerberus",
+                "description": "- 100% free, open-source AI code review tool for analyzing git branch differences with comprehensive security, performance, and quality analysis.",
+                "url": "https://github.com/Kirill89/reviewcerberus"
+            },
+            {
+                "name": "Greywall",
+                "description": "Deny-by-default command sandbox for AI coding agents with filesystem isolation, network control via transparent proxy, built-in profiles for agents like Claude Code or OpenCode, and learning mode for auto-generating configs.",
+                "url": "https://github.com/GreyhavenHQ/greywall"
+            },
+            {
+                "name": "Maestro Orchestrate",
+                "description": "Multi-agent development orchestration platform coordinating 22 specialized AI agents through 4-phase workflows with native parallel execution, persistent sessions, and least-privilege security tiers. Runs on Gemini CLI, Claude Code, and Codex.",
+                "url": "https://github.com/josstei/maestro-orchestrate"
+            },
+            {
+                "name": "AgentsMesh",
+                "description": "The AI Agent Workforce Platform. Remote AI workstations (AgentPods) with PTY sandbox + git worktree isolation, multi-agent collaboration via channels and pod bindings, built-in Kanban with MR/PR integration.",
+                "url": "https://github.com/AgentsMesh/AgentsMesh"
+            },
+            {
+                "name": "ClaudeClaw",
+                "description": "Persistent agent orchestrator plugin for Claude Code — multi-channel routing (Slack, WhatsApp, Telegram), OS-level sandbox isolation, composable extensions, structured memory, webhook triggers",
+                "url": "https://github.com/sbusso/claudeclaw"
             }
         ]
     },
@@ -421,35 +431,145 @@
         "mcp_list": [
             {
                 "name": "PostgreSQL-MCP",
-                "description": "SQL veritabanlarında güvenli sorgulamalar ve şema incelemeleri yapmayı sağlayan resmi sunucu.",
+                "description": "PostgreSQL veritabanlarında güvenli sorgulamalar ve şema analizi.",
                 "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres"
             },
             {
-                "name": "Redis-Cli-MCP",
-                "description": "Redis bellek içi veritabanı komutlarını çalıştırma ve anahtar/değer durumlarını izleme sunucusu.",
-                "url": "https://github.com/example/redis-cli-mcp"
+                "name": "mindsdb/mindsdb",
+                "description": "Connect and unify data across various platforms and databases with [MindsDB as a single MCP server](https://docs.mindsdb.com/mcp/overview).",
+                "url": "https://github.com/mindsdb/mindsdb"
             },
             {
-                "name": "Sqlite-MCP",
-                "description": "Yerel SQLite veritabanı dosyaları üzerinde sorgulamalar yapabilen ve veri manipülasyonu sağlayan hafif sunucu.",
-                "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite"
+                "name": "microsoft/playwright-mcp",
+                "description": "Official Microsoft Playwright MCP server, enabling LLMs to interact with web pages through structured accessibility snapshots",
+                "url": "https://github.com/microsoft/playwright-mcp"
+            },
+            {
+                "name": "hashicorp/terraform-mcp-server",
+                "description": "🎖️🏎️☁️ - The official Terraform MCP Server seamlessly integrates with the Terraform ecosystem, enabling provider discovery, module analysis, and direct Registry API integration for advanced Infrastructure as Code workflows.",
+                "url": "https://github.com/hashicorp/terraform-mcp-server"
+            },
+            {
+                "name": "nwiizo/tfmcp",
+                "description": "🦀 🏠 - A Terraform MCP server allowing AI assistants to manage and operate Terraform environments, enabling reading configurations, analyzing plans, applying configurations, and managing Terraform state.",
+                "url": "https://github.com/nwiizo/tfmcp"
+            },
+            {
+                "name": "automateyournetwork/pyATS_MCP",
+                "description": "Cisco pyATS server enabling structured, model-driven interaction with network devices.",
+                "url": "https://github.com/automateyournetwork/pyATS_MCP"
+            },
+            {
+                "name": "sonirico/mcp-shell",
+                "description": "🏎️ 🏠 🍎 🪟 🐧 Give hands to AI. MCP server to run shell commands securely, auditably, and on demand on isolated environments like docker.",
+                "url": "https://github.com/sonirico/mcp-shell"
+            },
+            {
+                "name": "PThrower/Strata",
+                "description": "AI ecosystem intelligence MCP server. Verified best practices, news, integrations, and MCP server directory across 22 AI ecosystems including Claude, ChatGPT, Gemini, LangChain, Groq, Cursor, and more. Claude-validated, injection-safe, refreshed twice daily. 📇 ☁️",
+                "url": "https://github.com/PThrower/Strata) [![PThrower/Strata MCP server](https://glama.ai/mcp/servers/PThrower/Strata/badges/score.svg)](https://glama.ai/mcp/servers/PThrower/Strata"
+            },
+            {
+                "name": "tumf/mcp-shell-server",
+                "description": "A secure shell command execution server implementing the Model Context Protocol (MCP)",
+                "url": "https://github.com/tumf/mcp-shell-server"
+            },
+            {
+                "name": "sawa-zen/vrchat-mcp",
+                "description": "📇 🏠 This is an MCP server for interacting with the VRChat API. You can retrieve information about friends, worlds, avatars, and more in VRChat.",
+                "url": "https://github.com/sawa-zen/vrchat-mcp"
+            },
+            {
+                "name": "teddyzxcv/ntfy-mcp",
+                "description": "The MCP server that keeps you informed by sending the notification on phone using ntfy",
+                "url": "https://github.com/teddyzxcv/ntfy-mcp"
+            },
+            {
+                "name": "saurabhsharma2u/search-console-mcp",
+                "description": "An MCP server to interact with Google Search Console and Bing Webmasters.",
+                "url": "https://github.com/saurabhsharma2u/search-console-mcp"
+            },
+            {
+                "name": "Aiven-Open/mcp-aiven",
+                "description": "🐍 ☁️ 🎖️ -  Navigate your [Aiven projects](https://go.aiven.io/mcp-server) and interact with the PostgreSQL®, Apache Kafka®, ClickHouse® and OpenSearch® services",
+                "url": "https://github.com/Aiven-Open/mcp-aiven"
+            },
+            {
+                "name": "alexanderzuev/supabase-mcp-server",
+                "description": "Supabase MCP Server with support for SQL query execution and database exploration tools",
+                "url": "https://github.com/alexander-zuev/supabase-mcp-server"
+            },
+            {
+                "name": "bram2w/baserow",
+                "description": "Baserow database integration with table search, list, and row create, read, update, and delete capabilities.",
+                "url": "https://github.com/bram2w/baserow"
             }
         ],
         "ai_agents": [
             {
-                "name": "DB-Optimizer-Agent",
-                "description": "Yavaş çalışan veritabanı sorgularını analiz ederek indeksleme ve sorgu optimizasyon önerileri sunan veri tabanı ajanı.",
-                "url": "https://github.com/example/db-optimizer-agent"
+                "name": "llama-agentic-system",
+                "description": "Agentic components of the Llama Stack APIs",
+                "url": "https://github.com/meta-llama/llama-agentic-system"
             },
             {
-                "name": "SQL-Gen-Agent",
-                "description": "Doğal dilden karmaşık PostgreSQL, MySQL ve MongoDB sorguları üreten ve doğrulayan arka uç geliştirici asistanı.",
-                "url": "https://github.com/example/sql-gen-agent"
+                "name": "agency-swarm",
+                "description": "Reliable agent framework built on top of the latest OpenAI Assistants API.",
+                "url": "https://github.com/VRSEN/agency-swarm"
             },
             {
-                "name": "API-Generator-Agent",
-                "description": "Verilen şemaya göre Go veya Node.js tabanlı Express/NestJS RESTful API uç noktalarını otonom olarak kodlayan ajan.",
-                "url": "https://github.com/example/api-generator-agent"
+                "name": "AgentDock",
+                "description": "Stop wrestling with countless APIs and complex integrations. AgentDock provides the open-source foundation to build, manage, and deploy production-ready AI agents and workflows, frictionlessly.",
+                "url": "https://github.com/AgentDock/AgentDock"
+            },
+            {
+                "name": "Modus",
+                "description": "An open source, serverless framework for building intelligent agents and APIs in Go or AssemblyScript (a TypeScript-like language).",
+                "url": "https://github.com/hypermodeinc/modus"
+            },
+            {
+                "name": "AgentField",
+                "description": "Open-source infrastructure for AI backends. Kubernetes for orchestration, Okta for identity—production-ready from day one.",
+                "url": "https://github.com/Agent-Field/agentfield"
+            },
+            {
+                "name": "Cortex Memory",
+                "description": "A complete solution for agent memory, from extraction and vector search to automated optimization, with a REST API, MCP, CLI, and insights dashboard out-of-the-box.",
+                "url": "https://github.com/sopaco/cortex-mem"
+            },
+            {
+                "name": "Dorothy",
+                "description": "Open-source desktop app to orchestrate multiple AI CLI agents (Claude Code, Codex, Gemini) simultaneously with automations, Kanban management, remote control, and MCP servers.",
+                "url": "https://github.com/Charlie85270/Dorothy"
+            },
+            {
+                "name": "Frontman",
+                "description": "Open-source AI coding agent that lives in your browser, hooks into your dev server, sees the live DOM, component tree, CSS, routes, and logs, then edits the actual source files with instant hot reload.",
+                "url": "https://www.github.com/frontman-ai/frontman"
+            },
+            {
+                "name": "Nanocoder",
+                "description": "Local-first, open-source CLI coding agent built with React and Ink. Bring your own model (Ollama, OpenRouter, or any OpenAI-compatible API), keep your code on your machine. Native tool calling with XML fallback, MCP integration, custom commands and tools. Built by a community collective.",
+                "url": "https://github.com/Nano-Collective/nanocoder"
+            },
+            {
+                "name": "Gobii",
+                "description": "Gobii is an open-source platform for deploying and managing browser-use agents at scale with a conversational interface and API",
+                "url": "https://github.com/gobii-ai/gobii-platform"
+            },
+            {
+                "name": "LLocalSearch",
+                "description": "LLocalSearch is a completely locally running search aggregator using LLM Agents. The user can ask a question and the system will use a chain of LLMs to find the answer. The user can see the progress of the agents and the final answer. No OpenAI or Google API keys are needed.",
+                "url": "https://github.com/nilsherzig/LLocalSearch"
+            },
+            {
+                "name": "Screenpipe",
+                "description": "24/7 local screen + microphone recording with OCR, audio transcription, and semantic search. Gives AI agents long-term context of everything you've seen, said, or heard. MCP server for Claude. 100% local, MIT licensed.",
+                "url": "https://github.com/screenpipe/screenpipe"
+            },
+            {
+                "name": "RestGPT",
+                "description": "An LLM-based autonomous agent controlling real-world applications via RESTful APIs",
+                "url": "https://github.com/Yifan-Song793/RestGPT"
             }
         ]
     },
@@ -608,36 +728,101 @@
         ],
         "mcp_list": [
             {
-                "name": "TailwindCSS-Inspector-MCP",
-                "description": "HTML/React kodlarındaki Tailwind sınıflarını analiz eden ve çakışan CSS kodlarını raporlayan denetleyici.",
-                "url": "https://github.com/example/tailwindcss-inspector-mcp"
-            },
-            {
                 "name": "Figma-API-MCP",
-                "description": "Figma tasarımlarını doğrudan LLM bağlamına çekerek bileşen ve renk paleti analizleri yapmayı sağlayan arayüz sunucusu.",
+                "description": "Figma tasarımlarını LLM bağlamına çeken arayüz sunucusu.",
                 "url": "https://github.com/example/figma-api-mcp"
             },
             {
-                "name": "Browser-Testing-MCP",
-                "description": "Puppeteer yardımıyla frontend arayüzlerini farklı ekran boyutlarında test eden ve görsel hataları LLM'e bildiren sunucu.",
-                "url": "https://github.com/example/browser-testing-mcp"
+                "name": "21st-dev/Magic-MCP",
+                "description": "Create crafted UI components inspired by the best 21st.dev design engineers.",
+                "url": "https://github.com/21st-dev/magic-mcp"
+            },
+            {
+                "name": "thinkchainai/agentinterviews_mcp",
+                "description": "Conduct AI-powered qualitative research interviews and surveys at scale with [Agent Interviews](https://agentinterviews.com). Create interviewers, manage research projects, recruit participants, and analyze interview data through MCP.",
+                "url": "https://github.com/thinkchainai/agentinterviews_mcp"
+            },
+            {
+                "name": "NON906/omniparser-autogui-mcp",
+                "description": "🐍 Automatic operation of on-screen GUI.",
+                "url": "https://github.com/NON906/omniparser-autogui-mcp"
             }
         ],
         "ai_agents": [
             {
-                "name": "UX-Audit-Agent",
-                "description": "Web sitelerinin ekran görüntülerini inceleyip erişilebilirlik (Accessibility) ve tasarım hatalarını raporlayan UX ajanı.",
-                "url": "https://github.com/example/ux-audit-agent"
+                "name": "OpenClaw",
+                "description": "Open-source AI agent framework that turns LLMs into persistent, proactive personal AI agents with multi-channel messaging (Signal, Telegram, Discord, WhatsApp), cron scheduling, memory systems, MCP integration, skill plugins, sub-agent spawning, and browser automation.",
+                "url": "https://github.com/openclaw/openclaw"
             },
             {
-                "name": "Figma-to-React-Agent",
-                "description": "Figma tasarım token'larını okuyup doğrudan temiz Next.js ve Tailwind component'lerine dönüştüren frontend ajanı.",
-                "url": "https://github.com/example/figma-to-react-agent"
+                "name": "Botpress",
+                "description": "The building blocks for building chatbots",
+                "url": "https://github.com/botpress/botpress"
             },
             {
-                "name": "CSS-Grid-Wizard-Agent",
-                "description": "Karmaşık web arayüz taslaklarını modern CSS Grid ve Flexbox kullanarak hatasız koda döken stil asistanı.",
-                "url": "https://github.com/example/css-grid-wizard-agent"
+                "name": "Semantic Kernel",
+                "description": "Microsoft C# SDK to integrate cutting-edge LLM technology quickly and easily into your apps",
+                "url": "https://github.com/microsoft/semantic-kernel"
+            },
+            {
+                "name": "LLM Agents",
+                "description": "Build agents which are controlled by LLMs",
+                "url": "https://github.com/mpaepper/llm_agents"
+            },
+            {
+                "name": "e2b",
+                "description": "Open-source platform for building & deploying virtual developers’ agents",
+                "url": "https://github.com/e2b-dev/e2b"
+            },
+            {
+                "name": "MetaGPT",
+                "description": "The Multi-Agent Meta Programming Framework: Given one line Requirement, return PRD, Design, Tasks, Repo and CI",
+                "url": "https://github.com/geekan/MetaGPT"
+            },
+            {
+                "name": "Lagent",
+                "description": "A lightweight framework for building LLM-based agents",
+                "url": "https://github.com/InternLM/lagent"
+            },
+            {
+                "name": "AG2",
+                "description": "AG2 (from AutoGen creators) is an open-source programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks.",
+                "url": "https://github.com/ag2ai/ag2"
+            },
+            {
+                "name": "AgentVerse",
+                "description": "Provides a flexible framework that simplifies the process of building custom multi-agent environments for LLMs",
+                "url": "https://github.com/openbmb/agentverse"
+            },
+            {
+                "name": "AgentScope",
+                "description": "Start building LLM-empowered multi-agent applications in an easier way.",
+                "url": "https://github.com/modelscope/agentscope"
+            },
+            {
+                "name": "Mastra",
+                "description": "Mastra is an opinionated TypeScript framework that helps you build AI applications and features quickly.",
+                "url": "https://github.com/mastra-ai/mastra"
+            },
+            {
+                "name": "Strands Agents SDK",
+                "description": "A model-driven approach to building AI agents in just a few lines of code.",
+                "url": "https://github.com/strands-agents/sdk-python"
+            },
+            {
+                "name": "VoltAgent",
+                "description": "- An open source TypeScript Framework for building AI agents with built-in LLM observability.",
+                "url": "https://github.com/VoltAgent/voltagent"
+            },
+            {
+                "name": "Astron",
+                "description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
+                "url": "https://github.com/iflytek/astron-agent"
+            },
+            {
+                "name": "Ailoy",
+                "description": "A comprehensive framework for building AI agents that run anywhere, with full local-AI and WASM support.",
+                "url": "https://github.com/brekkylab/ailoy"
             }
         ]
     },
@@ -796,36 +981,136 @@
         ],
         "mcp_list": [
             {
-                "name": "HuggingFace-Spaces-MCP",
-                "description": "HuggingFace üzerindeki açık kaynaklı ML modellerini ve Spaces demolarını sorgulayan entegrasyon sunucusu.",
-                "url": "https://github.com/example/huggingface-spaces-mcp"
+                "name": "maxim-saplin/mcp_safe_local_python_executor",
+                "description": "Safe Python interpreter based on HF Smolagents `LocalPythonExecutor`",
+                "url": "https://github.com/maxim-saplin/mcp_safe_local_python_executor"
             },
             {
-                "name": "Ollama-Local-MCP",
-                "description": "Yerel bilgisayarda çalışan Ollama modellerinin yük durumlarını ve çalışan model listelerini LLM'lere raporlayan araç.",
-                "url": "https://github.com/example/ollama-local-mcp"
+                "name": "areweai/tsgram-mcp",
+                "description": "TSgram: Telegram + Claude with local workspace access on your phone in typescript. Read, write, and vibe code on the go!",
+                "url": "https://github.com/areweai/tsgram-mcp"
             },
             {
-                "name": "OpenAI-Assistants-MCP",
-                "description": "OpenAI Assistants API'sini ve özel asistan fonksiyonlarını MCP protokolüyle diğer LLM'lere bağlayan sunucu.",
-                "url": "https://github.com/example/openai-assistants-mcp"
+                "name": "evc-team-relay-mcp",
+                "description": "Give AI agents read/write access to your Obsidian vault via MCP",
+                "url": "https://github.com/entire-vc/evc-team-relay-mcp) [![evc-team-relay-mcp MCP server](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp/badges/score.svg)](https://glama.ai/mcp/servers/@entire-vc/evc-team-relay-mcp"
+            },
+            {
+                "name": "harrison/ai-counsel",
+                "description": "🐍 🏠 🍎 🪟 🐧 - Deliberative consensus engine enabling multi-round debate between AI models with structured voting, convergence detection, and persistent decision graph memory.",
+                "url": "https://github.com/harrison/ai-counsel"
+            },
+            {
+                "name": "QGIS MCP",
+                "description": "connects QGIS Desktop to Claude AI through the MCP. This integration enables prompt-assisted project creation, layer loading, code execution, and more.",
+                "url": "https://github.com/jjsantos01/qgis_mcp"
+            },
+            {
+                "name": "andybrandt/mcp-simple-arxiv",
+                "description": "🐍 ☁️  MCP for LLM to search and read papers from arXiv",
+                "url": "https://github.com/andybrandt/mcp-simple-arxiv"
+            },
+            {
+                "name": "macrocosm-os/macrocosmos-mcp",
+                "description": "🎖️ 🐍 ☁️ Access real-time X/Reddit/YouTube data directly in your LLM applications  with search phrases, users, and date filtering.",
+                "url": "https://github.com/macrocosm-os/macrocosmos-mcp"
+            },
+            {
+                "name": "andybrandt/mcp-simple-openai-assistant",
+                "description": "🐍 ☁️  MCP to talk to OpenAI assistants (Claude can use any GPT model as his assitant)",
+                "url": "https://github.com/andybrandt/mcp-simple-openai-assistant"
+            },
+            {
+                "name": "kj455/mcp-kibela",
+                "description": "📇 ☁️ Allows AI models to interact with [Kibela](https://kibe.la/)",
+                "url": "https://github.com/kj455/mcp-kibela"
+            },
+            {
+                "name": "marcelmarais/Spotify",
+                "description": "📇 🏠 Control Spotify playback and manage playlists.",
+                "url": "https://github.com/marcelmarais/spotify-mcp-server"
+            },
+            {
+                "name": "MonadsAG/capsulecrm-mcp",
+                "description": "📇 ☁️ Allows AI clients to manage contacts, opportunities and tasks in Capsule CRM including Claude Desktop ready DTX-file",
+                "url": "https://github.com/MonadsAG/capsulecrm-mcp"
             }
         ],
         "ai_agents": [
             {
-                "name": "AutoGPT",
-                "description": "Belirlenen hedeflere ulaşmak için kendi kendine internet araması yapan ve görevler oluşturan otonom AI ajanı.",
-                "url": "https://github.com/Significant-Gravitas/AutoGPT"
-            },
-            {
                 "name": "BabyAGI",
-                "description": "Görev oluşturma, önceliklendirme ve çalıştırma süreçlerini döngüsel olarak yöneten yapay zeka ajanı.",
+                "description": "Görev oluşturma ve önceliklendirme süreçlerini yöneten yapay zeka ajanı.",
                 "url": "https://github.com/yoheinakajima/babyagi"
             },
             {
-                "name": "LangGraph-Agent",
-                "description": "Karmaşık durum geçişli (stateful) çoklu ajan sistemlerini döngüsel grafikler halinde yöneten gelişmiş orkestrasyon ajanı.",
-                "url": "https://github.com/example/langgraph-agent"
+                "name": "AutoGPT",
+                "description": "İnternet aramalı genel otonom görev yöneticisi.",
+                "url": "https://github.com/Significant-Gravitas/AutoGPT"
+            },
+            {
+                "name": "Hermes Agent",
+                "description": "The agent that grows with you",
+                "url": "https://github.com/nousresearch/hermes-agent"
+            },
+            {
+                "name": "LlamaIndex",
+                "description": "provides a central interface to connect your LLM's with external data.",
+                "url": "https://github.com/jerryjliu/llama_index"
+            },
+            {
+                "name": "LangChain",
+                "description": "the original 🐍",
+                "url": "https://github.com/hwchase17/langchain"
+            },
+            {
+                "name": "Haystack",
+                "description": "NLP framework to interact with your data using Transformer models and LLMs",
+                "url": "https://github.com/deepset-ai/haystack"
+            },
+            {
+                "name": "Agent-LLM",
+                "description": "An Artificial Intelligence Automation Platform.",
+                "url": "https://github.com/Josh-XT/Agent-LLM"
+            },
+            {
+                "name": "Maestro",
+                "description": "A framework for Claude Opus to intelligently orchestrate subagents.",
+                "url": "https://github.com/Doriandarko/maestro"
+            },
+            {
+                "name": "CrewAI",
+                "description": "Cutting-edge framework for orchestrating role-playing, autonomous AI agents.",
+                "url": "https://github.com/joaomdmoura/crewai"
+            },
+            {
+                "name": "Swarm",
+                "description": "Educational framework exploring ergonomic, lightweight multi-agent orchestration by OpenAI.",
+                "url": "https://github.com/openai/swarm"
+            },
+            {
+                "name": "Upsonic",
+                "description": "Reliable agent framework that supports MCP.",
+                "url": "https://github.com/upsonic/upsonic"
+            },
+            {
+                "name": "Vectara-agentic",
+                "description": "Vectara-agentic is a framework for creating AI Assistants and agents using Vectara.",
+                "url": "https://github.com/vectara/py-vectara-agentic"
+            },
+            {
+                "name": "Swarms Framework",
+                "description": "Bleeding-Edge Multi-Agent Orchestration Framework for Enterprise Applications",
+                "url": "https://github.com/kyegomez/swarms"
+            },
+            {
+                "name": "Agentic Context Engine",
+                "description": "Self-improving agents that learn from execution feedback. LangChain integration for agents that curate their own context.",
+                "url": "https://github.com/kayba-ai/agentic-context-engine"
+            },
+            {
+                "name": "PraisonAI",
+                "description": "Production-ready Multi-AI Agents framework with self-reflection. Fastest agent instantiation (3.77μs), 100+ LLM support, MCP integration, workflows, memory, and both Python & JavaScript SDKs.",
+                "url": "https://github.com/MervinPraison/PraisonAI"
             }
         ]
     },
@@ -985,37 +1270,16 @@
         "mcp_list": [
             {
                 "name": "Docker-MCP",
-                "description": "Docker konteynerlerini denetlemek, logları okumak ve yönetim komutları çalıştırmak için entegrasyon sunucusu.",
+                "description": "Docker konteynerlerini denetlemek ve logları okumak için.",
                 "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/docker"
             },
             {
-                "name": "Kubernetes-Pod-Inspector-MCP",
-                "description": "K8s pod durumlarını, Kubernetes loglarını ve dağıtım şemalarını izlemeyi sağlayan altyapı sunucusu.",
-                "url": "https://github.com/example/k8s-pod-inspector-mcp"
-            },
-            {
-                "name": "AWS-Resource-MCP",
-                "description": "AWS hesabı üzerindeki EC2, S3 ve Lambda servislerinin durumlarını sorgulamayı sağlayan AWS yönetim aracı.",
-                "url": "https://github.com/example/aws-resource-mcp"
+                "name": "jdubois/azure-cli-mcp",
+                "description": "A wrapper around the Azure CLI command line that allows you to talk directly to Azure",
+                "url": "https://github.com/jdubois/azure-cli-mcp"
             }
         ],
-        "ai_agents": [
-            {
-                "name": "KubeGuard-Agent",
-                "description": "Kubernetes cluster'larındaki anormal kaynak tüketimlerini ve çökme döngülerini izleyip otomatik düzelten ajan.",
-                "url": "https://github.com/example/kubeguard-agent"
-            },
-            {
-                "name": "CI-CD-Debugger-Agent",
-                "description": "Başarısız GitHub Actions ve GitLab CI hata loglarını analiz ederek düzeltme önerileri üreten DevOps asistanı.",
-                "url": "https://github.com/example/cicd-debugger-agent"
-            },
-            {
-                "name": "Terraform-Validator-Agent",
-                "description": "Bulut altyapı kodlarındaki (IaC) güvenlik açıklarını ve maliyet tasarruf fırsatlarını analiz eden Terraform ajanı.",
-                "url": "https://github.com/example/terraform-validator-agent"
-            }
-        ]
+        "ai_agents": []
     },
     "data-science": {
         "repos": [
@@ -1172,38 +1436,12 @@
         ],
         "mcp_list": [
             {
-                "name": "Pandas-Dataframe-MCP",
-                "description": "Büyük veri setlerini (CSV/Parquet) bellek üzerinde sorgulama ve filtreleme araçları sunan veri bilimi sunucusu.",
-                "url": "https://github.com/example/pandas-dataframe-mcp"
-            },
-            {
-                "name": "Jupyter-Notebook-MCP",
-                "description": "Jupyter Notebook dosyalarını (.ipynb) okuyan ve hücre çıktılarını analiz eden entegrasyon.",
-                "url": "https://github.com/example/jupyter-notebook-mcp"
-            },
-            {
-                "name": "SQL-Query-Executor-MCP",
-                "description": "Farklı veri tabanlarından veri çekmek için optimize edilmiş SQL sorguları yürüten ve çıktıları veri analizine aktaran sunucu.",
-                "url": "https://github.com/example/sql-query-executor-mcp"
+                "name": "andybrandt/mcp-simple-pubmed",
+                "description": "🐍 ☁️  MCP to search and read medical / life sciences papers from PubMed.",
+                "url": "https://github.com/andybrandt/mcp-simple-pubmed"
             }
         ],
-        "ai_agents": [
-            {
-                "name": "AutoEDA-Agent",
-                "description": "Ham veriyi yükleyip otomatik olarak Keşifsel Veri Analizi (EDA) grafikleri ve istatistiksel raporlar üreten ajan.",
-                "url": "https://github.com/example/autoeda-agent"
-            },
-            {
-                "name": "FeatureEngineering-Agent",
-                "description": "Makine öğrenmesi modelleri için veri setinden otomatik olarak yeni öznitelikler (features) türeten veri mühendisi.",
-                "url": "https://github.com/example/featureengineering-agent"
-            },
-            {
-                "name": "Model-Selector-Agent",
-                "description": "Verilen veri setine göre en uygun makine öğrenmesi algoritmasını seçen ve hiperparametre optimizasyonu yapan ML ajanı.",
-                "url": "https://github.com/example/model-selector-agent"
-            }
-        ]
+        "ai_agents": []
     },
     "game-development": {
         "repos": [
@@ -1358,40 +1596,8 @@
                 }
             }
         ],
-        "mcp_list": [
-            {
-                "name": "Unity-Profiler-MCP",
-                "description": "Unity oyun motorundaki bellek kaçaklarını, kare hızlarını (FPS) ve CPU tüketimini LLM'e raporlayan araç.",
-                "url": "https://github.com/example/unity-profiler-mcp"
-            },
-            {
-                "name": "Blender-Automation-MCP",
-                "description": "Blender Python API'sini kullanarak otonom olarak basit 3D modeller üreten tasarım sunucusu.",
-                "url": "https://github.com/example/blender-automation-mcp"
-            },
-            {
-                "name": "Unreal-Blueprint-Inspector-MCP",
-                "description": "Unreal Engine üzerindeki Blueprint görsel kodlama şemalarını okuyup olası mantıksal hataları denetleyen araç.",
-                "url": "https://github.com/example/unreal-blueprint-inspector-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "Playtest-Agent",
-                "description": "Oyun mekaniklerini test etmek için oyunu otonom oynayan ve çarpışma hatalarını raporlayan yapay zeka ajanı.",
-                "url": "https://github.com/example/playtest-agent"
-            },
-            {
-                "name": "BehaviorTree-Agent",
-                "description": "Düşman NPC'leri için optimize edilmiş yapay zeka davranış ağaçları (Behavior Trees) tasarlayan oyun geliştirme asistanı.",
-                "url": "https://github.com/example/behaviortree-agent"
-            },
-            {
-                "name": "Procedural-World-Agent",
-                "description": "Oyun dünyası için kurallara göre otonom olarak zindan (dungeon) ve harita tasarımları oluşturan usulsel tasarım ajanı.",
-                "url": "https://github.com/example/procedural-world-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     },
     "blockchain": {
         "repos": [
@@ -1546,39 +1752,7 @@
                 }
             }
         ],
-        "mcp_list": [
-            {
-                "name": "Etherscan-API-MCP",
-                "description": "Ethereum akıllı sözleşme kodlarını, gas ücretlerini ve cüzdan işlemlerini sorgulayan zincir dışı arayüz sunucusu.",
-                "url": "https://github.com/example/etherscan-api-mcp"
-            },
-            {
-                "name": "Solidity-Compiler-MCP",
-                "description": "Solidity akıllı sözleşme kodlarındaki derleme hatalarını ve zafiyetleri analiz eden derleyici sunucusu.",
-                "url": "https://github.com/example/solidity-compiler-mcp"
-            },
-            {
-                "name": "Web3-Wallet-MCP",
-                "description": "Zincir üstündeki cüzdan bakiyelerini ve akıllı sözleşme durumlarını (read-only) okuyup raporlayan Web3 sunucusu.",
-                "url": "https://github.com/example/web3-wallet-mcp"
-            }
-        ],
-        "ai_agents": [
-            {
-                "name": "ContractAuditor-Agent",
-                "description": "Akıllı sözleşmelerdeki güvenlik açıklarını (reentrancy vb.) tarayan otonom denetim ajanı.",
-                "url": "https://github.com/example/contractauditor-agent"
-            },
-            {
-                "name": "ArbitrageBot-Agent",
-                "description": "DeFi protokolleri arasında fiyat farklarını izleyerek otonom arbitraj fırsatları arayan Web3 ajanı.",
-                "url": "https://github.com/example/arbitragebot-agent"
-            },
-            {
-                "name": "Gas-Optimizer-Agent",
-                "description": "Solidity kodlarını inceleyerek Ethereum ağındaki işlem ücretlerini (gas) en aza indirecek kod değişiklikleri öneren ajan.",
-                "url": "https://github.com/example/gas-optimizer-agent"
-            }
-        ]
+        "mcp_list": [],
+        "ai_agents": []
     }
 }
