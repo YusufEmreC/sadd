@@ -5,7 +5,7 @@
                 "id": 31792824,
                 "name": "flutter",
                 "description": "Flutter, mobil cihazlar ve ötesinde güzel uygulamalar geliştirmeyi kolay ve hızlı hale getiriyor",
-                "stargazers_count": 178504,
+                "stargazers_count": 178539,
                 "html_url": "https://github.com/flutter/flutter",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4"
@@ -15,7 +15,7 @@
                 "id": 299354207,
                 "name": "rustdesk",
                 "description": "TeamViewer'a alternatif olarak kendi kendini barındırmak için tasarlanmış açık kaynaklı bir uzak masaüstü uygulaması.",
-                "stargazers_count": 121284,
+                "stargazers_count": 121374,
                 "html_url": "https://github.com/rustdesk/rustdesk",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/71636191?v=4"
@@ -25,7 +25,7 @@
                 "id": 578822531,
                 "name": "localsend",
                 "description": "AirDrop'a açık kaynaklı çapraz platform alternatifi",
-                "stargazers_count": 88761,
+                "stargazers_count": 88830,
                 "html_url": "https://github.com/localsend/localsend",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/120677616?v=4"
@@ -35,7 +35,7 @@
                 "id": 164608222,
                 "name": "flutter-go",
                 "description": "Flutter'da yaygın olarak kullanılan 140'tan fazla bileşen için demolar ve Çince belgeler içeren Flutter Geliştirici Yardım UYGULAMASI",
-                "stargazers_count": 23650,
+                "stargazers_count": 23651,
                 "html_url": "https://github.com/alibaba/flutter-go",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4"
@@ -65,7 +65,7 @@
                 "id": 142308181,
                 "name": "gsy_github_app_flutter",
                 "description": "Flutter, zengin işlevlere sahip, öğrenmeye ve günlük kullanıma uygun, ultra eksiksiz bir açık kaynaklı projedir. GSYGithubApp serisinin avantajları: Şu anda tam işlevlere sahip Flutter, Weex, ReactNative, Kotlin View, Kotlin Jetpack Compose, Compose MultiPlatform ve Harmony ArkUI'nin yedi sürümüne sahibiz. Proje çerçevesindeki teknoloji, yüksek düzeyde tamamlanma, sürekli bakım ve kapsamlı öğrenme ve karşılaştırma referansına uygun destekleyici makaleler ile geniş bir konu yelpazesini kapsamaktadır.",
-                "stargazers_count": 15478,
+                "stargazers_count": 15480,
                 "html_url": "https://github.com/CarGuo/gsy_github_app_flutter",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10770362?v=4"
@@ -75,7 +75,7 @@
                 "id": 629282922,
                 "name": "pilipala",
                 "description": "PiliPala, Flutter kullanılarak geliştirilen üçüncü taraf bir BiliBili istemcisidir. Kullandığınız için teşekkür ederiz.",
-                "stargazers_count": 13846,
+                "stargazers_count": 13849,
                 "html_url": "https://github.com/guozhigq/pilipala",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/25545225?v=4"
@@ -115,7 +115,7 @@
                 "id": 107833072,
                 "name": "flame",
                 "description": "Flutter tabanlı bir oyun motoru.",
-                "stargazers_count": 10725,
+                "stargazers_count": 10726,
                 "html_url": "https://github.com/flame-engine/flame",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/47222401?v=4"
@@ -145,7 +145,7 @@
                 "id": 112027892,
                 "name": "flutter_architecture_samples",
                 "description": "Flutter için TodoMVC",
-                "stargazers_count": 8926,
+                "stargazers_count": 8927,
                 "html_url": "https://github.com/brianegan/flutter_architecture_samples",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/126604?v=4"
@@ -155,7 +155,7 @@
                 "id": 248628088,
                 "name": "FlutterUnit",
                 "description": "Tüm Platformlarda Flutter Deneyimi Uygulaması",
-                "stargazers_count": 8840,
+                "stargazers_count": 8841,
                 "html_url": "https://github.com/toly1994328/FlutterUnit",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/26687012?v=4"
@@ -165,7 +165,7 @@
                 "id": 778774319,
                 "name": "anx-reader",
                 "description": "Güçlü yapay zeka yeteneklerine sahip olan ve çeşitli e-kitap formatlarını destekleyen bu kitap, okumayı daha akıllı ve daha odaklı hale getiriyor.",
-                "stargazers_count": 8718,
+                "stargazers_count": 8720,
                 "html_url": "https://github.com/Anxcye/anx-reader",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/91717732?v=4"
@@ -175,7 +175,7 @@
                 "id": 597987003,
                 "name": "PicaComic",
                 "description": "Birden fazla çizgi roman kaynağını destekleyen, Flutter ile oluşturulmuş bir çizgi roman uygulaması.",
-                "stargazers_count": 8659,
+                "stargazers_count": 8658,
                 "html_url": "https://github.com/wgh136/PicaComic",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/67669799?v=4"
@@ -195,7 +195,7 @@
                 "id": 405856817,
                 "name": "flutter_server_box",
                 "description": "ServerBox - sunucu durumu ve araç kutusu",
-                "stargazers_count": 8551,
+                "stargazers_count": 8554,
                 "html_url": "https://github.com/lollipopkit/flutter_server_box",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10864310?v=4"
@@ -333,7 +333,7 @@
                 "id": 71220757,
                 "name": "PayloadsAllTheThings",
                 "description": "Web Uygulaması Güvenliği ve Pentest/CTF için faydalı yüklerin ve bypassların listesi",
-                "stargazers_count": 80188,
+                "stargazers_count": 80216,
                 "html_url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/12152583?v=4"
@@ -343,7 +343,7 @@
                 "id": 127752367,
                 "name": "hacker-roadmap",
                 "description": "Etik korsanlığı uygulamaya yönelik bilgisayar korsanlığı araçları, kaynakları ve referanslarından oluşan bir koleksiyon.",
-                "stargazers_count": 15563,
+                "stargazers_count": 15564,
                 "html_url": "https://github.com/sundowndev/hacker-roadmap",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/16480203?v=4"
@@ -353,7 +353,7 @@
                 "id": 325671936,
                 "name": "reconftw",
                 "description": "reconFTW, tarama gerçekleştirmek ve güvenlik açıklarını bulmak için en iyi araç setini çalıştırarak hedef etki alanında otomatik keşif gerçekleştirmek üzere tasarlanmış bir araçtır",
-                "stargazers_count": 8001,
+                "stargazers_count": 8003,
                 "html_url": "https://github.com/six2dez/reconftw",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/24670991?v=4"
@@ -363,7 +363,7 @@
                 "id": 416151847,
                 "name": "yakit",
                 "description": "Siber Güvenlik HEPSİ BİR ARADA Platform",
-                "stargazers_count": 7686,
+                "stargazers_count": 7687,
                 "html_url": "https://github.com/yaklang/yakit",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/84704082?v=4"
@@ -373,7 +373,7 @@
                 "id": 292318639,
                 "name": "AllAboutBugBounty",
                 "description": "Hata ödülü hakkında her şey (baypaslar, veriler vb.)",
-                "stargazers_count": 6829,
+                "stargazers_count": 6830,
                 "html_url": "https://github.com/daffainfo/AllAboutBugBounty",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/36522826?v=4"
@@ -383,7 +383,7 @@
                 "id": 950915,
                 "name": "WhatWeb",
                 "description": "Yeni nesil web tarayıcısı",
-                "stargazers_count": 6787,
+                "stargazers_count": 6790,
                 "html_url": "https://github.com/urbanadventurer/WhatWeb",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/101783?v=4"
@@ -393,7 +393,7 @@
                 "id": 689013903,
                 "name": "NetExec",
                 "description": "Ağ Yürütme Aracı",
-                "stargazers_count": 5798,
+                "stargazers_count": 5800,
                 "html_url": "https://github.com/Pennyw0rth/NetExec",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/144470396?v=4"
@@ -443,7 +443,7 @@
                 "id": 5441179,
                 "name": "blackarch",
                 "description": "Sızma test uzmanları ve güvenlik araştırmacıları için ArchLinux tabanlı bir dağıtım.",
-                "stargazers_count": 3466,
+                "stargazers_count": 3465,
                 "html_url": "https://github.com/BlackArch/blackarch",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/6171113?v=4"
@@ -473,7 +473,7 @@
                 "id": 102005234,
                 "name": "collection-document",
                 "description": "Kaliteli güvenlik makalelerinin toplanması. Harika makaleler.",
-                "stargazers_count": 2114,
+                "stargazers_count": 2116,
                 "html_url": "https://github.com/tom0li/collection-document",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/23234555?v=4"
@@ -483,7 +483,7 @@
                 "id": 1158138383,
                 "name": "CyberStrike",
                 "description": "Açık kaynaklı yapay zeka destekli saldırı güvenlik donanımı. 13+ otonom aracı, 150+ LLM sağlayıcısı, 5.300+ model, 7.600+ Ed25519 imzalı saldırı becerisi, 56+ yerleşik araç, 176+ MCP aracı. MITRE ATT&CK, OWASP WSTG, CIS Karşılaştırmaları. Yararlanma sonrası: Linux/Windows/macOS/AWS/Azure/K8s/CI-CD. Web kullanıcı arayüzü + Cloudflare Tüneli. AI kırmızı ekibiniz.",
-                "stargazers_count": 1889,
+                "stargazers_count": 1901,
                 "html_url": "https://github.com/CyberStrikeus/CyberStrike",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/257690573?v=4"
@@ -503,7 +503,7 @@
                 "id": 58249831,
                 "name": "Cloakify",
                 "description": "CloakifyFactory - Açık Gözle Veri Sızması ve Sızması; Metin Tabanlı Steganografiyi kullanarak herhangi bir dosya türünü günlük dizelerin listesine dönüştürün; DLP/MLS Cihazlarından Kaçınma, Verileri Beyaz Listeye Alma Kontrollerini Aşma, Analistlerin Sosyal Mühendisliği, AV Algılamasından Kaçınma",
-                "stargazers_count": 1681,
+                "stargazers_count": 1683,
                 "html_url": "https://github.com/TryCatchHCF/Cloakify",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/18202477?v=4"
@@ -513,7 +513,7 @@
                 "id": 1160377845,
                 "name": "HaleHound-CYD",
                 "description": "Ucuz Sarı Ekran için ESP32-DIV HaleHound Sürümü - Çok protokollü saldırı güvenliği araç seti",
-                "stargazers_count": 1589,
+                "stargazers_count": 1594,
                 "html_url": "https://github.com/JesseCHale/HaleHound-CYD",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/208289035?v=4"
@@ -786,7 +786,7 @@
             },
             {
                 "name": "PThrower/Strata",
-                "description": "AI ekosistem zekası MCP sunucusu. Claude, ChatGPT, Gemini, LangChain, Groq, Cursor ve daha fazlası dahil 22 yapay zeka ekosisteminde doğrulanmış en iyi uygulamalar, haberler, entegrasyonlar ve MCP sunucu dizini. Claude onaylı, enjeksiyona dayanıklı, günde iki kez yenilenir. 📇 ☁️",
+                "description": "AI ekosistem zekası MCP sunucusu. Claude, ChatGPT, Gemini, LangChain, Groq, Cursor ve daha fazlası dahil olmak üzere 22 AI ekosisteminde doğrulanmış en iyi uygulamalar, haberler, entegrasyonlar ve MCP sunucu dizini. Claude onaylı, enjeksiyona dayanıklı, günde iki kez yenilenir. 📇 ☁️",
                 "url": "https://github.com/PThrower/Strata) [![PThrower/Strata MCP server](https://glama.ai/mcp/servers/PThrower/Strata/badges/score.svg)](https://glama.ai/mcp/servers/PThrower/Strata"
             },
             {
@@ -878,7 +878,7 @@
             },
             {
                 "name": "Cortex Memory",
-                "description": "Kullanıma hazır bir REST API, MCP, CLI ve içgörü kontrol paneliyle, ayıklama ve vektör aramasından otomatik optimizasyona kadar aracı belleği için eksiksiz bir çözüm.",
+                "description": "Kullanıma hazır bir REST API, MCP, CLI ve içgörü panosuyla, ayıklama ve vektör aramasından otomatik optimizasyona kadar aracı belleği için eksiksiz bir çözüm.",
                 "url": "https://github.com/sopaco/cortex-mem"
             },
             {
@@ -964,7 +964,7 @@
                 "id": 1302826522,
                 "name": "canvas-ui",
                 "description": "Yaratıcı tuval bileşenlerinden oluşan bir kitaplık. Üzerinde WebGL efektlerinin çalıştığı gerçek HTML. React, Vue, Svelte, vanilya.",
-                "stargazers_count": 4129,
+                "stargazers_count": 4171,
                 "html_url": "https://github.com/DavidHDev/canvas-ui",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/48634587?v=4"
@@ -974,7 +974,7 @@
                 "id": 472417882,
                 "name": "jest-preview",
                 "description": "Jest testlerinizde hata ayıklayın. Zahmetsizce.🛠🖼",
-                "stargazers_count": 2394,
+                "stargazers_count": 2393,
                 "html_url": "https://github.com/nvh95/jest-preview",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/8603085?v=4"
@@ -984,7 +984,7 @@
                 "id": 1066256303,
                 "name": "frontman",
                 "description": "Çerçevenizde/tarayıcınızda yaşayan yapay zeka aracısı",
-                "stargazers_count": 666,
+                "stargazers_count": 668,
                 "html_url": "https://github.com/frontman-ai/frontman",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/247346821?v=4"
@@ -993,7 +993,7 @@
             {
                 "id": 324384182,
                 "name": "packages",
-                "description": "💎 Stylify paketleri için tek depo. Stylify, yazdıklarınıza göre dinamik olarak son derece optimize edilmiş yardımcı program öncelikli CSS oluşturmak için CSS benzeri seçiciler kullanır 💎.",
+                "description": "💎 Monorepository for Stylify packages. Stylify, yazdıklarınıza göre dinamik olarak son derece optimize edilmiş yardımcı program öncelikli CSS oluşturmak için CSS benzeri seçiciler kullanır 💎.",
                 "stargazers_count": 434,
                 "html_url": "https://github.com/stylify/packages",
                 "owner": {
@@ -1063,7 +1063,7 @@
             {
                 "id": 536619267,
                 "name": "frontend-roadmap",
-                "description": "🗒 Bu, bir Ön Uç geliştirici olarak deneyimlerime dayanan ve yalnızca ücretsiz içeriğe sahip bir çalışma yolu deposudur.",
+                "description": "🗒 This is a repository for a study trail based on my experience as a Front-end developer, with only free content.",
                 "stargazers_count": 5,
                 "html_url": "https://github.com/WesleyMaik/frontend-roadmap",
                 "owner": {
@@ -1101,16 +1101,6 @@
                 }
             },
             {
-                "id": 1303531350,
-                "name": "frontend-interview",
-                "description": "📚 Ön görüşme dersleri · 17 bölüm, 130 makale · Sekiz bölümlü temelden sistem tasarımına ve yapay zeka çağına · Çevrimiçi aranabilir",
-                "stargazers_count": 2,
-                "html_url": "https://github.com/sq-zhong/frontend-interview",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/84273796?v=4"
-                }
-            },
-            {
                 "id": 1136403830,
                 "name": "bromiumjs",
                 "description": "Lisans Tezi için BromiumJS çerçevesi. Deneyebilirsin!",
@@ -1118,6 +1108,16 @@
                 "html_url": "https://github.com/bromscandium/bromiumjs",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/77798518?v=4"
+                }
+            },
+            {
+                "id": 1303531350,
+                "name": "frontend-interview",
+                "description": "📚 Ön görüşmelerle ilgili dersler · 17 bölümde 130 makale · Sekiz bölümlü temelden sistem tasarımına ve yapay zeka çağına · Çevrimiçi aranabilir",
+                "stargazers_count": 2,
+                "html_url": "https://github.com/sq-zhong/frontend-interview",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/84273796?v=4"
                 }
             },
             {
@@ -1151,13 +1151,13 @@
                 }
             },
             {
-                "id": 1174651503,
-                "name": "github",
-                "description": "GitHub - Azure aracılığıyla uygulamalar oluşturun - Microsoft - 2026 - Burada, GitHub'u ana kaynak ve araç olarak kullanarak uygulamaların nasıl derleneceğine ve Azure'da dağıtılacağına ilişkin pratik ve modern bir genel bakış bulunmaktadır.",
+                "id": 1209558082,
+                "name": "codegen-standards",
+                "description": "Yapay zeka destekli geliştirme için modüler bir dizi kural ve mimari standart.  Aşağıdakiler için yapılandırılmış beceriler içerir: - React / Next.js (Uygulama Yönlendirici) - Vue - Arka Uç (NestJS, Express) - Özellik Dilimli Tasarım (FSD) Aşağıdakileri uygulamak için tasarlanmıştır: - tutarlı mimari - öngörülebilir kod oluşturma - üretime hazır çıktı",
                 "stargazers_count": 1,
-                "html_url": "https://github.com/vinberg88/github",
+                "html_url": "https://github.com/ADmurAJI/codegen-standards",
                 "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/94398623?v=4"
+                    "avatar_url": "https://avatars.githubusercontent.com/u/95448437?v=4"
                 }
             }
         ],
@@ -1236,7 +1236,7 @@
             },
             {
                 "name": "Botpress",
-                "description": "The building blocks for building chatbots",
+                "description": "Sohbet robotları oluşturmak için yapı taşları",
                 "url": "https://github.com/botpress/botpress"
             },
             {
@@ -1321,12 +1321,12 @@
             },
             {
                 "name": "Open Multi-Agent",
-                "description": "Onay geçitleri, izleme, değerlendirme, denetim noktaları ve özgeçmiş desteğiyle görev DAG'lerini çalışma zamanında kendi ortamınızda planlayan TypeScript yerel çoklu aracı orkestrasyonu. Node.js 20+ gerektirir.",
+                "description": "Onay geçitleri, izleme, değerlendirme, denetim noktaları ve özgeçmiş desteğiyle görev DAG'lerini kendi ortamınızda çalışma zamanında planlayan TypeScript yerel çoklu aracı orkestrasyonu. Node.js 20+ gerektirir.",
                 "url": "https://github.com/open-multi-agent/open-multi-agent"
             },
             {
                 "name": "Aeon",
-                "description": "Kendi kendini iyileştirme becerileri, çıktı kalitesi puanlaması, kalıcı bellek ve reaktif tetikleyicilerle GitHub Eylemleri aracılığıyla gözetimsiz çalışan özerk aracı çerçevesi.",
+                "description": "Kendi kendini iyileştirme becerileri, çıktı kalitesi puanlaması, kalıcı bellek ve reaktif tetikleyicilerle GitHub Actions aracılığıyla gözetimsiz çalışan otonom aracı çerçevesi.",
                 "url": "https://github.com/aeonfun/aeon"
             }
         ]
@@ -1336,8 +1336,8 @@
             {
                 "id": 789480255,
                 "name": "llm-scraper",
-                "description": "Yüksek Lisans'ı kullanarak herhangi bir web sayfasını yapılandırılmış verilere dönüştürün",
-                "stargazers_count": 6914,
+                "description": "Yüksek Lisans'ları kullanarak herhangi bir web sayfasını yapılandırılmış verilere dönüştürün",
+                "stargazers_count": 6913,
                 "html_url": "https://github.com/mishushakov/llm-scraper",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10400064?v=4"
@@ -1356,8 +1356,8 @@
             {
                 "id": 1175263852,
                 "name": "awesome-ai-agents-2026",
-                "description": "🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated monthly.",
-                "stargazers_count": 1597,
+                "description": "🤖 2026'daki en kapsamlı yapay zeka aracıları, çerçeveleri ve araçları listesi. 300'den fazla kaynak · 20'den fazla kategori · Aylık olarak güncellenir.",
+                "stargazers_count": 1598,
                 "html_url": "https://github.com/caramaschiHG/awesome-ai-agents-2026",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/156044967?v=4"
@@ -1367,7 +1367,7 @@
                 "id": 998134875,
                 "name": "sre",
                 "description": "SmythOS Çalışma Zamanı Ortamı (SRE), ajansal yapay zekaya yönelik açık kaynaklı, bulutta yerel bir çalışma zamanıdır. Güvenli, modüler ve üretime hazır olan bu özellik, geliştiricilerin yerel, bulut ve uç ortamlarda akıllı aracılar oluşturmasına, çalıştırmasına ve yönetmesine olanak tanır.",
-                "stargazers_count": 1291,
+                "stargazers_count": 1290,
                 "html_url": "https://github.com/SmythOS/sre",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/131191966?v=4"
@@ -1437,7 +1437,7 @@
                 "id": 1119405225,
                 "name": "awesome-rag-production",
                 "description": "Ölçeklenebilir, üretim düzeyinde Alma-Artırılmış Nesil (RAG) sistemleri oluşturmaya yönelik, savaşta test edilmiş araçlar, çerçeveler ve en iyi uygulamaların derlenmiş bir listesi.",
-                "stargazers_count": 204,
+                "stargazers_count": 205,
                 "html_url": "https://github.com/Yigtwxx/awesome-rag-production",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/156921875?v=4"
@@ -1506,8 +1506,8 @@
             {
                 "id": 1071581232,
                 "name": "llm-use",
-                "description": "Temsilci iş akışları için Yüksek Lisans düzenleme araç seti: planlayıcı + çalışanlar + sentez, isteğe bağlı yönlendirici (LLM + öğrenilmiş geri dönüş), OpenAI/Anthropic/Ollama/llama.cpp'yi destekler, önbelleğe alma ile gerçek kazıma, MCP sunucu entegrasyonu ve bir TUI sohbet kullanıcı arayüzü.",
-                "stargazers_count": 55,
+                "description": "Aracı iş akışları için Yüksek Lisans düzenleme araç seti: planlayıcı + çalışanlar + sentez, isteğe bağlı yönlendirici (LLM + öğrenilmiş geri dönüş), OpenAI/Anthropic/Ollama/llama.cpp'yi destekler, önbelleğe alma ile gerçek kazıma, MCP sunucu entegrasyonu ve bir TUI sohbet kullanıcı arayüzü.",
+                "stargazers_count": 56,
                 "html_url": "https://github.com/llm-use/llm-use",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/236852257?v=4"
@@ -1517,7 +1517,7 @@
                 "id": 1101435062,
                 "name": "codecut-blog",
                 "description": "Veri bilimi, MLOps ve yapay zeka araçları hakkında 45'ten fazla üretime hazır eğitim. Tüm kodlar çalıştırılabilir ve gerçek projelere uyarlanabilir.",
-                "stargazers_count": 34,
+                "stargazers_count": 35,
                 "html_url": "https://github.com/khuyentran1401/codecut-blog",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/49108771?v=4"
@@ -1552,12 +1552,12 @@
             },
             {
                 "name": "QGIS MCP",
-                "description": "QGIS Masaüstünü MCP aracılığıyla Claude AI'ye bağlar. Bu entegrasyon, hızlı destekli proje oluşturma, katman yükleme, kod yürütme ve daha fazlasını sağlar.",
+                "description": "QGIS Masaüstünü MCP aracılığıyla Claude AI'ye bağlar. Bu entegrasyon, hızlı yardımlı proje oluşturma, katman yükleme, kod yürütme ve daha fazlasını sağlar.",
                 "url": "https://github.com/jjsantos01/qgis_mcp"
             },
             {
                 "name": "andybrandt/mcp-simple-arxiv",
-                "description": "🐍 ☁️ ArXiv'deki makaleleri aramak ve okumak için LLM için MCP",
+                "description": "🐍 ☁️ arXiv'deki makaleleri aramak ve okumak için Yüksek Lisans için MCP",
                 "url": "https://github.com/andybrandt/mcp-simple-arxiv"
             },
             {
@@ -1639,7 +1639,7 @@
         "ai_agents": [
             {
                 "name": "Hermes Agent",
-                "description": "The agent that grows with you",
+                "description": "Sizinle birlikte büyüyen temsilci",
                 "url": "https://github.com/nousresearch/hermes-agent"
             },
             {
@@ -1714,13 +1714,18 @@
             },
             {
                 "name": "SwarmClaw",
-                "description": "OpenClaw, Claude Code, Codex, Gemini CLI ve büyük LLM sağlayıcıları genelinde kalp atışları, programlar, delegasyon, bellek ve çalışma zamanı becerileri ile çoklu aracı orkestrasyonu için kendi kendine barındırılan yapay zeka çalışma zamanı. Bir masaüstü uygulaması (Electron) ve CLI olarak gönderilir.",
+                "description": "OpenClaw, Claude Code, Codex, Gemini CLI ve önde gelen LLM sağlayıcıları genelinde kalp atışları, programlar, delegasyon, bellek ve çalışma zamanı becerileri ile çoklu aracı orkestrasyonu için kendi kendine barındırılan yapay zeka çalışma zamanı. Bir masaüstü uygulaması (Electron) ve CLI olarak gönderilir.",
                 "url": "https://github.com/swarmclawai/swarmclaw"
             },
             {
                 "name": "Lobu",
                 "description": "Yapay zeka aracıları için açık kaynak bağlamı ve kontrol düzlemi. Şirket araçlarını bir kez bağlayın ve MCP, kapsamlı kimlikler, onaylar ve denetim ile ChatGPT, Claude, Codex, OpenClaw ve özel aracılar arasında izne duyarlı bağlamı paylaşın.",
                 "url": "https://github.com/lobu-ai/lobu"
+            },
+            {
+                "name": "Agent Swarm",
+                "description": "Bir öncü temsilcinin, paylaşılan bellek, araçlar, programlar ve inceleme kapılarıyla görevleri uzman çalışanlara devrettiği, kendi kendine barındırılan çoklu temsilci sistemi.",
+                "url": "https://github.com/desplega-ai/agent-swarm"
             },
             {
                 "name": "Voice Lab",
@@ -1731,11 +1736,6 @@
                 "name": "Arize-Phoenix",
                 "description": "Arize-Phoenix, aracı testi, değerlendirmesi ve gözlemlenebilirliği için açık kaynaklı bir kütüphanedir.",
                 "url": "https://github.com/Arize-ai/phoenix"
-            },
-            {
-                "name": "Manifest",
-                "description": "Yapay zeka temsilcileri için açık kaynaklı, gerçek zamanlı maliyet gözlemlenebilirlik platformu. Önce yerel bir kontrol paneliyle belirteçleri, maliyetleri, mesajları ve model kullanımını izleyin. 28'den fazla LLM modelini, OTLP alımını, kendi kendine barındırılanları destekler.",
-                "url": "https://github.com/mnfst/manifest"
             }
         ]
     },
@@ -1745,7 +1745,7 @@
                 "id": 212639071,
                 "name": "devops-exercises",
                 "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastik, Ağ, Sanallaştırma. DevOps Mülakat Soruları",
-                "stargazers_count": 84158,
+                "stargazers_count": 84183,
                 "html_url": "https://github.com/bregman-arie/devops-exercises",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10349437?v=4"
@@ -1754,7 +1754,7 @@
             {
                 "id": 273913340,
                 "name": "homelab",
-                "description": "Tek bir komutla boş diskten hizmetleri çalıştırmaya kadar tam otomatik homelab.",
+                "description": "Tek bir komutla boş diskten çalışan hizmetlere kadar tam otomatik homelab.",
                 "stargazers_count": 9527,
                 "html_url": "https://github.com/khuedoan/homelab",
                 "owner": {
@@ -1765,7 +1765,7 @@
                 "id": 49816796,
                 "name": "DevOps-Bash-tools",
                 "description": "1200'den fazla DevOps Bash Komut Dosyası - AWS, GCP, Kubernetes, Docker, CI/CD, API'ler, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LDAP, Code/Build Linting, Linux, Mac, Python, Perl, Ruby için pkg mgmt, NodeJS, Golang, Gelişmiş nokta dosyaları: .bashrc, .vimrc, .gitconfig, .screenrc, tmux..",
-                "stargazers_count": 8379,
+                "stargazers_count": 8382,
                 "html_url": "https://github.com/HariSekhon/DevOps-Bash-tools",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/2211051?v=4"
@@ -1775,7 +1775,7 @@
                 "id": 676377723,
                 "name": "DevOps-Projects",
                 "description": "🚀 Başlangıç ​​seviyesinden ileri seviyeye kadar mühendis adaylarına yönelik gerçek dünya DevOps projeleri. AWS, Kubernetes, Docker, CI/CD, Terraform, Jenkins ve daha fazlasını kapsar. Adım adım kılavuzlarla uygulamalı öğrenme.",
-                "stargazers_count": 4914,
+                "stargazers_count": 4922,
                 "html_url": "https://github.com/NotHarshhaa/DevOps-Projects",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/112948305?v=4"
@@ -1785,7 +1785,7 @@
                 "id": 499400876,
                 "name": "Cloud-DevOps-Learning-Resources",
                 "description": "Bu depo, GCP, Azure, AWS, Docker, K8s ve DevOps ile ilgili Kitapları ve uygulama notlarını içerir. Daha fazlası, sınav ve mülakat hazırlık notları.",
-                "stargazers_count": 1977,
+                "stargazers_count": 1978,
                 "html_url": "https://github.com/ahmedtariq01/Cloud-DevOps-Learning-Resources",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/78534449?v=4"
@@ -1815,7 +1815,7 @@
                 "id": 584105200,
                 "name": "90DaysOfDevOps",
                 "description": "Bu depo, DevOps Topluluğunun DevOps'ta güçlenmesi için bir Mücadeledir. Bunu Herkese Açık hale getirmenin nedeni, diğerlerinin topluluktan bir şeyler öğrenebilmesi ve birbirlerinin büyümesine yardımcı olabilmesidir.",
-                "stargazers_count": 1369,
+                "stargazers_count": 1370,
                 "html_url": "https://github.com/TrainWithShubham/90DaysOfDevOps",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/121760796?v=4"
@@ -1835,10 +1835,20 @@
                 "id": 75686762,
                 "name": "geodesic",
                 "description": "🚀 Geodesic, Docker'daki bir DevOps Linux Araç Kutusudur",
-                "stargazers_count": 1052,
+                "stargazers_count": 1053,
                 "html_url": "https://github.com/cloudposse/geodesic",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/16398900?v=4"
+                }
+            },
+            {
+                "id": 837008731,
+                "name": "iac",
+                "description": "Ev laboratuvarım için Kod Olarak GitOps Odaklı Altyapı",
+                "stargazers_count": 920,
+                "html_url": "https://github.com/Mafyuh/iac",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/97676786?v=4"
                 }
             },
             {
@@ -1849,16 +1859,6 @@
                 "html_url": "https://github.com/NotHarshhaa/into-the-devops",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/112948305?v=4"
-                }
-            },
-            {
-                "id": 837008731,
-                "name": "iac",
-                "description": "Ev laboratuvarım için Kod Olarak GitOps Odaklı Altyapı",
-                "stargazers_count": 870,
-                "html_url": "https://github.com/Mafyuh/iac",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/97676786?v=4"
                 }
             },
             {
@@ -1874,8 +1874,8 @@
             {
                 "id": 596824136,
                 "name": "ops-engineering-roadmap",
-                "description": "🔧 Sıfır temelden mimarlığa kadar DevOps/SRE mühendisleri için eksiksiz öğrenme yolu | Linux · Docker · K8s · CI/CD · Prometheus · Bulut Yerel | CN+EN İki Dilli | 500+ Kaynak | Sıfırdan Mimara — DevOps ve SRE mühendisleri için eksiksiz öğrenme yolu",
-                "stargazers_count": 384,
+                "description": "🔧 Sıfır temelden mimarlığa kadar DevOps/SRE mühendisleri için eksiksiz öğrenme yolu | Linux · Docker · K8s · CI/CD · Prometheus · Bulut tabanlı | CN+EN İki Dilli | 500+ Kaynak | Sıfırdan Mimara — DevOps ve SRE mühendisleri için eksiksiz öğrenme yolu",
+                "stargazers_count": 385,
                 "html_url": "https://github.com/vinson-lee01/ops-engineering-roadmap",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/123616755?v=4"
@@ -2187,7 +2187,7 @@
             {
                 "id": 325472244,
                 "name": "Diagnosis-Lung-and-Colon-Cancer-Using-Histopathological-Images",
-                "description": "🔬Bu proje histopatolojik görüntüler kullanarak akciğer ve kolon kanserinin teşhisini amaçlamaktadır. Görüntüleri farklı kanser türlerine ve iyi huylu dokulara göre sınıflandırmak için derin öğrenme tekniklerini, özellikle evrişimli sinir ağlarını (CNN'ler) kullanır.",
+                "description": "🔬Bu proje histopatolojik görüntüler kullanarak akciğer ve kolon kanserinin teşhisini amaçlamaktadır. Görüntüleri farklı kanser türlerine ve iyi huylu dokulara göre sınıflandırmak için derin öğrenme tekniklerini, özellikle de evrişimli sinir ağlarını (CNN'ler) kullanır.",
                 "stargazers_count": 5,
                 "html_url": "https://github.com/mohamedbashir/Diagnosis-Lung-and-Colon-Cancer-Using-Histopathological-Images",
                 "owner": {
@@ -2258,7 +2258,7 @@
         "mcp_list": [
             {
                 "name": "andybrandt/mcp-simple-pubmed",
-                "description": "🐍 ☁️ PubMed'den tıp / yaşam bilimleri makalelerini aramak ve okumak için MCP.",
+                "description": "🐍 ☁️ MCP, PubMed'den tıp / yaşam bilimleri makalelerini aramak ve okumak için.",
                 "url": "https://github.com/andybrandt/mcp-simple-pubmed"
             },
             {
@@ -2371,7 +2371,7 @@
                 "id": 1155965274,
                 "name": "Claude-Code-Game-Studios",
                 "description": "Claude Code'u tam bir oyun geliştirme stüdyosuna dönüştürün: 49 yapay zeka aracısı, 72 iş akışı becerisi ve gerçek stüdyo hiyerarşisini yansıtan eksiksiz bir koordinasyon sistemi.",
-                "stargazers_count": 24220,
+                "stargazers_count": 24335,
                 "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/150119193?v=4"
@@ -2381,7 +2381,7 @@
                 "id": 118740023,
                 "name": "MultiplayerNetworkingResources",
                 "description": "Çok Oyunculu Oyun Ağı Programlama Kaynaklarının seçilmiş bir listesi",
-                "stargazers_count": 8648,
+                "stargazers_count": 8649,
                 "html_url": "https://github.com/0xFA11/MultiplayerNetworkingResources",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/12574651?v=4"
@@ -2391,7 +2391,7 @@
                 "id": 506056362,
                 "name": "GameDevMind",
                 "description": "En kapsamlı oyun geliştirme teknolojisi haritası (Oyun Geliştirme Haritası). Oyun geliştiricilerin bilinen sorunlar üzerinde zaman kazanmalarına ve daha yaratıcı çalışmalara daha fazla enerji ayırmalarına yardımcı olun.",
-                "stargazers_count": 6475,
+                "stargazers_count": 6476,
                 "html_url": "https://github.com/gonglei007/GameDevMind",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/5304584?v=4"
@@ -2411,7 +2411,7 @@
                 "id": 929429598,
                 "name": "UnityStarter",
                 "description": "UE'den ilham alan Oynanış Yetenek Sistemi, sıfır GC altyapısı ve anında güncelleme desteği ile üretime hazır, modüler Birlik çerçevesi. Savaşlarda test edilmiş, DI dostu ve platformlar arası optimize edilmiş. Yüksek performanslı, yüksek düzeyde ölçeklenebilir, üst düzeyde optimize edilmiş, anında güncelleme özelliğine sahip ve güçlü bir Unity başlangıç ​​şablonu. Unreal Engine benzeri Oyun Çerçevesi ve GAS tasarımına sahiptir ve çeşitli Kontrol Ters Çevirme (IoC/DI) çerçeveleriyle oldukça uyumludur.",
-                "stargazers_count": 793,
+                "stargazers_count": 792,
                 "html_url": "https://github.com/MaiKuraki/UnityStarter",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/12414727?v=4"
@@ -2421,7 +2421,7 @@
                 "id": 586687868,
                 "name": "Awesome-Gamedev",
                 "description": "Oyun geliştirmeye yönelik seçilmiş kaynaklardan oluşan bir koleksiyon.",
-                "stargazers_count": 643,
+                "stargazers_count": 644,
                 "html_url": "https://github.com/FronkonGames/Awesome-Gamedev",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/100220849?v=4"
@@ -2441,7 +2441,7 @@
                 "id": 1254172144,
                 "name": "UltraGameStudio",
                 "description": "UltraGameStudio - Oyun geliştirmeye yönelik yapay zeka kodlama aracısı: motor iş akışları, oyun kodu ve varlık oluşturma.",
-                "stargazers_count": 289,
+                "stargazers_count": 291,
                 "html_url": "https://github.com/wellingfeng/UltraGameStudio",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/29722694?v=4"
@@ -2450,7 +2450,7 @@
             {
                 "id": 722367297,
                 "name": "omath",
-                "description": "C++23 ile yazılmış, platformlar arası modern genel amaçlı oyun/mod/hile geliştirme çerçevesi.",
+                "description": "Cross-platform modern general purpose game/mods/cheats development framework written in C++23.",
                 "stargazers_count": 244,
                 "html_url": "https://github.com/orange-cpp/omath",
                 "owner": {
@@ -2481,7 +2481,7 @@
                 "id": 1194055946,
                 "name": "everything-game-dev-code",
                 "description": "Yapay zeka destekli oyun geliştirme için evrensel bir iskele. 42 ajan, 51 komut, 86 beceri. Çoklu motor (Unity, Unreal, Godot, HTML). Çoklu donanım (Claude Code, Codex, Cursor, OpenCode, Kiro).",
-                "stargazers_count": 72,
+                "stargazers_count": 73,
                 "html_url": "https://github.com/MRCalderon3D/everything-game-dev-code",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/779337?v=4"
@@ -2490,7 +2490,7 @@
             {
                 "id": 682469730,
                 "name": "GameDevMind-EN",
-                "description": "Oyun geliştirmenin en kapsamlı teknik haritası. Oyun geliştiricilerin bilinen sorunlar konusunda zamandan tasarruf etmelerine ve daha yaratıcı çalışmalar için daha fazla enerji tasarrufu yapmalarına yardımcı olun.",
+                "description": "The most comprehensive technical map of game development. Help game developers save time on known problems and save more energy for more creative work.",
                 "stargazers_count": 66,
                 "html_url": "https://github.com/gonglei007/GameDevMind-EN",
                 "owner": {
@@ -2500,7 +2500,7 @@
             {
                 "id": 1188602158,
                 "name": "ai_game_base_analysis_cli_mcp_tool",
-                "description": "Oyun Kod Tabanı Analizi Yapay Zeka Aracı Aracı",
+                "description": "Game Codebase Analysis AI Agentic Tool",
                 "stargazers_count": 63,
                 "html_url": "https://github.com/pirua-game/ai_game_base_analysis_cli_mcp_tool",
                 "owner": {
@@ -2541,7 +2541,7 @@
                 "id": 1215724110,
                 "name": "unikit-ai",
                 "description": "Oyun Geliştirme için Yapay Zeka Destekli İşlem Hattı: Oyun Tasarımı ve Kodu",
-                "stargazers_count": 17,
+                "stargazers_count": 16,
                 "html_url": "https://github.com/NintendaDev/unikit-ai",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/181320258?v=4"
@@ -2689,7 +2689,7 @@
                 "id": 389803219,
                 "name": "full-blockchain-solidity-course-py",
                 "description": "Nihai Sağlamlık, Blockchain ve Akıllı Sözleşme - Başlangıçtan Uzmana Tam Kurs | Python Sürümü",
-                "stargazers_count": 11212,
+                "stargazers_count": 11213,
                 "html_url": "https://github.com/smartcontractkit/full-blockchain-solidity-course-py",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/25111032?v=4"
@@ -2699,7 +2699,7 @@
                 "id": 109102073,
                 "name": "eattheblocks",
                 "description": "Ethereum Dapp Geliştiricileri için bir ekran yayını olan Eat The Blocks'un kaynak kodu",
-                "stargazers_count": 3988,
+                "stargazers_count": 3989,
                 "html_url": "https://github.com/jklepatch/eattheblocks",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/9279488?v=4"
@@ -2729,7 +2729,7 @@
                 "id": 414031826,
                 "name": "secureum-mind_map",
                 "description": "Epoch 0 dersleri ve sınavları için Merkezi Depo. Çapraz referanslı ve bağlantılı tüm içeriği içerir.",
-                "stargazers_count": 1904,
+                "stargazers_count": 1903,
                 "html_url": "https://github.com/x676f64/secureum-mind_map",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/53136615?v=4"
@@ -2759,7 +2759,7 @@
                 "id": 953039794,
                 "name": "awesome-crypto",
                 "description": "Currency Navigator, merkezi borsaları (OKX, Binance, Gate.io gibi), NFT pazarlarını, DeFi araçlarını, kripto cüzdanlarını, balina takibini ve veri analizini vb. kapsayan ve kullanıcıların kripto para dünyasında kolayca gezinmesine yardımcı olan, tüm ağ üzerinde manuel olarak düzenlenen en kapsamlı sanal para birimi öğrenme materyalleri olan sanal kripto para birimi kaynaklarından oluşan bir koleksiyondur. Döviz çemberi navigasyonu, sanal para birimi, döviz indirimleri, Web3.0 ve diğer içerikleri içeren bu kılavuz, en son ve en kapsamlı döviz çemberi bilgilerini sağlamaya çalışarak güncellenmeye devam edecektir. Döviz Çemberi Gezintisi hepinize erkenden finansal özgürlük diler. 👉 www.0xnav.com",
-                "stargazers_count": 985,
+                "stargazers_count": 989,
                 "html_url": "https://github.com/itgoyo/awesome-crypto",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/23348551?v=4"
@@ -2769,7 +2769,7 @@
                 "id": 118369156,
                 "name": "eth-crypto",
                 "description": "Ethereum için kriptografik javascript işlevleri ve bunları web3js ve sağlamlıkla kullanma eğitimleri",
-                "stargazers_count": 919,
+                "stargazers_count": 920,
                 "html_url": "https://github.com/pubkey/eth-crypto",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/8926560?v=4"
@@ -2779,7 +2779,7 @@
                 "id": 448622257,
                 "name": "awesome-web3",
                 "description": "Harika Web3 kaynakları, kitaplıklar, araçlar ve daha fazlasının seçilmiş bir listesi.",
-                "stargazers_count": 886,
+                "stargazers_count": 887,
                 "html_url": "https://github.com/ahmet/awesome-web3",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/309672?v=4"
@@ -2808,7 +2808,7 @@
             {
                 "id": 460547508,
                 "name": "damn-vulnerable-defi-foundry",
-                "description": "Lanet olası Savunmasız DeFi - Dökümhane Sürümü",
+                "description": "Lanet olası Savunmasız DeFi - Foundry Versiyonu",
                 "stargazers_count": 512,
                 "html_url": "https://github.com/nicolasgarcia214/damn-vulnerable-defi-foundry",
                 "owner": {
