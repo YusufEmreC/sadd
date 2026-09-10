@@ -5,7 +5,7 @@
                 "id": 31792824,
                 "name": "flutter",
                 "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-                "stargazers_count": 178866,
+                "stargazers_count": 178883,
                 "html_url": "https://github.com/flutter/flutter",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4"
@@ -15,7 +15,7 @@
                 "id": 299354207,
                 "name": "rustdesk",
                 "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-                "stargazers_count": 122976,
+                "stargazers_count": 123046,
                 "html_url": "https://github.com/rustdesk/rustdesk",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/71636191?v=4"
@@ -25,7 +25,7 @@
                 "id": 578822531,
                 "name": "localsend",
                 "description": "An open-source cross-platform alternative to AirDrop",
-                "stargazers_count": 90398,
+                "stargazers_count": 90471,
                 "html_url": "https://github.com/localsend/localsend",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/120677616?v=4"
@@ -45,7 +45,7 @@
                 "id": 129388994,
                 "name": "FlutterExampleApps",
                 "description": "[Example APPS] Basic Flutter apps, for flutter devs.",
-                "stargazers_count": 21509,
+                "stargazers_count": 21511,
                 "html_url": "https://github.com/iampawan/FlutterExampleApps",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/12619420?v=4"
@@ -55,7 +55,7 @@
                 "id": 88650014,
                 "name": "plugins",
                 "description": "Plugins for Flutter maintained by the Flutter team",
-                "stargazers_count": 17710,
+                "stargazers_count": 17711,
                 "html_url": "https://github.com/flutter-team-archive/plugins",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/243856884?v=4"
@@ -65,7 +65,7 @@
                 "id": 142308181,
                 "name": "gsy_github_app_flutter",
                 "description": "Flutter 超完整的开源项目，功能丰富，适合学习和日常使用。GSYGithubApp 系列的优势：我们目前已经拥有 Flutter、Weex、ReactNative、Kotlin View、Kotlin Jetpack Compose ，Compose MultiPlatform，Harmony ArkUI 七个版本，功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。",
-                "stargazers_count": 15490,
+                "stargazers_count": 15493,
                 "html_url": "https://github.com/CarGuo/gsy_github_app_flutter",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10770362?v=4"
@@ -75,7 +75,7 @@
                 "id": 629282922,
                 "name": "pilipala",
                 "description": "PiliPala 是使用Flutter开发的BiliBili第三方客户端，感谢使用。",
-                "stargazers_count": 13833,
+                "stargazers_count": 13834,
                 "html_url": "https://github.com/guozhigq/pilipala",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/25545225?v=4"
@@ -95,7 +95,7 @@
                 "id": 151977818,
                 "name": "bloc",
                 "description": "A predictable state management library that helps implement the BLoC design pattern",
-                "stargazers_count": 12482,
+                "stargazers_count": 12480,
                 "html_url": "https://github.com/felangel/bloc",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/8855632?v=4"
@@ -105,7 +105,7 @@
                 "id": 221583387,
                 "name": "getx",
                 "description": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.",
-                "stargazers_count": 11198,
+                "stargazers_count": 11200,
                 "html_url": "https://github.com/jonataslaw/getx",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/35742643?v=4"
@@ -115,7 +115,7 @@
                 "id": 107833072,
                 "name": "flame",
                 "description": "A Flutter based game engine.",
-                "stargazers_count": 10744,
+                "stargazers_count": 10746,
                 "html_url": "https://github.com/flame-engine/flame",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/47222401?v=4"
@@ -135,7 +135,7 @@
                 "id": 166813643,
                 "name": "FlutterDouBan",
                 "description": "🔥🔥🔥Flutter豆瓣客户端,Awesome Flutter Project,全网最100%还原豆瓣客户端。首页、书影音、小组、市集及个人中心，一个不拉。（ https://img.xuvip.top/douyademo.mp4）",
-                "stargazers_count": 9097,
+                "stargazers_count": 9098,
                 "html_url": "https://github.com/kaina404/FlutterDouBan",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/13998159?v=4"
@@ -155,7 +155,7 @@
                 "id": 248628088,
                 "name": "FlutterUnit",
                 "description": "All Platform Flutter Experience App ",
-                "stargazers_count": 8840,
+                "stargazers_count": 8841,
                 "html_url": "https://github.com/toly1994328/FlutterUnit",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/26687012?v=4"
@@ -165,37 +165,37 @@
                 "id": 778774319,
                 "name": "anx-reader",
                 "description": "Featuring powerful AI capabilities and supporting various e-book formats, it makes reading smarter and more focused. ",
-                "stargazers_count": 8834,
+                "stargazers_count": 8835,
                 "html_url": "https://github.com/Anxcye/anx-reader",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/91717732?v=4"
                 }
             },
             {
-                "id": 597987003,
-                "name": "PicaComic",
-                "description": "A comic app built with Flutter, supporting multiple comic sources.",
-                "stargazers_count": 8676,
-                "html_url": "https://github.com/wgh136/PicaComic",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/67669799?v=4"
-                }
-            },
-            {
                 "id": 405856817,
                 "name": "flutter_server_box",
                 "description": "ServerBox - server status & toolbox",
-                "stargazers_count": 8664,
+                "stargazers_count": 8679,
                 "html_url": "https://github.com/lollipopkit/flutter_server_box",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10864310?v=4"
                 }
             },
             {
+                "id": 597987003,
+                "name": "PicaComic",
+                "description": "A comic app built with Flutter, supporting multiple comic sources.",
+                "stargazers_count": 8675,
+                "html_url": "https://github.com/wgh136/PicaComic",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/67669799?v=4"
+                }
+            },
+            {
                 "id": 191573367,
                 "name": "flutter_deer",
                 "description": "🦌 Flutter 练习项目(包括集成测试、可访问性测试)。内含完整UI设计图，更贴近真实项目的练习。Flutter practice project (including integration testing and accessibility testing). Contains complete UI design drawings for a more realistic practice project.",
-                "stargazers_count": 8614,
+                "stargazers_count": 8615,
                 "html_url": "https://github.com/simplezhli/flutter_deer",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/12456431?v=4"
@@ -333,7 +333,7 @@
                 "id": 71220757,
                 "name": "PayloadsAllTheThings",
                 "description": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
-                "stargazers_count": 80737,
+                "stargazers_count": 80765,
                 "html_url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/12152583?v=4"
@@ -343,7 +343,7 @@
                 "id": 127752367,
                 "name": "hacker-roadmap",
                 "description": "A collection of hacking tools, resources and references to practice ethical hacking.",
-                "stargazers_count": 15584,
+                "stargazers_count": 15582,
                 "html_url": "https://github.com/sundowndev/hacker-roadmap",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/16480203?v=4"
@@ -353,7 +353,7 @@
                 "id": 325671936,
                 "name": "reconftw",
                 "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-                "stargazers_count": 8078,
+                "stargazers_count": 8079,
                 "html_url": "https://github.com/six2dez/reconftw",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/24670991?v=4"
@@ -363,7 +363,7 @@
                 "id": 416151847,
                 "name": "yakit",
                 "description": "Cyber Security ALL-IN-ONE Platform",
-                "stargazers_count": 7728,
+                "stargazers_count": 7730,
                 "html_url": "https://github.com/yaklang/yakit",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/84704082?v=4"
@@ -373,7 +373,7 @@
                 "id": 292318639,
                 "name": "AllAboutBugBounty",
                 "description": "All about bug bounty (bypasses, payloads, and etc)",
-                "stargazers_count": 6851,
+                "stargazers_count": 6852,
                 "html_url": "https://github.com/daffainfo/AllAboutBugBounty",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/36522826?v=4"
@@ -383,7 +383,7 @@
                 "id": 950915,
                 "name": "WhatWeb",
                 "description": "Next generation web scanner",
-                "stargazers_count": 6826,
+                "stargazers_count": 6829,
                 "html_url": "https://github.com/urbanadventurer/WhatWeb",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/101783?v=4"
@@ -393,7 +393,7 @@
                 "id": 689013903,
                 "name": "NetExec",
                 "description": "The Network Execution Tool",
-                "stargazers_count": 5848,
+                "stargazers_count": 5851,
                 "html_url": "https://github.com/Pennyw0rth/NetExec",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/144470396?v=4"
@@ -403,7 +403,7 @@
                 "id": 178545630,
                 "name": "1earn",
                 "description": "ffffffff0x 团队维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup",
-                "stargazers_count": 5715,
+                "stargazers_count": 5716,
                 "html_url": "https://github.com/ffffffff0x/1earn",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/55578766?v=4"
@@ -413,7 +413,7 @@
                 "id": 219113096,
                 "name": "Ladon",
                 "description": "Ladon大型内网渗透扫描器，PowerShell、Cobalt Strike插件、内存加载、无文件扫描。含端口扫描、服务识别、网络资产探测、密码审计、高危漏洞检测、漏洞利用、密码读取以及一键GetShell，支持批量A段/B段/C段以及跨网段扫描，支持URL、主机、域名列表扫描等。网络资产探测32种协议(ICMP\\NBT\\DNS\\MAC\\SMB\\WMI\\SSH\\HTTP\\HTTPS\\Exchange\\mssql\\FTP\\RDP)或方法快速获取目标网络存活主机IP、计算机名、工作组、共享资源、网卡地址、操作系统版本、网站、子域名、中间件、开放服务、路由器、交换机、数据库、打印机等，大量高危漏洞检测模块MS17010、Zimbra、Exchange",
-                "stargazers_count": 5323,
+                "stargazers_count": 5324,
                 "html_url": "https://github.com/k8gege/Ladon",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/42312878?v=4"
@@ -443,7 +443,7 @@
                 "id": 5441179,
                 "name": "blackarch",
                 "description": "An ArchLinux based distribution for penetration testers and security researchers.",
-                "stargazers_count": 3487,
+                "stargazers_count": 3488,
                 "html_url": "https://github.com/BlackArch/blackarch",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/6171113?v=4"
@@ -463,7 +463,7 @@
                 "id": 14187797,
                 "name": "Diamorphine",
                 "description": "LKM rootkit for Linux Kernels 2.6.x/3.x/4.x/5.x/6.x (x86/x86_64 and ARM64)",
-                "stargazers_count": 2454,
+                "stargazers_count": 2455,
                 "html_url": "https://github.com/m0nad/Diamorphine",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/772792?v=4"
@@ -483,7 +483,7 @@
                 "id": 226530748,
                 "name": "AboutSecurity",
                 "description": "Everything for pentest. | 渗透测试知识库，以 AI Agent 可执行的格式沉淀安全方法论。",
-                "stargazers_count": 1727,
+                "stargazers_count": 1732,
                 "html_url": "https://github.com/wgpsec/AboutSecurity",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/20661677?v=4"
@@ -493,7 +493,7 @@
                 "id": 1160377845,
                 "name": "HaleHound-CYD",
                 "description": "ESP32-DIV HaleHound Edition for Cheap Yellow Display - Multi-protocol offensive security toolkit",
-                "stargazers_count": 1688,
+                "stargazers_count": 1690,
                 "html_url": "https://github.com/JesseCHale/HaleHound-CYD",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/208289035?v=4"
@@ -733,16 +733,6 @@
                 }
             },
             {
-                "id": 1157406575,
-                "name": "Stack-App-CLI",
-                "description": "**Stack App CLI** is a production-ready CLI tool that generates complete, working boilerplate projects across multiple programming languages and frameworks in seconds. Instead of spending 2-3 hours manually setting up a new project with best practices, configuration, and tooling, you get a fully functional starter in minutes.",
-                "stargazers_count": 0,
-                "html_url": "https://github.com/maneesh-kumar-thakur/Stack-App-CLI",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/185777744?v=4"
-                }
-            },
-            {
                 "id": 1274757747,
                 "name": "backend-decision-lab",
                 "description": "Data-driven framework to compare backend stacks (Laravel · Fastify · FastAPI · Gin · Axum) under identical conditions — performance, resources, cost, and scaling, all in Docker.",
@@ -750,6 +740,16 @@
                 "html_url": "https://github.com/gustavoguarda/backend-decision-lab",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/217239?v=4"
+                }
+            },
+            {
+                "id": 1157406575,
+                "name": "Stack-App-CLI",
+                "description": "**Stack App CLI** is a production-ready CLI tool that generates complete, working boilerplate projects across multiple programming languages and frameworks in seconds. Instead of spending 2-3 hours manually setting up a new project with best practices, configuration, and tooling, you get a fully functional starter in minutes.",
+                "stargazers_count": 0,
+                "html_url": "https://github.com/maneesh-kumar-thakur/Stack-App-CLI",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/185777744?v=4"
                 }
             }
         ],
@@ -964,7 +964,7 @@
                 "id": 1302826522,
                 "name": "canvas-ui",
                 "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
-                "stargazers_count": 4531,
+                "stargazers_count": 4543,
                 "html_url": "https://github.com/DavidHDev/canvas-ui",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/48634587?v=4"
@@ -974,7 +974,7 @@
                 "id": 472417882,
                 "name": "jest-preview",
                 "description": "Debug your Jest tests. Effortlessly.🛠🖼 ",
-                "stargazers_count": 2393,
+                "stargazers_count": 2391,
                 "html_url": "https://github.com/nvh95/jest-preview",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/8603085?v=4"
@@ -1071,6 +1071,16 @@
                 }
             },
             {
+                "id": 1339992736,
+                "name": "liquid-glass.js",
+                "description": "Framework-agnostic, ultra-realistic iOS 26 Liquid Glass optical displacement effect for Vue 3, Nuxt, React, Next.js, and Vanilla JS.",
+                "stargazers_count": 5,
+                "html_url": "https://github.com/ozcanyldzhn/liquid-glass.js",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/117678730?v=4"
+                }
+            },
+            {
                 "id": 1303226619,
                 "name": "icon-intelligence",
                 "description": "🎨 10,000+ Free SVG & PNG Icons for Frontend Design — AI-powered icon discovery, search & management. Compatible with React, Vue, Next.js, Tailwind CSS, and 60+ AI agent tools.",
@@ -1091,16 +1101,6 @@
                 }
             },
             {
-                "id": 1339992736,
-                "name": "liquid-glass.js",
-                "description": "Framework-agnostic, ultra-realistic iOS 26 Liquid Glass optical displacement effect for Vue 3, Nuxt, React, Next.js, and Vanilla JS.",
-                "stargazers_count": 4,
-                "html_url": "https://github.com/ozcanyldzhn/liquid-glass.js",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/117678730?v=4"
-                }
-            },
-            {
                 "id": 775498229,
                 "name": "Journey_FullStack",
                 "description": "Projects, Templates on many branches, I will try to make multiple purpose projects.",
@@ -1108,16 +1108,6 @@
                 "html_url": "https://github.com/ibra-kdbra/Journey_FullStack",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/135609275?v=4"
-                }
-            },
-            {
-                "id": 1286451418,
-                "name": "tailess",
-                "description": "Tailwind classes as a readable, fully-typed object — grouped by breakpoint and state. Ships the build plugin that makes runtime-built variants actually get CSS.",
-                "stargazers_count": 2,
-                "html_url": "https://github.com/user01101111000/tailess",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/168995027?v=4"
                 }
             },
             {
@@ -1131,16 +1121,6 @@
                 }
             },
             {
-                "id": 1174651503,
-                "name": "github",
-                "description": "GitHub - Bygg appar via Azure - Microsoft - 2026 - Här är en praktisk och modern översikt över hur du bygger och distribuerar appar till Azure med GitHub som huvudsaklig källa och verktyg.",
-                "stargazers_count": 2,
-                "html_url": "https://github.com/vinberg88/github",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/94398623?v=4"
-                }
-            },
-            {
                 "id": 1136403830,
                 "name": "bromiumjs",
                 "description": "BromiumJS framework for Bachelor Thesis. You can try it out!",
@@ -1151,6 +1131,16 @@
                 }
             },
             {
+                "id": 1286451418,
+                "name": "tailess",
+                "description": "Tailwind classes as a readable, fully-typed object — grouped by breakpoint and state. Ships the build plugin that makes runtime-built variants actually get CSS.",
+                "stargazers_count": 2,
+                "html_url": "https://github.com/user01101111000/tailess",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/168995027?v=4"
+                }
+            },
+            {
                 "id": 817168972,
                 "name": "slate",
                 "description": "Client framework examples and boilerplate templates.",
@@ -1158,6 +1148,16 @@
                 "html_url": "https://github.com/catalystbyzoho/slate",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/61141689?v=4"
+                }
+            },
+            {
+                "id": 1174651503,
+                "name": "github",
+                "description": "GitHub - Bygg appar via Azure - Microsoft - 2026 - Här är en praktisk och modern översikt över hur du bygger och distribuerar appar till Azure med GitHub som huvudsaklig källa och verktyg.",
+                "stargazers_count": 2,
+                "html_url": "https://github.com/vinberg88/github",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/94398623?v=4"
                 }
             }
         ],
@@ -1337,10 +1337,20 @@
                 "id": 789480255,
                 "name": "llm-scraper",
                 "description": "Turn any webpage into structured data using LLMs",
-                "stargazers_count": 6918,
+                "stargazers_count": 6920,
                 "html_url": "https://github.com/mishushakov/llm-scraper",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10400064?v=4"
+                }
+            },
+            {
+                "id": 1175263852,
+                "name": "awesome-ai-agents-2026",
+                "description": "🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated monthly.",
+                "stargazers_count": 1798,
+                "html_url": "https://github.com/caramaschiHG/awesome-ai-agents-2026",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/156044967?v=4"
                 }
             },
             {
@@ -1351,16 +1361,6 @@
                 "html_url": "https://github.com/zi-yue-1129/DATAGEN",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/102524453?v=4"
-                }
-            },
-            {
-                "id": 1175263852,
-                "name": "awesome-ai-agents-2026",
-                "description": "🤖 The most comprehensive list of AI agents, frameworks & tools in 2026. 300+ resources · 20+ categories · Updated monthly.",
-                "stargazers_count": 1793,
-                "html_url": "https://github.com/caramaschiHG/awesome-ai-agents-2026",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/156044967?v=4"
                 }
             },
             {
@@ -1377,7 +1377,7 @@
                 "id": 613456719,
                 "name": "agentchain",
                 "description": "Chain together LLMs for reasoning & orchestrate multiple large models for accomplishing complex tasks",
-                "stargazers_count": 612,
+                "stargazers_count": 611,
                 "html_url": "https://github.com/jina-ai/agentchain",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/60539444?v=4"
@@ -1427,7 +1427,7 @@
                 "id": 1119405225,
                 "name": "awesome-rag-production",
                 "description": "A curated list of battle-tested tools, frameworks, and best practices for building scalable, production-grade Retrieval-Augmented Generation (RAG) systems.",
-                "stargazers_count": 215,
+                "stargazers_count": 216,
                 "html_url": "https://github.com/Yigtwxx/awesome-rag-production",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/156921875?v=4"
@@ -1745,7 +1745,7 @@
                 "id": 212639071,
                 "name": "devops-exercises",
                 "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions",
-                "stargazers_count": 84405,
+                "stargazers_count": 84402,
                 "html_url": "https://github.com/bregman-arie/devops-exercises",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/10349437?v=4"
@@ -1755,7 +1755,7 @@
                 "id": 273913340,
                 "name": "homelab",
                 "description": "Fully automated homelab from empty disk to running services with a single command.",
-                "stargazers_count": 9589,
+                "stargazers_count": 9591,
                 "html_url": "https://github.com/khuedoan/homelab",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/27996771?v=4"
@@ -1765,7 +1765,7 @@
                 "id": 49816796,
                 "name": "DevOps-Bash-tools",
                 "description": "1200+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LDAP, Code/Build Linting, pkg mgmt for Linux, Mac, Python, Perl, Ruby, NodeJS, Golang, Advanced dotfiles: .bashrc, .vimrc, .gitconfig, .screenrc, tmux..",
-                "stargazers_count": 8399,
+                "stargazers_count": 8400,
                 "html_url": "https://github.com/HariSekhon/DevOps-Bash-tools",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/2211051?v=4"
@@ -1775,7 +1775,7 @@
                 "id": 676377723,
                 "name": "DevOps-Projects",
                 "description": "🚀 Real-world DevOps projects for aspiring engineers — Beginner to Advanced. Covers AWS, Kubernetes, Docker, CI/CD, Terraform, Jenkins, and more. Hands-on learning with step-by-step guides.",
-                "stargazers_count": 5137,
+                "stargazers_count": 5143,
                 "html_url": "https://github.com/NotHarshhaa/DevOps-Projects",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/112948305?v=4"
@@ -1785,7 +1785,7 @@
                 "id": 499400876,
                 "name": "Cloud-DevOps-Learning-Resources",
                 "description": "This repo includes Books and imp notes related to GCP, Azure, AWS, Docker, K8s, and DevOps. More, exam and interview prep notes.",
-                "stargazers_count": 2000,
+                "stargazers_count": 2006,
                 "html_url": "https://github.com/ahmedtariq01/Cloud-DevOps-Learning-Resources",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/78534449?v=4"
@@ -1835,7 +1835,7 @@
                 "id": 1143707508,
                 "name": "DevOps-Security-Agent-Skills",
                 "description": "Agent-ready DevOps, security, infrastructure, and compliance knowledge base with 80+ skills across Kubernetes, Terraform, AWS/Azure/GCP, AI platform operations, container hardening, SOC2/ISO27001, and incident response—plus ready-to-run scripts, templates, and playbooks for SRE, platform, and security teams.",
-                "stargazers_count": 1070,
+                "stargazers_count": 1076,
                 "html_url": "https://github.com/BagelHole/DevOps-Security-Agent-Skills",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/45889209?v=4"
@@ -1865,7 +1865,7 @@
                 "id": 686537865,
                 "name": "into-the-devops",
                 "description": "𝖫𝗂𝗇𝗎𝗑, 𝖩𝖾𝗇𝗄𝗂𝗇𝗌, 𝖠𝖶𝖲, 𝖲𝖱𝖤, 𝖯𝗋𝗈𝗆𝖾𝗍𝗁𝖾𝗎𝗌, 𝖣𝗈𝖼𝗄𝖾𝗋, 𝖯𝗒𝗍𝗁𝗈𝗇, 𝖠𝗇𝗌𝗂𝖻𝗅𝖾, 𝖦𝗂𝗍, 𝖪𝗎𝖻𝖾𝗋𝗇𝖾𝗍𝖾𝗌, 𝖳𝖾𝗋𝗋𝖺𝖿𝗈𝗋𝗆, 𝖮𝗉𝖾𝗇𝖲𝗍𝖺𝖼𝗄, 𝖲𝖰𝖫, 𝖭𝗈𝖲𝖰𝖫, 𝖠𝗓𝗎𝗋𝖾, 𝖦𝖢𝖯, 𝖣𝖭𝖲, 𝖤𝗅𝖺𝗌𝗍𝗂𝖼, 𝖭𝖾𝗍𝗐𝗈𝗋𝗄, 𝖵𝗂𝗋𝗍𝗎𝖺𝗅𝗂𝗓𝖺𝗍𝗂𝗈𝗇. 𝖣𝖾𝗏𝖮𝗉𝗌 𝖨𝗇𝗍𝖾𝗋𝗏𝗂𝖾𝗐 𝖰𝗎𝖾𝗌𝗍𝗂𝗈𝗇𝗌",
-                "stargazers_count": 902,
+                "stargazers_count": 903,
                 "html_url": "https://github.com/NotHarshhaa/into-the-devops",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/112948305?v=4"
@@ -2175,16 +2175,6 @@
                 }
             },
             {
-                "id": 325472244,
-                "name": "Diagnosis-Lung-and-Colon-Cancer-Using-Histopathological-Images",
-                "description": "🔬This project aims to diagnose lung and colon cancer using histopathological images. It utilizes deep learning techniques, specifically convolutional neural networks (CNNs), to classify images into different cancer types and benign tissues.",
-                "stargazers_count": 5,
-                "html_url": "https://github.com/mohamedbashir/Diagnosis-Lung-and-Colon-Cancer-Using-Histopathological-Images",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/39374709?v=4"
-                }
-            },
-            {
                 "id": 832215666,
                 "name": "All_ML_Models",
                 "description": "I am adding almost all ml models in this repo for practice purposes.",
@@ -2195,13 +2185,13 @@
                 }
             },
             {
-                "id": 202876673,
-                "name": "PYTHON-TUTORIAL",
-                "description": "In this Course we are explaining some basic python uses in Data Science and also we will practice top python libraries such as NumPy, pandas, matplotlib, sklearn and so more and last we learn some algorithms.",
-                "stargazers_count": 4,
-                "html_url": "https://github.com/Shaikh-Raza/PYTHON-TUTORIAL",
+                "id": 325472244,
+                "name": "Diagnosis-Lung-and-Colon-Cancer-Using-Histopathological-Images",
+                "description": "🔬This project aims to diagnose lung and colon cancer using histopathological images. It utilizes deep learning techniques, specifically convolutional neural networks (CNNs), to classify images into different cancer types and benign tissues.",
+                "stargazers_count": 5,
+                "html_url": "https://github.com/mohamedbashir/Diagnosis-Lung-and-Colon-Cancer-Using-Histopathological-Images",
                 "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/53976455?v=4"
+                    "avatar_url": "https://avatars.githubusercontent.com/u/39374709?v=4"
                 }
             },
             {
@@ -2215,6 +2205,16 @@
                 }
             },
             {
+                "id": 202876673,
+                "name": "PYTHON-TUTORIAL",
+                "description": "In this Course we are explaining some basic python uses in Data Science and also we will practice top python libraries such as NumPy, pandas, matplotlib, sklearn and so more and last we learn some algorithms.",
+                "stargazers_count": 4,
+                "html_url": "https://github.com/Shaikh-Raza/PYTHON-TUTORIAL",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/53976455?v=4"
+                }
+            },
+            {
                 "id": 942858521,
                 "name": "Data-analysis-of-Tehran-houses",
                 "description": "Data analysis of Tehran houses with NumPy, Pandas and Matplot Lib Python",
@@ -2222,16 +2222,6 @@
                 "html_url": "https://github.com/RezaGooner/Data-analysis-of-Tehran-houses",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/149728623?v=4"
-                }
-            },
-            {
-                "id": 383203452,
-                "name": "Directing_Customers_To_Subscription",
-                "description": "Machine Learning model to Direct Customers to Subscription.",
-                "stargazers_count": 3,
-                "html_url": "https://github.com/rishawsingh/Directing_Customers_To_Subscription",
-                "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/68506932?v=4"
                 }
             },
             {
@@ -2245,13 +2235,23 @@
                 }
             },
             {
-                "id": 370980222,
-                "name": "LI_ETL",
-                "description": "Deduplicated and enriched merge of the EDH and EDCS dataset",
+                "id": 965063755,
+                "name": "Exploratory-Data-Analysis-on-Crime-Data-with-Python-",
+                "description": "Exploratory Data Analysis of Los Angeles Crime Data (2020–Present) using Python, Pandas, Seaborn, and Machine Learning",
                 "stargazers_count": 3,
-                "html_url": "https://github.com/sdam-au/LI_ETL",
+                "html_url": "https://github.com/Singhkunall/Exploratory-Data-Analysis-on-Crime-Data-with-Python-",
                 "owner": {
-                    "avatar_url": "https://avatars.githubusercontent.com/u/54992050?v=4"
+                    "avatar_url": "https://avatars.githubusercontent.com/u/143153513?v=4"
+                }
+            },
+            {
+                "id": 383203452,
+                "name": "Directing_Customers_To_Subscription",
+                "description": "Machine Learning model to Direct Customers to Subscription.",
+                "stargazers_count": 3,
+                "html_url": "https://github.com/rishawsingh/Directing_Customers_To_Subscription",
+                "owner": {
+                    "avatar_url": "https://avatars.githubusercontent.com/u/68506932?v=4"
                 }
             }
         ],
@@ -2371,7 +2371,7 @@
                 "id": 1155965274,
                 "name": "Claude-Code-Game-Studios",
                 "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-                "stargazers_count": 24911,
+                "stargazers_count": 24943,
                 "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/150119193?v=4"
@@ -2381,7 +2381,7 @@
                 "id": 118740023,
                 "name": "MultiplayerNetworkingResources",
                 "description": "A curated list of Multiplayer Game Network Programming Resources",
-                "stargazers_count": 8681,
+                "stargazers_count": 8683,
                 "html_url": "https://github.com/0xFA11/MultiplayerNetworkingResources",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/12574651?v=4"
@@ -2391,7 +2391,7 @@
                 "id": 506056362,
                 "name": "GameDevMind",
                 "description": "最全面的游戏开发技术图谱(Game Development Map)。帮助游戏开发者们在已知问题上节省时间，省出更多的精力投入到更有创造性的工作中去。",
-                "stargazers_count": 6519,
+                "stargazers_count": 6521,
                 "html_url": "https://github.com/gonglei007/GameDevMind",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/5304584?v=4"
@@ -2481,7 +2481,7 @@
                 "id": 1194055946,
                 "name": "everything-game-dev-code",
                 "description": "A universal scaffold for AI-assisted game development. 42 agents, 51 commands, 86 skills. Multi-engine (Unity, Unreal, Godot, HTML). Multi-harness (Claude Code, Codex, Cursor, OpenCode, Kiro).",
-                "stargazers_count": 81,
+                "stargazers_count": 83,
                 "html_url": "https://github.com/MRCalderon3D/everything-game-dev-code",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/779337?v=4"
@@ -2491,7 +2491,7 @@
                 "id": 682469730,
                 "name": "GameDevMind-EN",
                 "description": "The most comprehensive technical map of game development. Help game developers save time on known problems and save more energy for more creative work.",
-                "stargazers_count": 68,
+                "stargazers_count": 69,
                 "html_url": "https://github.com/gonglei007/GameDevMind-EN",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/5304584?v=4"
@@ -2511,7 +2511,7 @@
                 "id": 1315379931,
                 "name": "OpenGameAgent",
                 "description": "Open-source C# agent runtime for AI NPCs and in-game agents. Structured context, ReAct tool use, complex task planning, memory, and reliable actions for Unity, Godot, Unreal Engine, and servers.",
-                "stargazers_count": 48,
+                "stargazers_count": 50,
                 "html_url": "https://github.com/EricSun0218/OpenGameAgent",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/141227631?v=4"
@@ -2531,7 +2531,7 @@
                 "id": 1192976227,
                 "name": "opencode-game-studio",
                 "description": "Açıklama belirtilmemiş.",
-                "stargazers_count": 38,
+                "stargazers_count": 39,
                 "html_url": "https://github.com/TraftG/opencode-game-studio",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/172218772?v=4"
@@ -2679,7 +2679,7 @@
                 "id": 476957520,
                 "name": "WTF-Solidity",
                 "description": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
-                "stargazers_count": 14040,
+                "stargazers_count": 14042,
                 "html_url": "https://github.com/AmazingAng/WTF-Solidity",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/14728591?v=4"
@@ -2689,7 +2689,7 @@
                 "id": 389803219,
                 "name": "full-blockchain-solidity-course-py",
                 "description": "Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition",
-                "stargazers_count": 11214,
+                "stargazers_count": 11215,
                 "html_url": "https://github.com/smartcontractkit/full-blockchain-solidity-course-py",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/25111032?v=4"
@@ -2759,7 +2759,7 @@
                 "id": 953039794,
                 "name": "awesome-crypto",
                 "description": "币圈导航虚拟加密货币资源大全，手动整理的全网最全虚拟货币学习资料，涵盖了中心化交易所（如欧易OKX、币安Binance、Gate.io）、NFT市场、DeFi工具、加密钱包、巨鲸追踪和数据分析等，帮助用户轻松导航加密货币世界。涉及币圈导航、虚拟货币、交易所返佣、Web3.0等内容本指南将持续更新，力求保持最新、最全面的币圈信息，币圈导航祝各位早点财务自由。👉 www.0xnav.com",
-                "stargazers_count": 1016,
+                "stargazers_count": 1020,
                 "html_url": "https://github.com/itgoyo/awesome-crypto",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/23348551?v=4"
@@ -2829,7 +2829,7 @@
                 "id": 552990137,
                 "name": "professional-solidity",
                 "description": "《Solidity 高级程序设计》面向专业开发者的Solidity教程！目前已经完成了最初的 V0.0.1 版本",
-                "stargazers_count": 375,
+                "stargazers_count": 376,
                 "html_url": "https://github.com/anbang/professional-solidity",
                 "owner": {
                     "avatar_url": "https://avatars.githubusercontent.com/u/11988549?v=4"
